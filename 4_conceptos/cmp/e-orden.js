@@ -62,7 +62,7 @@ export class EOrden extends Diapositiva {
 au</samp></pre>
      <p class="noPrint">
       <a target="_blank"
-        href="https://play.kotlinlang.org/#eyJ2ZXJzaW9uIjoiMS41LjMwIiwicGxhdGZvcm0iOiJqYXZhIiwiYXJncyI6IiIsIm5vbmVNYXJrZXJzIjp0cnVlLCJ0aGVtZSI6ImlkZWEiLCJjb2RlIjoiZnVuIG1haW4oKSB7XG4gcHJpbnRsbihcInBcIilcbiBwcmludChcImFcIilcbiBwcmludChcInVcIilcbn0ifQ==">
+        href="https://play.kotlinlang.org/#eyJ2ZXJzaW9uIjoiMS41LjMwIiwicGxhdGZvcm0iOiJqYXZhIiwiYXJncyI6IiIsIm5vbmVNYXJrZXJzIjp0cnVlLCJ0aGVtZSI6ImlkZWEiLCJjb2RlIjoiZnVuIG1haW4oKSB7XG4gcHJpbnRsbihcInBcIik7IHByaW50KFwiYVwiKVxuIHByaW50KFwidVwiKVxufSJ9">
        Revísalo en Kotlin play.
       </a>
      </p>
@@ -72,8 +72,8 @@ au</samp></pre>
       <div><span style="color: #0000ff;">fun</span>&nbsp;<span
          style="color: #795e26;">main</span>()&nbsp;{</div>
       <div>&nbsp;<span style="color: #795e26;">println</span>(<span
-         style="color: #a31515;">"p"</span>)</div>
-      <div>&nbsp;<span style="color: #795e26;">print</span>(<span
+         style="color: #a31515;">"p"</span>);&nbsp;<span
+         style="color: #795e26;">print</span>(<span
          style="color: #a31515;">"a"</span>)</div>
       <div>&nbsp;<span style="color: #795e26;">print</span>(<span
          style="color: #a31515;">"u"</span>)</div>

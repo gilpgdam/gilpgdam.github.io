@@ -1,5 +1,4 @@
 fun main() {
- println("p")
- print("a")
+ println("p"); print("a")
  print("u")
 }
