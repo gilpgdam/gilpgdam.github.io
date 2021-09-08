@@ -10,7 +10,7 @@ export class FResumen extends Diapositiva {
     <ul>
      <li>
       <p>
-       <dfn>JavaScript</dfn>
+       <dfn>Kotlin</dfn>
        es un lenguaje de programación.
       </p>
      </li>

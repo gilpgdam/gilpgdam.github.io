@@ -5,24 +5,40 @@ export class AJs extends Diapositiva {
  connectedCallback() {
   super.connectedCallback();
   this.innerHTML = /* html */
-   `<h1>A. JavaScript</h1>
+   `<h1>A. Kotlin</h1>
     <div class="lectura">
      <ul>
       <li>
        <p>
-        <dfn>JavaScript</dfn>
-        es un lenguaje de programación que cumple con las reglas del estándar
-        <dfn>ECMAScript</dfn>,
-        que está definido en
-        <a target="_blank"
-          href="https://www.ecma-international.org/publications/standards/Ecma-262.htm">
-         https://www.ecma-international.org/publications/standards/Ecma-262.htm</a>.
+        <dfn>Kotlin</dfn>
+        es un lenguaje de programación moderno que hace a los desarrolladores
+        más felices.
        </p>
       </li>
       <li>
        <p>
-        En 2021, la versión más usada es la edición 6, del año 2015, pero
-        algunos navegadores incorporan caracterísiticas más nuevas.
+        Desarrollado por la empresa JetBrains y contribuciones de código
+        abierto.
+       </p>
+      </li>
+      <li>
+       <p>
+        Está diseñado para interactuar con código de Java, por lo cual sus tipos
+        de datos son compatibles.
+       </p>
+      </li>
+      <li>
+       <p>
+        El sitio oficial del lenguaje es
+        <a target="_blank"
+          href="https://kotlinlang.org/">https://kotlinlang.org/</a>.
+       </p>
+      </li>
+      <li>
+       <p>
+        Puedes probar ejemplos sencillos en
+        <a target="_blank"
+          href="https://play.kotlinlang.org/">https://play.kotlinlang.org/</a>.
        </p>
       </li>
      </ul>

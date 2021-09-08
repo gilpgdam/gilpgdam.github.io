@@ -18,7 +18,7 @@ export class BTextos extends Diapositiva {
         <dfn>eslabón</dfn>.
        </p>
        <figure>
-        <img alt="Imagen de un eslabón" src="/2_conceptos/img/Eslabon.svg"
+        <img alt="Imagen de un eslabón" src="/4_conceptos/img/Eslabon.svg"
          height="50">
         <figcaption>Un eslabón.</figcaption>
        </figure>
@@ -30,7 +30,7 @@ export class BTextos extends Diapositiva {
         <dfn>cadena de texto</dfn>.
        </p>
        <figure>
-        <img alt="Imagen de una cadena" src="/2_conceptos/img/Cadena.svg"
+        <img alt="Imagen de una cadena" src="/4_conceptos/img/Cadena.svg"
          height="50">
         <figcaption>Una cadena de eslabones.</figcaption>
        </figure>

@@ -14,29 +14,17 @@ export class CString extends Diapositiva {
       <li>
        <p>
         Al tipo de datos que representa texto se le llama
-        <dfn>string</dfn>,
+        <dfn>String</dfn>,
         que es la traducción al inglés del término
         <q>cadena</q>.
        </p>
       </li>
       <li>
        <p>
-        En JavaScript los textos se representan con secuencias de caracteres
+        En Kotlin los textos se representan con secuencias de caracteres
         delimitadas por los siguientes símbolos:
        </p>
        <dl>
-        <dt><code class="language-javascript">' '</code></dt>
-        <dd>
-         <p>
-          El delimitador es el símbolo
-          <dfn>apóstrofo</dfn>
-          (<code class="language-javascript">'</code>).
-         </p>
-         <p>
-          En su interior puedes poner cualquier caracter, excepto apóstrofo y
-          salto de línea.
-         </p>
-        </dd>
         <dt><code class="language-javascript">" "</code></dt>
         <dd>
          <p>
@@ -82,7 +70,7 @@ export class CString extends Diapositiva {
       <li><code class="language-javascript">"Hola pp"</code></li>
       <li>
        <code
-         class="language-javascript">'😁¡¡¡¡A sus órdenes jefecita!!!!'</code>
+         class="language-javascript">"😁¡¡¡¡A sus órdenes jefecita!!!!"</code>
       </li>
      </ul>
      <h2>Cadena Vacía</h2>
