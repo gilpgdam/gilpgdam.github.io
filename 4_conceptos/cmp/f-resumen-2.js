@@ -32,11 +32,18 @@ export class FResumen extends Diapositiva {
       <p>
        La instrucción
        <dfn>
-        <code class="language-javascript"><span
-          style="color: #001080;">document</span>.<span
-          style="color: #795e26;">write</span></code>
+        <code class="language-kotlin">print</code>
        </dfn>
-       muestra un texto en una página web.
+       muestra un texto en la salida.
+      </p>
+     </li>
+     <li>
+      <p>
+       La instrucción
+       <dfn>
+        <code class="language-kotlin">println</code>
+       </dfn>
+       muestra un texto en la salida y posteriormente hace un salto de línea.
       </p>
      </li>
      <li>
@@ -62,9 +69,9 @@ export class FResumen extends Diapositiva {
      <li>
       <p>
        Usaremos la herramienta
-       <a target="_blank"
-         href="https://gilpgedit.github.io/">https://gilpgedit.github.io/</a>
-         y los navegadores web para depurar los programas.
+       <a href="https://www.jetbrains.com/es-es/idea/"
+        target="_blank">IntelliJ IDEA Community</a>
+       para depurar los programas.
       </p>
      </li>
     </ul>`;

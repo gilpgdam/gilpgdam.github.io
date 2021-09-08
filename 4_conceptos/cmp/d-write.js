@@ -6,8 +6,7 @@ export class DWrite extends Diapositiva {
   super.connectedCallback();
   this.innerHTML = /* html */
    `<h1>
-     D. La instrucción
-     <strong>document.write</strong>
+     D. Las instrucciones <strong>print</strong> y <strong>println</strong>
     </h1>
     <div class="lectura">
      <ul>
@@ -15,21 +14,22 @@ export class DWrite extends Diapositiva {
        <p>
         La instrucción
         <dfn>
-         <code class="language-javascript"><span
-           style="color: #001080;">document</span>.<span
-           style="color: #795e26;">write</span></code>
+         <code class="language-kotlin">print</code>
         </dfn>
-        muestra un texto en una página web.
+        muestra un texto en la salida.
+       </p>
+      </li>
+      <li>
+       <p>
+        La instrucción
+        <dfn>
+         <code class="language-kotlin">println</code>
+        </dfn>
+        muestra un texto en la salida y posteriormente hace un salto de línea.
        </p>
       </li>
       <li>
        <p>Los textos se muestran sin los símbolos que los delimitan.</p>
-      </li>
-      <li>
-       <p>
-        Para un salto de línea usar el texto
-        <code class="language-javascript">"&lt;br>"</code>.
-       </p>
       </li>
      </ul>
      <h2>Ejemplos</h2>
@@ -43,24 +43,22 @@ export class DWrite extends Diapositiva {
       <tbody>
        <tr>
         <td>
-         <pre><code class="language-javascript"><span
-           style="color: #001080;">document</span>.<span
-           style="color: #795e26;">write</span>(<span
-           style="color: #a31515;">"Hola pp"</span>);</code></pre>
-        </td>
-        <td>
-         <pre><samp>Hola pp</samp></pre>
-        </td>
-       </tr>
-       <tr>
-        <td>
-         <pre><code class="language-javascript"></code><span
-           style="color: #001080;">document</span>.<span
-           style="color: #795e26;">write</span>(<span
+         <pre><code></code><span
+           style="color: #795e26;">println</span>(<span
            style="color: #a31515;">"7!😁"</span>);</code></pre>
         </td>
         <td>
          <pre><samp>7!😁</samp></pre>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <pre><code class="language-kotlin"><span
+           style="color: #795e26;">print</span>(<span
+           style="color: #a31515;">"Hola pp"</span>);</code></pre>
+        </td>
+        <td>
+         <pre><samp>Hola pp</samp></pre>
         </td>
        </tr>
       </tbody>

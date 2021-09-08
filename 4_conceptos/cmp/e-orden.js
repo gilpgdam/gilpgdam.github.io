@@ -10,6 +10,13 @@ export class EOrden extends Diapositiva {
    <div class="lectura">
     <ul>
      <li>
+      <p>
+       Primero se ejecuta el contenido de
+       <code class="language-javascript"><span
+         style="color: #0000ff;">fun</span>&nbsp;<span
+         style="color: #795e26;">main</span>()</code>.</p>
+     </li>
+     <li>
       <p>Los renglones de instrucciones se ejecutan de arriba para abajo.</p>
      </li>
      <li>
@@ -22,8 +29,7 @@ export class EOrden extends Diapositiva {
        Cada instrucción
        <code
         class="language-javascript"><span
-         style="color: #001080;">console</span>.<span
-         style="color: #795e26;">log</span></code>
+         style="color: #001080;">println</span></code>
        es un renglón.
       </p>
      <li>
@@ -41,9 +47,9 @@ export class EOrden extends Diapositiva {
      <li>
       <p>
        Usaremos la herramienta
-       <a target="_blank"
-         href="https://gilpgedit.github.io/">https://gilpgedit.github.io/</a>
-       y los navegadores web para depurar los programas.
+       <a href="https://www.jetbrains.com/es-es/idea/"
+        target="_blank">IntelliJ IDEA Community</a>
+       para depurar los programas.
       </p>
      </li>
     </ul>
@@ -52,31 +58,26 @@ export class EOrden extends Diapositiva {
    <div class="horizontal">
     <div>
      <h2>Salida.</h2>
-     <iframe src="/2_conceptos/src/1_orden.html"></iframe>
-     <p class="noPrint">
-      <a target="_blank" href="/2_conceptos/src/1_orden.html">Ábrelo en otra pestaña.</a>
-     </p>
+     <pre><samp>p
+au</samp></pre>
      <p class="noPrint">
       <a target="_blank"
-        href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20document.write(%22p%3Cbr%3E%22)%3B%20document.write(%22a%22)%3B%0A%20document.write(%22u%22)%3B%0A%3C%2Fscript%3E">
-       Revísalo en gilpgedit.
+        href="https://play.kotlinlang.org/#eyJ2ZXJzaW9uIjoiMS41LjMwIiwicGxhdGZvcm0iOiJqYXZhIiwiYXJncyI6IiIsIm5vbmVNYXJrZXJzIjp0cnVlLCJ0aGVtZSI6ImlkZWEiLCJjb2RlIjoiZnVuIG1haW4oKSB7XG4gcHJpbnRsbihcInBcIilcbiBwcmludChcImFcIilcbiBwcmludChcInVcIilcbn0ifQ==">
+       Revísalo en Kotlin play.
       </a>
      </p>
     </div>
     <muestra-codigo>
      <div>
-      <div><span style="color: #800000;">&lt;script&gt;</span></div>
-      <div>&nbsp;<span style="color: #0000ff;">debugger</span>;</div>
-      <div>&nbsp;<span style="color: #001080;">document</span>.<span
-         style="color: #795e26;">write</span>(<span
-         style="color: #a31515;">"p&lt;br&gt;"</span>);&nbsp;<span
-         style="color: #001080;">document</span>.<span
-         style="color: #795e26;">write</span>(<span
-         style="color: #a31515;">"a"</span>);</div>
-      <div>&nbsp;<span style="color: #001080;">document</span>.<span
-         style="color: #795e26;">write</span>(<span
-         style="color: #a31515;">"u"</span>);</div>
-      <div><span style="color: #800000;">&lt;/script&gt;</span></div>
+      <div><span style="color: #0000ff;">fun</span>&nbsp;<span
+         style="color: #795e26;">main</span>()&nbsp;{</div>
+      <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+         style="color: #a31515;">"p"</span>)</div>
+      <div>&nbsp;<span style="color: #795e26;">print</span>(<span
+         style="color: #a31515;">"a"</span>)</div>
+      <div>&nbsp;<span style="color: #795e26;">print</span>(<span
+         style="color: #a31515;">"u"</span>)</div>
+      <div>}</div>
      </div>
     </muestra-codigo>
    </div>`;

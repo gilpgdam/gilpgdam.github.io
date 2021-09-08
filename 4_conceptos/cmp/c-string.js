@@ -7,7 +7,7 @@ export class CString extends Diapositiva {
   this.innerHTML = /* html */
    `<h1>
      C. El tipo
-     <strong>string</strong>
+     <strong>String</strong>
     </h1>
     <div class="lectura">
      <ul>
@@ -25,16 +25,25 @@ export class CString extends Diapositiva {
         delimitadas por los siguientes símbolos:
        </p>
        <dl>
-        <dt><code class="language-javascript">" "</code></dt>
+        <dt><code class="language-kotlin">" "</code></dt>
         <dd>
          <p>
           El delimitador es el símbolo
           <dfn>comillas</dfn>
-          (<code class="language-javascript">"</code>).
+          (<code class="language-kotlin">"</code>).
          </p>
          <p>
           En su interior puedes poner cualquier caracter, excepto comillas y
           salto de línea.
+         </p>
+        <dt><code class="language-kotlin">""" """</code></dt>
+        <dd>
+         <p>
+          El delimitador son 3 comillas.
+         </p>
+         <p>
+          En su interior puedes poner cualquier caracter, excepto 3 comillas.
+          Puede llevar saltos de línea.
          </p>
         </dd>
        </dl>
@@ -49,7 +58,7 @@ export class CString extends Diapositiva {
       </li>
       <li>
        <p>
-        JavaScript usa la codificación UTF-16 de
+        kotlin usa la codificación UTF-16 de
         <a href="https://unicode.org" target="_blank">Unicode</a>.
        </p>
       </li>
@@ -67,18 +76,28 @@ export class CString extends Diapositiva {
      </ul>
      <h2>Ejemplos</h2>
      <ul>
-      <li><code class="language-javascript">"Hola pp"</code></li>
       <li>
-       <code
-         class="language-javascript">"😁¡¡¡¡A sus órdenes jefecita!!!!"</code>
+       <p><code class="language-kotlin">"Hola pp"</code></p>
+      </li>
+      <li>
+       <p>
+        <code
+          class="language-kotlin">"😁¡¡¡¡A sus órdenes jefecita!!!!"</code>
+       </p>
+      </li>
+      <li>
+       <pre><code
+         class="language-kotlin">"""
+Esta cadena
+está
+muy larga
+"""</code></pre>
       </li>
      </ul>
      <h2>Cadena Vacía</h2>
      <p>
       Hay una cadena sin caracteres:
-      <code class="language-javascript">""</code>
-      o
-      <code class="language-javascript">''</code>
+      <code class="language-kotlin">""</code>
       conocida como
       <dfn>cadena vacía</dfn>.
      </p>

@@ -14,13 +14,13 @@ export class FundamentosContenido extends Diapositiva {
     </li>
     <li>
      <p>
-      <a href="/4_conceptos/c_string.html">El tipo <strong>string</strong></a>
+      <a href="/4_conceptos/c_string.html">El tipo <strong>String</strong></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/4_conceptos/d_write.html">La instrucción
-       <strong>document.write</strong></a>
+      <a href="/4_conceptos/d_write.html">Las instrucciones
+       <strong>print</strong> y <strong>println</strong></a>
      </p>
     </li>
     <li>

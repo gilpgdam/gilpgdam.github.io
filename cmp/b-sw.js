@@ -21,8 +21,7 @@ export class BSw extends Diapositiva {
       </p>
      </dd>
      <dt>
-      <a href="https://www.mozilla.org" target="_blank">Mozilla
-       Firefox</a>
+      <a href="https://www.mozilla.org" target="_blank">Mozilla Firefox</a>
      </dt>
      <dd>
       <p>
@@ -31,8 +30,7 @@ export class BSw extends Diapositiva {
       </p>
      </dd>
      <dt>
-      <a href="https://google.com/chrome" target="_blank">Google
-       Chrome</a>
+      <a href="https://google.com/chrome" target="_blank">Google Chrome</a>
      </dt>
      <dd>
       <p>
@@ -50,7 +48,7 @@ export class BSw extends Diapositiva {
            </p>
          </dd> -->
      <dt>
-      <a href="https://www.jetbrains.com/es-es/idea/download/#section=windows"
+      <a href="https://www.jetbrains.com/es-es/idea/download/"
         target="_blank">IntelliJ IDEA Community</a>
      </dt>
      <!-- <dd>
