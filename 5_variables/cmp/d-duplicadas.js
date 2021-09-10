@@ -16,7 +16,7 @@ export class DDuplicadas extends Diapositiva {
    </div>
    <div class="horizontal">
     <div>
-     <h3>Consola</h3>
+     <h3>Salida</h3>
      <pre><samp><span style="color: red;">Uncaught SyntaxError: Identifier 'a' has already been declared</span></samp></pre>
      <p class="noPrint">
       <a target="_blank" href="src/3_duplicados.html">Ábrelo en otra pestaña.</a>

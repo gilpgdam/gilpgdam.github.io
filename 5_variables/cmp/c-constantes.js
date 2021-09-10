@@ -37,7 +37,7 @@ export class CConstantes extends Diapositiva {
      <h3>Salida</h3>
      <pre><samp>3.14
 PI_REDONDEADO</samp></pre>
-     <h3>Consola</h3>
+     <h3>Salida</h3>
      <pre><samp><span style="color: red;">Uncaught TypeError: Assignment to constant variable.</span></samp></pre>
      <p class="noPrint">
       <a target="_blank" href="src/2_constantes.html">Ábrelo en otra pestaña.</a>

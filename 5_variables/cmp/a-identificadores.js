@@ -16,17 +16,15 @@ export class AIdentificadores extends Diapositiva {
      <li>
       <p>
        Empezar con una letra 
-       (<code class="language-javascript">a</code>
+       (<code class="language-kotlin">a</code>
        –
-       <code class="language-javascript">z</code>
+       <code class="language-kotlin">z</code>
        o
-       <code class="language-javascript">A</code>
+       <code class="language-kotlin">A</code>
        –
-       <code class="language-javascript">Z</code>)
-       con o sin acentos (á, ñ, por ejemplo),
-       guion bajo (<code class="language-javascript">_</code>)
-       o
-       <code class="language-javascript">$</code>.
+       <code class="language-kotlin">Z</code>)
+       con o sin acentos (á, ñ, por ejemplo)
+       o guion bajo (<code class="language-javascript">_</code>).
       </p>
      </li>
      <li>
@@ -44,12 +42,8 @@ export class AIdentificadores extends Diapositiva {
      <li><code class="language-javascript">__nombre</code></li>
      <li><code class="language-javascript">Nombre24</code></li>
      <li><code class="language-javascript">_</code></li>
-     <li><code class="language-javascript">$</code></li>
-     <li><code class="language-javascript">n123k_$K</code></li>
      <li><code class="language-javascript">TaChido</code></li>
      <li><code class="language-javascript">serenoMoreno</code></li>
-     <li><code class="language-javascript">$priv</code></li>
-     <li><code class="language-javascript">$123</code></li>
      <li><code class="language-javascript">h54</code></li>
     </ul>
     <h2>Camel case</h2>

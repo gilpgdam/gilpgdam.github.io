@@ -16,7 +16,7 @@ export class ENoEncontradas extends Diapositiva {
    </div>
    <div class="horizontal">
     <div>
-     <h3>Consola</h3>
+     <h3>Salida</h3>
      <pre><samp><span style="color: red;">Uncaught ReferenceError: bb is not defined</span></samp></pre>
      <p class="noPrint">
       <a target="_blank" href="src/4_no_definida.html">Ábrelo en otra

@@ -7,30 +7,30 @@ export class VariablesContenido extends Diapositiva {
   this.innerHTML = /* html */
    `<ol type="A">
     <li>
-     <p><a href="/3_variables/a_identificadores.html">Identificadores</a></p>
+     <p><a href="/5_variables/a_identificadores.html">Identificadores</a></p>
     </li>
     <li>
-     <p><a href="/3_variables/b_variables.html">Variables</a></p>
+     <p><a href="/5_variables/b_variables.html">Variables</a></p>
     </li>
     <li>
-     <p><a href="/3_variables/c_constantes.html">Constantes</a></p>
+     <p><a href="/5_variables/c_constantes.html">Constantes</a></p>
     </li>
     <li>
-     <p><a href="/3_variables/d_duplicadas.html">Variables Duplicadas</a></p>
+     <p><a href="/5_variables/d_duplicadas.html">Variables Duplicadas</a></p>
     </li>
     <li>
      <p>
-      <a href="/3_variables/e_no_encontradas.html">Variables no encontradas</a>
+      <a href="/5_variables/e_no_encontradas.html">Variables no encontradas</a>
      </p>
      </li>
      <li>
       <p>
-       <a href="/3_variables/f_prompt.html">La función
+       <a href="/5_variables/f_prompt.html">La función
         <strong>prompt</strong></a>
       </p>
      </li>
      <li>
-      <p><a href="/3_variables/g_resumen.html">Resumen</a></p>
+      <p><a href="/5_variables/g_resumen.html">Resumen</a></p>
      </li>
    </ol>`;
  }

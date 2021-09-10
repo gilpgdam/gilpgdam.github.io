@@ -19,16 +19,14 @@ export class BVariables extends Diapositiva {
      Para usar una variable, primero hay que declararla con una instrucción como
      la siguiente:
     </p>
-    <pre><code class="language-javascript"><span style="color: #0000ff;">let</span>&nbsp;<span style="color: #001080;">miNombre</span>&nbsp;=&nbsp;<span style="color: #a31515;">"pp"</span>;</code></pre>
+    <pre><code class="language-kotlin"><span
+    style="color: #0000ff;">var</span>&nbsp;miNombre&nbsp;=&nbsp;<span
+    style="color: #a31515;">"pp"</span>;</code></pre>
     <ul>
      <li>
       <p>
        Se declaran con
-       <code class="language-javascript" style="color: #0000ff;">let</code>
-       o con
-       <code class="language-javascript" style="color: #0000ff;">var</code>,
-       aunque se recomienda usar
-       <code class="language-javascript" style="color: #0000ff;">let</code>.
+       <code class="language-kotlin" style="color: #0000ff;">var</code>.
       </p>
      </li>
      <li>
@@ -52,7 +50,7 @@ export class BVariables extends Diapositiva {
        El
        <dfn>
         operador de asignación
-        (<code class="language-javascript" style="color: #0000ff;">=</code>)
+        (<code class="language-kotlin" style="color: #0000ff;">=</code>)
        </dfn>
        sirve para cambiar el valor de una variable, perdiendo el valor anterior.
        El operando del lado izquierdo siempre debe ser una variable.
@@ -70,47 +68,38 @@ export class BVariables extends Diapositiva {
    <div class="horizontal">
     <div>
      <h2>Salida</h2>
-     <iframe src="/3_variables/src/1_variables.html"></iframe>
-     <p class="noPrint">
-      <a target="_blank" href="/3_variables/src/1_variables.html">Ábrelo en otra pestaña.</a>
-     </p>
+     <pre><samp>pp
+tt
+miNombre
+bb
+bb</samp></pre>
      <p class="noPrint">
       <a target="_blank"
-        href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20let%20miNombre%20%3D%20%22pp%22%3B%0A%20let%20suNombre%20%3D%20%22tt%22%3B%0A%20document.write(miNombre)%3B%0A%20document.write(suNombre)%3B%0A%20document.write(%22miNombre%22)%3B%0A%20miNombre%20%3D%20%22bb%22%3B%0A%20document.write(miNombre)%3B%0A%20suNombre%20%3D%20miNombre%3B%0A%20document.write(suNombre)%3B%0A%3C%2Fscript%3E">
-       Revísalo en gilpgedit.
-      </a>
+      href="https://play.kotlinlang.org/#eyJ2ZXJzaW9uIjoiMS41LjMwIiwicGxhdGZvcm0iOiJqYXZhIiwiYXJncyI6IiIsIm5vbmVNYXJrZXJzIjp0cnVlLCJ0aGVtZSI6ImlkZWEiLCJjb2RlIjoiZnVuIG1haW4oKSB7XG4gdmFyIG1pTm9tYnJlID0gXCJwcFwiO1xuIHZhciBzdU5vbWJyZSA9IFwidHRcIjtcbiBwcmludGxuKG1pTm9tYnJlKTtcbiBwcmludGxuKHN1Tm9tYnJlKTtcbiBwcmludGxuKFwibWlOb21icmVcIik7XG4gbWlOb21icmUgPSBcImJiXCI7XG4gcHJpbnRsbihtaU5vbWJyZSk7XG4gc3VOb21icmUgPSBtaU5vbWJyZTtcbiBwcmludChzdU5vbWJyZSk7XG59In0=">
+      Revísalo en Kotlin play.
+     </a>
      </p>
     </div>
     <muestra-codigo>
      <div>
-      <div><span style="color: #800000;">&lt;script&gt;</span></div>
-      <div>&nbsp;<span style="color: #0000ff;">debugger</span>;</div>
-      <div>&nbsp;<span style="color: #0000ff;">let</span>&nbsp;<span
-         style="color: #001080;">miNombre</span>&nbsp;=&nbsp;<span
+      <div><span style="color: #0000ff;">fun</span>&nbsp;<span
+         style="color: #795e26;">main</span>()&nbsp;{</div>
+      <div>&nbsp;<span
+         style="color: #0000ff;">var</span>&nbsp;miNombre&nbsp;=&nbsp;<span
          style="color: #a31515;">"pp"</span>;</div>
-      <div>&nbsp;<span style="color: #0000ff;">let</span>&nbsp;<span
-         style="color: #001080;">suNombre</span>&nbsp;=&nbsp;<span
+      <div>&nbsp;<span
+         style="color: #0000ff;">var</span>&nbsp;suNombre&nbsp;=&nbsp;<span
          style="color: #a31515;">"tt"</span>;</div>
-      <div>&nbsp;<span style="color: #001080;">document</span>.<span
-         style="color: #795e26;">write</span>(<span
-         style="color: #001080;">miNombre</span>);</div>
-      <div>&nbsp;<span style="color: #001080;">document</span>.<span
-         style="color: #795e26;">write</span>(<span
-         style="color: #001080;">suNombre</span>);</div>
-      <div>&nbsp;<span style="color: #001080;">document</span>.<span
-         style="color: #795e26;">write</span>(<span
+      <div>&nbsp;<span style="color: #795e26;">println</span>(miNombre);</div>
+      <div>&nbsp;<span style="color: #795e26;">println</span>(suNombre);</div>
+      <div>&nbsp;<span style="color: #795e26;">println</span>(<span
          style="color: #a31515;">"miNombre"</span>);</div>
-      <div>&nbsp;<span style="color: #001080;">miNombre</span>&nbsp;=&nbsp;<span
-         style="color: #a31515;">"bb"</span>;</div>
-      <div>&nbsp;<span style="color: #001080;">document</span>.<span
-         style="color: #795e26;">write</span>(<span
-         style="color: #001080;">miNombre</span>);</div>
-      <div>&nbsp;<span style="color: #001080;">suNombre</span>&nbsp;=&nbsp;<span
-         style="color: #001080;">miNombre</span>;</div>
-      <div>&nbsp;<span style="color: #001080;">document</span>.<span
-         style="color: #795e26;">write</span>(<span
-         style="color: #001080;">suNombre</span>);</div>
-      <div><span style="color: #800000;">&lt;/script&gt;</span></div>
+      <div>&nbsp;miNombre&nbsp;=&nbsp;<span style="color: #a31515;">"bb"</span>;
+      </div>
+      <div>&nbsp;<span style="color: #795e26;">println</span>(miNombre);</div>
+      <div>&nbsp;suNombre&nbsp;=&nbsp;miNombre;</div>
+      <div>&nbsp;<span style="color: #795e26;">print</span>(suNombre);</div>
+      <div>}</div>
      </div>
     </muestra-codigo>
    </div>`;
