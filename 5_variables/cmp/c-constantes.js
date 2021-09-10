@@ -19,14 +19,14 @@ export class CConstantes extends Diapositiva {
      <li>
       <p>
        Normalmente el nombre se escribe en mayúsculas, usando guión bajo
-       (<code class="language-javascript">_</code>)
+       (<code class="language-kotlin">_</code>)
        para separar palabras.
       </p>
      </li>
      <li>
        <p>
        Se declaran con
-       <code class="language-javascript">const</code>
+       <code class="language-kotlin">val</code>
       </p>
      </li>
     </ul>
@@ -35,42 +35,33 @@ export class CConstantes extends Diapositiva {
    <div class="horizontal">
     <div>
      <h3>Salida</h3>
-     <pre><samp>3.14
-PI_REDONDEADO</samp></pre>
-     <h3>Salida</h3>
-     <pre><samp><span style="color: red;">Uncaught TypeError: Assignment to constant variable.</span></samp></pre>
-     <p class="noPrint">
-      <a target="_blank" href="src/2_constantes.html">Ábrelo en otra pestaña.</a>
-     </p>
+     <pre><samp><span style="color: red;">Val cannot be reassigned</span></span></samp></pre>
      <p class="noPrint">
       <a target="_blank"
-        href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20const%20PI_REDONDEADO%20%3D%203.14%3B%0A%20document.write(PI_REDONDEADO)%3B%0A%20document.write(%22PI_REDONDEADO%22)%3B%0A%20PI_REDONDEADO%20%3D%209%3B%0A%20document.write(PI_REDONDEADO)%3B%0A%3C%2Fscript%3E">
-       Revísalo en gilpgedit.
+        href="https://play.kotlinlang.org/#eyJ2ZXJzaW9uIjoiMS41LjMwIiwicGxhdGZvcm0iOiJqYXZhIiwiYXJncyI6IiIsIm5vbmVNYXJrZXJzIjp0cnVlLCJ0aGVtZSI6ImlkZWEiLCJjb2RlIjoiZnVuIG1haW4oKSB7XG4gdmFsIFBJX1JFRE9OREVBRE8gPSAzLjE0XG4gcHJpbnRsbihQSV9SRURPTkRFQURPKVxuIHByaW50bG4oXCJQSV9SRURPTkRFQURPXCIpXG4gUElfUkVET05ERUFETyA9IDkuMFxuIHByaW50KFBJX1JFRE9OREVBRE8pXG59In0=">
+       Revísalo en Kotlin play.
       </a>
      </p>
     </div>
     <muestra-codigo>
      <div>
-     <div><span style="color: #800000;">&lt;script&gt;</span></div>
-     <div>&nbsp;<span style="color: #0000ff;">debugger</span>;</div>
-     <div>&nbsp;<span style="color: #0000ff;">const</span>&nbsp;<span
-        style="color: #0070c1;">PI_REDONDEADO</span>&nbsp;=&nbsp;<span
-        style="color: #098658;">3.14</span>;</div>
-     <div>&nbsp;<span style="color: #001080;">document</span>.<span
-        style="color: #795e26;">write</span>(<span
-        style="color: #0070c1;">PI_REDONDEADO</span>);</div>
-     <div>&nbsp;<span style="color: #001080;">document</span>.<span
-        style="color: #795e26;">write</span>(<span
-        style="color: #a31515;">"PI_REDONDEADO"</span>);</div>
-     <div>&nbsp;<span
-        style="color: #0070c1;">PI_REDONDEADO</span>&nbsp;=&nbsp;<span
-        style="color: #098658;">9</span>;</div>
-     <div>&nbsp;<span style="color: #001080;">document</span>.<span
-        style="color: #795e26;">write</span>(<span
-        style="color: #0070c1;">PI_REDONDEADO</span>);</div>
-     <div><span style="color: #800000;">&lt;/script&gt;</span></div>
-    </div>
-   </muestra-codigo>
+      <div><span style="color: #0000ff;">fun</span>&nbsp;<span
+         style="color: #795e26;">main</span>()&nbsp;{</div>
+      <div>&nbsp;<span style="color: #0000ff;">val</span>&nbsp;<span
+         style="color: #267f99;">PI_REDONDEADO</span>&nbsp;=&nbsp;<span
+         style="color: #098658;">3.14</span></div>
+      <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+         style="color: #267f99;">PI_REDONDEADO</span>)</div>
+      <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+         style="color: #a31515;">"PI_REDONDEADO"</span>)</div>
+      <div>&nbsp;<span
+         style="color: #267f99;">PI_REDONDEADO</span>&nbsp;=&nbsp;<span
+         style="color: #098658;">9.0</span></div>
+      <div>&nbsp;<span style="color: #795e26;">print</span>(<span
+         style="color: #267f99;">PI_REDONDEADO</span>)</div>
+      <div>}</div>
+     </div>
+    </muestra-codigo>
    </div>`;
  }
 }

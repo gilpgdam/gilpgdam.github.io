@@ -4,6 +4,7 @@
 
 import "../1_arquitectura/cmp/arquitectura-contenido.js"
 import "../2_nativas/cmp/nativas-contenido.js"
+import "../3_mvc/cmp/fundamentos-contenido.js"
 import "../4_conceptos/cmp/conceptos-contenido.js"
 import "../5_variables/cmp/variables-contenido.js"
 import "../6_comentarios/cmp/comentarios-contenido.js"
@@ -59,7 +60,7 @@ export class MiNav extends HTMLElement {
          <summary>
           <h4><a href="/3_mvc/index.html">MVC</a></h4>
          </summary>
-         <variables-contenido></variables-contenido>
+         <fundamentos-contenido></fundamentos-contenido>
         </details>
        </li>
        <li>

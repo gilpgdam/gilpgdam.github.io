@@ -26,7 +26,7 @@ export class VariablesContenido extends Diapositiva {
      <li>
       <p>
        <a href="/5_variables/f_prompt.html">La función
-        <strong>prompt</strong></a>
+        <strong>readLine</strong></a>
       </p>
      </li>
      <li>

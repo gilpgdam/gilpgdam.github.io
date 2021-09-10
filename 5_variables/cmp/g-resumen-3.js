@@ -29,8 +29,6 @@ export class GResumen extends Diapositiva {
          <code class="language-javascript">Z</code>)
          con o sin acentos (á, ñ, por ejemplo),
          guion bajo (<code class="language-javascript">_</code>)
-         o
-         <code class="language-javascript">$</code>.
         </p>
        </li>
        <li>
@@ -41,6 +39,14 @@ export class GResumen extends Diapositiva {
         </p>
        </li>
       </ul>
+     </li>
+     <li>
+      <p>
+       Una
+       <dfn>variable</dfn>
+       es un lugar en donde se almacena un dato que puede cambiar durante la
+       ejecución de un programa.
+      </p>
      </li>
      <li>
       <p>
@@ -59,12 +65,12 @@ export class GResumen extends Diapositiva {
      <li>
       <p>
        Cuando tratas de usar una variable o una constante no definida, obtienes
-       un mensaje de error y se aborta la ejecución del programa.
+       un mensaje de error al compilar el programa.
       </p>
      </li>
      <li>
       <p>
-       La función <dfn>prompt</dfn> sirve para pedir datos.
+       La función <dfn>readLine</dfn> sirve para pedir datos.
       </p>
      </li>
     </ul>

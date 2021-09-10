@@ -75,9 +75,8 @@ bb
 bb</samp></pre>
      <p class="noPrint">
       <a target="_blank"
-      href="https://play.kotlinlang.org/#eyJ2ZXJzaW9uIjoiMS41LjMwIiwicGxhdGZvcm0iOiJqYXZhIiwiYXJncyI6IiIsIm5vbmVNYXJrZXJzIjp0cnVlLCJ0aGVtZSI6ImlkZWEiLCJjb2RlIjoiZnVuIG1haW4oKSB7XG4gdmFyIG1pTm9tYnJlID0gXCJwcFwiO1xuIHZhciBzdU5vbWJyZSA9IFwidHRcIjtcbiBwcmludGxuKG1pTm9tYnJlKTtcbiBwcmludGxuKHN1Tm9tYnJlKTtcbiBwcmludGxuKFwibWlOb21icmVcIik7XG4gbWlOb21icmUgPSBcImJiXCI7XG4gcHJpbnRsbihtaU5vbWJyZSk7XG4gc3VOb21icmUgPSBtaU5vbWJyZTtcbiBwcmludChzdU5vbWJyZSk7XG59In0=">
-      Revísalo en Kotlin play.
-     </a>
+      href="https://play.kotlinlang.org/#eyJ2ZXJzaW9uIjoiMS41LjMwIiwicGxhdGZvcm0iOiJqYXZhIiwiYXJncyI6IiIsIm5vbmVNYXJrZXJzIjp0cnVlLCJ0aGVtZSI6ImlkZWEiLCJjb2RlIjoiZnVuIG1haW4oKSB7XG4gdmFyIG1pTm9tYnJlID0gXCJwcFwiXG4gdmFyIHN1Tm9tYnJlID0gXCJ0dFwiXG4gcHJpbnRsbihtaU5vbWJyZSlcbiBwcmludGxuKHN1Tm9tYnJlKVxuIHByaW50bG4oXCJtaU5vbWJyZVwiKTtcbiBtaU5vbWJyZSA9IFwiYmJcIjtcbiBwcmludGxuKG1pTm9tYnJlKTtcbiBzdU5vbWJyZSA9IG1pTm9tYnJlO1xuIHByaW50KHN1Tm9tYnJlKTtcbn0ifQ==">
+      Revísalo en Kotlin play.</a>
      </p>
     </div>
     <muestra-codigo>
@@ -86,12 +85,12 @@ bb</samp></pre>
          style="color: #795e26;">main</span>()&nbsp;{</div>
       <div>&nbsp;<span
          style="color: #0000ff;">var</span>&nbsp;miNombre&nbsp;=&nbsp;<span
-         style="color: #a31515;">"pp"</span>;</div>
+         style="color: #a31515;">"pp"</span></div>
       <div>&nbsp;<span
          style="color: #0000ff;">var</span>&nbsp;suNombre&nbsp;=&nbsp;<span
-         style="color: #a31515;">"tt"</span>;</div>
-      <div>&nbsp;<span style="color: #795e26;">println</span>(miNombre);</div>
-      <div>&nbsp;<span style="color: #795e26;">println</span>(suNombre);</div>
+         style="color: #a31515;">"tt"</span></div>
+      <div>&nbsp;<span style="color: #795e26;">println</span>(miNombre)</div>
+      <div>&nbsp;<span style="color: #795e26;">println</span>(suNombre)</div>
       <div>&nbsp;<span style="color: #795e26;">println</span>(<span
          style="color: #a31515;">"miNombre"</span>);</div>
       <div>&nbsp;miNombre&nbsp;=&nbsp;<span style="color: #a31515;">"bb"</span>;
@@ -101,7 +100,7 @@ bb</samp></pre>
       <div>&nbsp;<span style="color: #795e26;">print</span>(suNombre);</div>
       <div>}</div>
      </div>
-    </muestra-codigo>
+     </muestra-codigo>
    </div>`;
  }
 }
