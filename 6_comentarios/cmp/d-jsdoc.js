@@ -6,7 +6,7 @@ export class DJsDoc extends Diapositiva {
  connectedCallback() {
   super.connectedCallback();
   this.innerHTML = /* html */
-   `<h1>D. JSDoc</h1>
+   `<h1>D. KDoc</h1>
    <div class="lectura">
     <ul>
      <li>
@@ -28,13 +28,6 @@ export class DJsDoc extends Diapositiva {
      </li>
      <li>
       <p>
-       Algunas herramientas, como <em>Visual Studio Code</em>, pueden usar
-       estos
-       comentarios para detectar errores en el código.
-      </p>
-     </li>
-     <li>
-      <p>
        El contendo de este tipo de comentarios debe seguir las reglas de
        <a href="https://kotlinlang.org/docs/kotlin-doc.html"
         target="_blank">https://kotlinlang.org/docs/kotlin-doc.html</a>.
@@ -45,17 +38,20 @@ export class DJsDoc extends Diapositiva {
    </div>
    <muestra-codigo>
     <div>
+     <div><span style="color: #0000ff;">fun</span>&nbsp;<span
+        style="color: #795e26;">main</span>()&nbsp;{</div>
+     <div>&nbsp;<span style="color: #008000;">/**</span></div>
      <div><span
-        style="color: #008000;">/**&nbsp;Variable&nbsp;numérica&nbsp;cuyo&nbsp;valor&nbsp;inicial&nbsp;es&nbsp;0.</span>
+        style="color: #008000;">&nbsp;&nbsp;*&nbsp;Número&nbsp;de&nbsp;veces&nbsp;que&nbsp;aparece</span>
      </div>
-     <div><span style="color: #008000;">&nbsp;*&nbsp;</span><span
-        style="color: #0000ff;">@type</span><span
-        style="color: #008000;">&nbsp;</span><span
-        style="color: #267f99;">{number}</span><span
-        style="color: #008000;">&nbsp;*/</span></div>
-     <div><span style="color: #0000ff;">let</span>&nbsp;<span
-        style="color: #001080;">e</span>&nbsp;=&nbsp;<span
+     <div><span
+        style="color: #008000;">&nbsp;&nbsp;*&nbsp;la&nbsp;palabra&nbsp;sapo.</span>
+     </div>
+     <div><span style="color: #008000;">&nbsp;&nbsp;*/</span></div>
+     <div>&nbsp;<span
+        style="color: #0000ff;">var</span>&nbsp;sapos&nbsp;=&nbsp;<span
         style="color: #098658;">0</span>;</div>
+     <div>}</div>
     </div>
    </muestra-codigo>`;
  }

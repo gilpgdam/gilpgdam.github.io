@@ -1,7 +1,7 @@
-<script> /**
+fun main() {
+ /**
   * Número de veces que aparece
   * la palabra sapo.
-  * @type {number}
   */
- let sapos = 0;
-</script>
+ var sapos = 0;
+}

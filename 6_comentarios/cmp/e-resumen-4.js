@@ -40,7 +40,7 @@ export class EResumen extends Diapositiva {
        Los
        <dfn>comentarios de documentación</dfn>
        o
-       <dfn>JSDoc</dfn>,
+       <dfn>KDoc</dfn>,
        son comentarios de una o más líneas que empiezan con
        <code class="language-javascript" style="color: #008000;">/**</code>
        y explican la definición de un elemento del código.

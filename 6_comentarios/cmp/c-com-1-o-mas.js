@@ -26,42 +26,34 @@ export class CCom1OMas extends Diapositiva {
     <h2>Ejemplo</h2>
    </div>
    <div class="horizontal">
-    <div>
-     <h2>Salida</h2>
-     <iframe src="/4_comentarios/src/2_comentarios_una_o_mas.html"></iframe>
-     <p class="noPrint">
-      <a target="_blank" href="/4_comentarios/src/2_comentarios_una_o_mas.html">Ábrelo en otra
-       pestaña.</a>
-     </p>
-     <p class="noPrint">
-      <a target="_blank"
-        href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20%2F*%20Muestra%20Hola%20pp.%20*%2F%0A%20document.write(%22Hola%22%2C%20%22pp%22)%3B%0A%20document.write(%22t%22)%3B%2F*Muestra%20t*%2F%0A%20%2F*%20Muestra%0A%20%20*%20bb.%20*%2F%0A%20document.write(%22bb%22)%3B%0A%3C%2Fscript%3E">
-       Revísalo en gilpgedit.
-      </a>
-     </p>
-    </div>
-    <muestra-codigo>
+   <div>
+   <h2>Salida</h2>
+   <pre><samp>Hola
+t
+bb</samp></pre>
+   <p class="noPrint">
+    <a target="_blank"
+    href="https://play.kotlinlang.org/#eyJ2ZXJzaW9uIjoiMS41LjMwIiwicGxhdGZvcm0iOiJqYXZhIiwiYXJncyI6IiIsIm5vbmVNYXJrZXJzIjp0cnVlLCJ0aGVtZSI6ImlkZWEiLCJjb2RlIjoiZnVuIG1haW4oKSB7XG4gLyogTXVlc3RyYSBIb2xhLiAqL1xuIHByaW50bG4oXCJIb2xhXCIpO1xuIHByaW50bG4oXCJ0XCIpOyAvKk11ZXN0cmEgdC4qL1xuIC8qIE11ZXN0cmFcbiAgKiBiYi4gKi9cbiBwcmludGxuKFwiYmJcIik7XG59In0=">
+    Revísalo en Kotlin play.</a>
+    </a>
+   </p>
+  </div>
+  <muestra-codigo>
      <div>
-      <div><span style="color: #800000;">&lt;script&gt;</span></div>
-      <div>&nbsp;<span style="color: #0000ff;">debugger</span>;</div>
+      <div><span style="color: #0000ff;">fun</span>&nbsp;<span
+         style="color: #795e26;">main</span>()&nbsp;{</div>
       <div>&nbsp;<span
-         style="color: #008000;">/*&nbsp;Muestra&nbsp;Hola&nbsp;pp.&nbsp;*/</span>
-      </div>
-      <div>&nbsp;<span style="color: #001080;">document</span>.<span
-         style="color: #795e26;">write</span>(<span
-         style="color: #a31515;">"Hola"</span>,&nbsp;<span
-         style="color: #a31515;">"pp"</span>);</div>
-      <div>&nbsp;<span style="color: #001080;">document</span>.<span
-         style="color: #795e26;">write</span>(<span
-         style="color: #a31515;">"t"</span>);<span
-         style="color: #008000;">/*Muestra&nbsp;t*/</span></div>
+         style="color: #008000;">/*&nbsp;Muestra&nbsp;Hola.&nbsp;*/</span></div>
+      <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+         style="color: #a31515;">"Hola"</span>);</div>
+      <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+         style="color: #a31515;">"t"</span>);&nbsp;<span
+         style="color: #008000;">/*Muestra&nbsp;t.*/</span></div>
       <div>&nbsp;<span style="color: #008000;">/*&nbsp;Muestra</span></div>
-      <div><span style="color: #008000;">&nbsp;&nbsp;*&nbsp;bb.&nbsp;*/</span>
-      </div>
-      <div>&nbsp;<span style="color: #001080;">document</span>.<span
-         style="color: #795e26;">write</span>(<span
+      <div><span style="color: #008000;">&nbsp;&nbsp;*&nbsp;bb.&nbsp;*/</span></div>
+      <div>&nbsp;<span style="color: #795e26;">println</span>(<span
          style="color: #a31515;">"bb"</span>);</div>
-      <div><span style="color: #800000;">&lt;/script&gt;</span></div>
+      <div>}</div>
      </div>
     </muestra-codigo>
    </div>`;
