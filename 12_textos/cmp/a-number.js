@@ -38,53 +38,53 @@ export class Number extends Diapositiva {
       <p>
        Un <dfn>límite</dfn> es un número que se representa a sí mismo, a
        números ligeramente menores y ligeramente mayores; por ejemplo,
-       <code class="language-javascript">1.0</code>
+       <code class="language-kotlin">1.0</code>
        representa a
-       <code class="language-javascript">1.0</code>,
+       <code class="language-kotlin">1.0</code>,
        así como números muy cercanos,
        como podrían ser
-       <code class="language-javascript">1.000000000000000000000001</code>,
-       <code class="language-javascript">1.000000000000000000000002</code>,
-       <code class="language-javascript">0.999999999999999999999999</code>
+       <code class="language-kotlin">1.000000000000000000000001</code>,
+       <code class="language-kotlin">1.000000000000000000000002</code>,
+       <code class="language-kotlin">0.999999999999999999999999</code>
        o
-       <code class="language-javascript">0.999999999999999999999998</code>.
+       <code class="language-kotlin">0.999999999999999999999998</code>.
      </p>
      </li>
      <li>
       <p>
        Incluyen a los números enteros como
-       <code class="language-javascript">1</code>,
-       <code class="language-javascript">2</code>,
-       <code class="language-javascript">101</code>.
+       <code class="language-kotlin">1</code>,
+       <code class="language-kotlin">2</code>,
+       <code class="language-kotlin">101</code>.
      </p>
      </li>
      <li>
       <p>
-       El valor <code class="language-javascript">0</code> representa a los 
+       El valor <code class="language-kotlin">0</code> representa a los 
        números cercanos a 0, ya sean positivos o negativos.
      </p>
      </li>
      <li>
       <p>
-       El valor <code class="language-javascript">+0</code> representa a los 
+       El valor <code class="language-kotlin">+0</code> representa a los 
        números positivos cercanos a 0.
      </p>
      </li>
      <li>
       <p>
-       El valor <code class="language-javascript">-0</code> representa a los 
+       El valor <code class="language-kotlin">-0</code> representa a los 
        números negativos cercanos a 0.
      </p>
      </li>
      <li>
       <p>
        El valor
-       <code class="language-javascript">NaN</code>
+       <code class="language-kotlin">NaN</code>
        representa valores que no son un número; por ejemplo, los resultados
        de
-       <code class="language-javascript">0 / 0</code>
+       <code class="language-kotlin">0 / 0</code>
        y
-       <code class="language-javascript">Math.sqrt(-1)</code>
+       <code class="language-kotlin">Math.sqrt(-1)</code>
        (la raíz cuadrada de -1).
      </p>
      </li>

@@ -9,18 +9,18 @@ export class OpNo extends Diapositiva {
    `<h1>C. Operador lógico NO</h1>
    <div class="lectura">
     <p>
-     <code class="language-javascript">!x</code>
+     <code class="language-kotlin">!x</code>
      es el operador NO.
     </p>
     <p>
      Si
-     <code class="language-javascript">x</code>
+     <code class="language-kotlin">x</code>
      se evalúa a
-     <code class="language-javascript">true</code>,
+     <code class="language-kotlin">true</code>,
      el resultado es
-     <code class="language-javascript">false</code>;
+     <code class="language-kotlin">false</code>;
      de lo contrario, el resultado es
-     <code class="language-javascript">true</code>.
+     <code class="language-kotlin">true</code>.
     </p>
    </div>
    <muestra-codigo>

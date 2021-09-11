@@ -13,23 +13,23 @@ export class For extends Diapositiva {
     <p>
       El <dfn>switch-default</dfn> es una alternativa a la condicional
       múltiple con else, cuyo comportamiento es similar al del
-      <code class="language-javascript">switch</code>, donde
-      <code class="language-javascript">default</code>,
+      <code class="language-kotlin">switch</code>, donde
+      <code class="language-kotlin">default</code>,
       es una etiqueta más, que atrae a todos los casos que no correspondan
       a ninguno de los
-      <code class="language-javascript">case</code>.
+      <code class="language-kotlin">case</code>.
     </p>
     <p>
       Una vez entrado en un caso, el
-      <code class="language-javascript">switch</code>
+      <code class="language-kotlin">switch</code>
       continúa avanzando sin importar si invade otros casos, hasta
       encontrar la palabra reservada
-      <code class="language-javascript">break</code>,
+      <code class="language-kotlin">break</code>,
       que nos saca de la estructura de control.
     </p>
     <p>
       La siguiente figura representa el comportamiento de la estructura de
-      control <code class="language-javascript">switch-default</code>:
+      control <code class="language-kotlin">switch-default</code>:
     </p>
     <figure>
       <img src="/17_switch/img/switch-default.svg" alt="switch con default"

@@ -13,11 +13,11 @@ export class CResumen extends Diapositiva {
            La <dfn>estructura de control for</dfn> consta de la siguiente
            estructura:
          </p>
-         <pre><code class="language-javascript"><strong>for</strong> (inicialización; condición; paso) {
+         <pre><code class="language-kotlin"><strong>for</strong> (inicialización; condición; paso) {
  instrucciones
 }</code></pre>
          <p>Equivale a la estructura de control:</p>
-         <pre><code class="language-javascript">{
+         <pre><code class="language-kotlin">{
  inicialización;
  <strong>while</strong> (condición) {
    instrucciones
@@ -29,7 +29,7 @@ export class CResumen extends Diapositiva {
          <p>
            La sección de <dfn>inicialización</dfn> crea variables que solo
            existen durante la ejecución del ciclo
-           <code class="language-javascript">for</code> y se eliminan una vez
+           <code class="language-kotlin">for</code> y se eliminan una vez
            terminado.
          </p>
        </li>
@@ -38,7 +38,7 @@ export class CResumen extends Diapositiva {
            La sección de <dfn>paso</dfn> cambia el valor de las variables para
            que
            hacer que la condición esté cada vez más cerca de evaluar a
-           <code class="language-javascript">false</code>.
+           <code class="language-kotlin">false</code>.
          </p>
        </li>
      </ul>

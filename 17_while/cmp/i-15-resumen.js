@@ -16,7 +16,7 @@ export class Resumen extends Diapositiva {
        <li>
         <p>
          La palabra reservada <code
-           class="language-javascript">while</code>.
+           class="language-kotlin">while</code>.
         </p>
        </li>
        <li>
@@ -56,7 +56,7 @@ export class Resumen extends Diapositiva {
      <li>
       <p>
        Mientras la condición evalúa a
-       <code class="language-javascript">true</code>,
+       <code class="language-kotlin">true</code>,
        la estructura de control sigue repitiendo el bloque de
        instrucciones.
       </p>
@@ -64,14 +64,14 @@ export class Resumen extends Diapositiva {
      <li>
       <p>
        Cuando la condición evalúa a
-       <code class="language-javascript">false</code>,
+       <code class="language-kotlin">false</code>,
        se termina el ciclo.
       </p>
      </li>
      <li>
       <p>
        Es importante diseñar bien el
-       <code class="language-javascript">while</code>
+       <code class="language-kotlin">while</code>
        para no caer en ciclos interminables.
       </p>
      </li>

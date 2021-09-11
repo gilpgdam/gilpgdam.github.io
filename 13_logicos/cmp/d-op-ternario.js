@@ -9,18 +9,18 @@ export class OpTernario extends Diapositiva {
    `<h1>D. Operador lógico ternario</h1>
    <div class="lectura">
     <p>
-     <code class="language-javascript">x ? y : z</code></dt>
+     <code class="language-kotlin">x ? y : z</code></dt>
      es el operador ternario.
     </p>
     <p>
      Si
-     <code class="language-javascript">x</code>
+     <code class="language-kotlin">x</code>
      se evalúa a
-     <code class="language-javascript">true</code>,
+     <code class="language-kotlin">true</code>,
      el resultado es
-     <code class="language-javascript">y</code>;
+     <code class="language-kotlin">y</code>;
      de lo contrario, el resultado es
-     <code class="language-javascript">z</code>.
+     <code class="language-kotlin">z</code>.
     </p>
    </div>
    <muestra-codigo>

@@ -14,7 +14,7 @@ export class CResumen extends Diapositiva {
        <li>
         <p>
          La palabra reservada <code
-           class="language-javascript">do</code>.
+           class="language-kotlin">do</code>.
         </p>
        </li>
        <li>
@@ -23,7 +23,7 @@ export class CResumen extends Diapositiva {
        <li>
         <p>
          Sigue la palabra reservada
-         <code class="language-javascript">while</code>.
+         <code class="language-kotlin">while</code>.
         </p>
        </li>
        <li>
@@ -34,14 +34,14 @@ export class CResumen extends Diapositiva {
      <li>
       <p>
        Mientras la condición evalúa a
-       <code class="language-javascript">true</code>,
+       <code class="language-kotlin">true</code>,
        la estructura de control sigue repitiendo el bloque de instrucciones.
       </p>
      </li>
      <li>
       <p>
        Cuando la condición evalúa a
-       <code class="language-javascript">false</code>,
+       <code class="language-kotlin">false</code>,
        se termina el ciclo.
       </p>
      </li>
@@ -51,7 +51,7 @@ export class CResumen extends Diapositiva {
      <li>
       <p>
        Un uso común de
-       <code class="language-javascript">do-while</code>,
+       <code class="language-kotlin">do-while</code>,
        es validar los datos introducidos por el teclado.
       </p>
      </li>

@@ -15,7 +15,7 @@ export class BCom1 extends Diapositiva {
        <dfn>comentarios de una línea</dfn>
        empiezan con el texto
        <code
-         class="language-javascript"><span style="color: #008000;">//</span></code>
+         class="language-kotlin"><span style="color: #008000;">//</span></code>
        y terminan con el final de la línea.
       </p>
      </li>

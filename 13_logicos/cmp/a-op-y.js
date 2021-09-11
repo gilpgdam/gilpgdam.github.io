@@ -9,20 +9,20 @@ export class OpY extends Diapositiva {
    `<h1>A. Operador lógico Y</h1>
    <div class="lectura">
     <p>
-     <code class="language-javascript">x && y</code>
+     <code class="language-kotlin">x && y</code>
      es el operador Y en corto circuito.
     </p>
     <p>
      Si
-     <code class="language-javascript">x</code>
+     <code class="language-kotlin">x</code>
      se evalúa a
-     <code class="language-javascript">false</code>,
+     <code class="language-kotlin">false</code>,
      el resultado es
-     <code class="language-javascript">x</code>
+     <code class="language-kotlin">x</code>
      y no se evalúa
-     <code class="language-javascript">y</code>;
+     <code class="language-kotlin">y</code>;
      de lo contrario, el resultado es
-     <code class="language-javascript">y</code>.
+     <code class="language-kotlin">y</code>.
     </p>
    </div>
    <muestra-codigo>

@@ -20,7 +20,7 @@ export class Expresiones extends Diapositiva {
        <dd>
          <p>
            <code
-             class="language-javascript">x = (-b + Math.sqrt(b**2 - 4*a*c)) / (2*a)</code>
+             class="language-kotlin">x = (-b + Math.sqrt(b**2 - 4*a*c)) / (2*a)</code>
          </p>
        </dd>
        <dt>
@@ -30,7 +30,7 @@ export class Expresiones extends Diapositiva {
        <dd>
          <p>
            <code
-             class="language-javascript">y = ((y2 - y1) / (x2 - x1)) * (x - x1) + y1</code>
+             class="language-kotlin">y = ((y2 - y1) / (x2 - x1)) * (x - x1) + y1</code>
          </p>
        </dd>
      </dl>
@@ -39,7 +39,7 @@ export class Expresiones extends Diapositiva {
        <li>
          <p>
            El objeto
-           <code class="language-javascript">Math</code>.
+           <code class="language-kotlin">Math</code>.
          </p>
        </li>
      </ul>

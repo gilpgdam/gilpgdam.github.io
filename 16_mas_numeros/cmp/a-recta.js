@@ -13,11 +13,11 @@ export class OpY extends Diapositiva {
    <div class="lectura">
      <p>Los números a la izquierda son menores que los de la derecha.</p>
      <dl>
-       <dt><dfn><code class="language-javascript">0</code></dfn></dt>
+       <dt><dfn><code class="language-kotlin">0</code></dfn></dt>
        <dd>
          <p>Es el centro de la recta.</p>
        </dd>
-       <dt><dfn><code class="language-javascript">Number.MIN_VALUE</code></dfn>
+       <dt><dfn><code class="language-kotlin">Number.MIN_VALUE</code></dfn>
        </dt>
        <dd>
          <p>
@@ -26,7 +26,7 @@ export class OpY extends Diapositiva {
          </p>
        </dd>
        <dt><dfn><code
-             class="language-javascript">-Number.MIN_VALUE</code></dfn></dt>
+             class="language-kotlin">-Number.MIN_VALUE</code></dfn></dt>
        <dd>
          <p>
            Es el valor negativo más cercano a 0; aproximadamente -5 ×
@@ -34,7 +34,7 @@ export class OpY extends Diapositiva {
          </p>
        </dd>
        <dt><dfn><code
-             class="language-javascript">Number.MAX_SAFE_INTEGER</code></dfn>
+             class="language-kotlin">Number.MAX_SAFE_INTEGER</code></dfn>
        </dt>
        <dd>
          <p>
@@ -44,7 +44,7 @@ export class OpY extends Diapositiva {
          </p>
        </dd>
        <dt><dfn><code
-             class="language-javascript">Number.MIN_SAFE_INTEGER</code></dfn>
+             class="language-kotlin">Number.MIN_SAFE_INTEGER</code></dfn>
        </dt>
        <dd>
          <p>
@@ -53,7 +53,7 @@ export class OpY extends Diapositiva {
            -9007199254740991.
          </p>
        </dd>
-       <dt><dfn><code class="language-javascript">Number.MAX_VALUE</code></dfn>
+       <dt><dfn><code class="language-kotlin">Number.MAX_VALUE</code></dfn>
        </dt>
        <dd>
          <p>
@@ -62,7 +62,7 @@ export class OpY extends Diapositiva {
          </p>
        </dd>
        <dt><dfn><code
-             class="language-javascript">-Number.MAX_VALUE</code></dfn></dt>
+             class="language-kotlin">-Number.MAX_VALUE</code></dfn></dt>
        <dd>
          <p>
            Es el valor numérico finito más negativo, aproximadamente
@@ -70,21 +70,21 @@ export class OpY extends Diapositiva {
          </p>
        </dd>
        <dt><dfn><code
-             class="language-javascript">Number.POSITIVE_INFINITY</code></dfn>
+             class="language-kotlin">Number.POSITIVE_INFINITY</code></dfn>
        </dt>
        <dd>
          <p>
            Representa a todos los valores más positivos que
-           <code class="language-javascript">Number.MAX_VALUE</code>.
+           <code class="language-kotlin">Number.MAX_VALUE</code>.
          </p>
        </dd>
        <dt><dfn><code
-             class="language-javascript">Number.NEGATIVE_INFINITY</code></dfn>
+             class="language-kotlin">Number.NEGATIVE_INFINITY</code></dfn>
        </dt>
        <dd>
          <p>
            Representa a todos los valores más negativos que
-           <code class="language-javascript">-Number.MAX_VALUE</code>.
+           <code class="language-kotlin">-Number.MAX_VALUE</code>.
          </p>
        </dd>
      </dl>

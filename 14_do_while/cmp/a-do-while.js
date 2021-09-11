@@ -11,7 +11,7 @@ export class DoWhile extends Diapositiva {
      <li>
       <p>
        La siguiente figura representa el comportamiento de la estructura de
-       control <code class="language-javascript">do-while</code>:
+       control <code class="language-kotlin">do-while</code>:
       </p>
       <figure>
        <img src="/12_do_while/img/do-while.svg" alt="do-while"
@@ -23,7 +23,7 @@ export class DoWhile extends Diapositiva {
       <ul>
        <li>
         <p>
-         La palabra reservada <code class="language-javascript">do</code>.
+         La palabra reservada <code class="language-kotlin">do</code>.
         </p>
        </li>
        <li>
@@ -32,7 +32,7 @@ export class DoWhile extends Diapositiva {
        <li>
         <p>
          Sigue la palabra reservada
-         <code class="language-javascript">while</code>.
+         <code class="language-kotlin">while</code>.
         </p>
        </li>
        <li>
@@ -43,7 +43,7 @@ export class DoWhile extends Diapositiva {
      <li>
       <p>
        Mientras la condición evalúa a
-       <code class="language-javascript">true</code>,
+       <code class="language-kotlin">true</code>,
        la estructura de control sigue repitiendo el bloque de
        instrucciones.
       </p>
@@ -51,7 +51,7 @@ export class DoWhile extends Diapositiva {
      <li>
       <p>
        Cuando la condición evalúa a
-       <code class="language-javascript">false</code>,
+       <code class="language-kotlin">false</code>,
        se termina el ciclo.
       </p>
      </li>
@@ -70,10 +70,10 @@ export class DoWhile extends Diapositiva {
        <li>
         <p>
          Si la condición y si evalúa a
-         <code class="language-javascript">false</code>, se termina el ciclo
+         <code class="language-kotlin">false</code>, se termina el ciclo
          y se continúa con las instrucciones que sigan después de la
          estructura; pero si evalúa a
-         <code class="language-javascript">true</code>,
+         <code class="language-kotlin">true</code>,
          se regresa al a ejecutar otra vez el bloque de instrucciones y luego
          se evalúa la condición, para después ejecutar otra vez este paso y
          las instrucciones aquí indicadas.

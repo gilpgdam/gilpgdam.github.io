@@ -12,7 +12,7 @@ export class EOrden extends Diapositiva {
      <li>
       <p>
        Primero se ejecuta el contenido de
-       <code class="language-javascript"><span
+       <code class="language-kotlin"><span
          style="color: #0000ff;">fun</span>&nbsp;<span
          style="color: #795e26;">main</span>()</code>.</p>
      </li>
@@ -28,7 +28,7 @@ export class EOrden extends Diapositiva {
       <p>
        Cada instrucción
        <code
-        class="language-javascript"><span
+        class="language-kotlin"><span
          style="color: #001080;">println</span></code>
        es un renglón.
       </p>

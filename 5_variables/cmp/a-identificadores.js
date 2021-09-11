@@ -24,27 +24,27 @@ export class AIdentificadores extends Diapositiva {
        –
        <code class="language-kotlin">Z</code>)
        con o sin acentos (á, ñ, por ejemplo)
-       o guion bajo (<code class="language-javascript">_</code>).
+       o guion bajo (<code class="language-kotlin">_</code>).
       </p>
      </li>
      <li>
       <p>
        Los caracteres siguientes pueden ser cualquiera de los
-       anteriores o dígitos (<code class="language-javascript">0</code>
+       anteriores o dígitos (<code class="language-kotlin">0</code>
        –
-       <code class="language-javascript">9</code>).
+       <code class="language-kotlin">9</code>).
       </p>
      </li>
     </ul>
     <h2>Ejemplos</h2>
     <ul>
-     <li><code class="language-javascript">_nombre</code></li>
-     <li><code class="language-javascript">__nombre</code></li>
-     <li><code class="language-javascript">Nombre24</code></li>
-     <li><code class="language-javascript">_</code></li>
-     <li><code class="language-javascript">TaChido</code></li>
-     <li><code class="language-javascript">serenoMoreno</code></li>
-     <li><code class="language-javascript">h54</code></li>
+     <li><code class="language-kotlin">_nombre</code></li>
+     <li><code class="language-kotlin">__nombre</code></li>
+     <li><code class="language-kotlin">Nombre24</code></li>
+     <li><code class="language-kotlin">_</code></li>
+     <li><code class="language-kotlin">TaChido</code></li>
+     <li><code class="language-kotlin">serenoMoreno</code></li>
+     <li><code class="language-kotlin">h54</code></li>
     </ul>
     <h2>Camel case</h2>
     <p>
@@ -52,7 +52,7 @@ export class AIdentificadores extends Diapositiva {
      identificadores se escriben en <dfn>Camel Case</dfn>, donde las
      mayúsculas se usan para simular el inicio de una palabra. Por ejemplo:
     </p>
-    <p><code class="language-javascript">estasSonCuatroPalabras</code>.</p>
+    <p><code class="language-kotlin">estasSonCuatroPalabras</code>.</p>
    </div>`;
  }
 }

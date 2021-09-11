@@ -12,7 +12,7 @@ export class DResumen extends Diapositiva {
       <p>
        Los <dfn>bloques</dfn> son listas de 0 o más instrucciones
        encerradas
-       entre llaves (<code class="language-javascript">{}</code>).
+       entre llaves (<code class="language-kotlin">{}</code>).
       </p>
      </li>
      <li>

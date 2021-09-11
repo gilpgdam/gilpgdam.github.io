@@ -10,9 +10,9 @@ export class CPresBloqueVD extends Diapositiva {
    <div class="lectura">
     <p>
      Las variables declaradas con
-     <code class="language-javascript">const</code>
+     <code class="language-kotlin">const</code>
      o con
-     <code class="language-javascript">let</code>
+     <code class="language-kotlin">let</code>
      dentro de un bloque ocultan a otras con el mismo nombre que estén
      declaradas fuera del bloque.
     </p>

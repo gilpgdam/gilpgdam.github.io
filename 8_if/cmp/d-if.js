@@ -19,23 +19,23 @@ export class DIf extends Diapositiva {
      <li>
       <p>
        La siguiente figura representa el comportamiento de la estructura de
-       control <code class="language-javascript">if</code>:
+       control <code class="language-kotlin">if</code>:
       </p>
       <figure>
-       <img src="/6_if/img/if.svg" alt="if" style="max-width: 350px;">
+       <img src="/8_if/img/if.svg" alt="if" style="max-width: 350px;">
       </figure>
      </li>
      <li>
       <p>
        Si la condición evalúa a
-       <code class="language-javascript">true</code>,
+       <code class="language-kotlin">true</code>,
        el grupo de instrucciones se ejecuta.
       </p>
      </li>
      <li>
       <p>
        Si la condición evalúa a
-       <code class="language-javascript">false</code>,
+       <code class="language-kotlin">false</code>,
        el grupo de instrucciones no se ejecuta.
       </p>
      </li>

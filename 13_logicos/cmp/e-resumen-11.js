@@ -10,16 +10,16 @@ export class Resumen extends Diapositiva {
      <p>Se revisaron los siguientes operadores lógicos:</p>
      <ul>
        <li>
-         <p><code class="language-javascript">&&</code></p>
+         <p><code class="language-kotlin">&&</code></p>
        </li>
        <li>
-         <p><code class="language-javascript">||</code></p>
+         <p><code class="language-kotlin">||</code></p>
        </li>
        <li>
-         <p><code class="language-javascript">!</code></p>
+         <p><code class="language-kotlin">!</code></p>
        </li>
        <li>
-         <p><code class="language-javascript">?:</code></p>
+         <p><code class="language-kotlin">?:</code></p>
        </li>
      </ul>
    </div>`;

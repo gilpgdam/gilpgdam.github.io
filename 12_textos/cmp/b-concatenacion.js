@@ -13,9 +13,9 @@ export class Concatenacion extends Diapositiva {
   <div class="lectura">
    <p>
     Cuando uno de los 2 operandos del operador
-    <code class="language-javascript">+</code>
+    <code class="language-kotlin">+</code>
     es
-    <code class="language-javascript">string</code>,
+    <code class="language-kotlin">string</code>,
     se realiza una
     <dfn>concatenación</dfn>,
     que consiste en convertir los 2 operandos en texto y juntarlos.

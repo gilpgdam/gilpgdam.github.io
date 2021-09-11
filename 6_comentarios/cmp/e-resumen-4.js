@@ -21,7 +21,7 @@ export class EResumen extends Diapositiva {
        <dfn>comentarios de una línea</dfn>
        empiezan con el texto
        <code
-         class="language-javascript"><span style="color: #008000;">//</span></code>
+         class="language-kotlin"><span style="color: #008000;">//</span></code>
        y terminan con el final de la línea.
       </p>
      </li>
@@ -30,9 +30,9 @@ export class EResumen extends Diapositiva {
        Los
        <dfn>comentarios de una o más líneas</dfn>
        empiezan con el texto
-       <code class="language-javascript" style="color: #008000;">/*</code>
+       <code class="language-kotlin" style="color: #008000;">/*</code>
        y terminan con
-       <code class="language-javascript" style="color: #008000;">*/</code>.
+       <code class="language-kotlin" style="color: #008000;">*/</code>.
       </p>
      </li>
      <li>
@@ -42,7 +42,7 @@ export class EResumen extends Diapositiva {
        o
        <dfn>KDoc</dfn>,
        son comentarios de una o más líneas que empiezan con
-       <code class="language-javascript" style="color: #008000;">/**</code>
+       <code class="language-kotlin" style="color: #008000;">/**</code>
        y explican la definición de un elemento del código.
       </p>
      </li>

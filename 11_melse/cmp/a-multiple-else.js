@@ -14,7 +14,7 @@ export class MultipleElse extends Diapositiva {
        múltiple:
       </p>
       <figure>
-       <img src="/9_melse/img/condicional-multiple-else.svg"
+       <img src="/11_melse/img/condicional-multiple-else.svg"
          alt="Condicional Múltiple con Else" style="max-width: 350px;">
       </figure>
      </li>
@@ -24,20 +24,20 @@ export class MultipleElse extends Diapositiva {
        <li>
         <p>
          Cada elemento de la lista empieza con la palabra reservada
-         <code class="language-javascript">if</code>, seguida de una
+         <code class="language-kotlin">if</code>, seguida de una
          condición entre paréntesis y un bloque de instucciones.
         </p>
        </li>
        <li>
         <p>
          Los elementos de la lista se separan con la palabra reservada
-         <code class="language-javascript">else</code>.
+         <code class="language-kotlin">else</code>.
         </p>
        </li>
        <li>
         <p>
          Al final de la lista va la palabra reservada
-         <code class="language-javascript">else</code>, seguida de un bloque
+         <code class="language-kotlin">else</code>, seguida de un bloque
          de instrucciones.
         </p>
        </li>
@@ -48,7 +48,7 @@ export class MultipleElse extends Diapositiva {
        Para ejecutar, empieza a revisar los elementos de la lista, empezando
        por la primera condición. Se ejecuta el bloque de instrucciones que
        corresponda a la primera condición que evalue a
-       <code class="language-javascript">true</code> y luego se termina la
+       <code class="language-kotlin">true</code> y luego se termina la
        estructura, continuando con las instrucciones que aparezcan después de
        la lista.
       </p>
@@ -56,8 +56,8 @@ export class MultipleElse extends Diapositiva {
      <li>
       <p>
        Si ninguna condición evalúa a
-       <code class="language-javascript">true</code>, se ejecuta el bloque
-       del <code class="language-javascript">else</code> final, continuando con
+       <code class="language-kotlin">true</code>, se ejecuta el bloque
+       del <code class="language-kotlin">else</code> final, continuando con
        las instrucciones que aparezcan después de la lista.
       </p>
      </li>

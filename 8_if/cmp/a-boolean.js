@@ -14,9 +14,9 @@ export class ABoolean extends Diapositiva {
      <h2>Valores</h2>
      <dl>
       <dt>Verdadero</dt>
-      <dd><code class="language-javascript">true</code></dd>
+      <dd><code class="language-kotlin">true</code></dd>
       <dt>Falso</dt>
-      <dd><code class="language-javascript">false</code></dd>
+      <dd><code class="language-kotlin">false</code></dd>
      </dl>
    </div>`;
  }

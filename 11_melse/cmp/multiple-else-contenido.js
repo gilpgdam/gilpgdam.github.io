@@ -8,18 +8,18 @@ export class MultipleElseContenido extends Diapositiva {
    `<ol type="A">
      <li>
       <p>
-       <a href="/9_melse/a_melse.html">Condicional múltiple con
+       <a href="/11_melse/a_melse.html">Condicional múltiple con
         <strong>else</strong></a>
       </p>
      </li>
      <li>
       <p>
-       <a href="/9_melse/b_codigo.html">Código con condicional múltiple con
+       <a href="/11_melse/b_codigo.html">Código con condicional múltiple con
         <strong>else</strong></a>
       </p>
      </li>
      <li>
-      <p><a href="/9_melse/c_resumen.html">Resumen</a></p>
+      <p><a href="/11_melse/c_resumen.html">Resumen</a></p>
      </li>
     </ol>`;
  }

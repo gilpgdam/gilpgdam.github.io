@@ -10,7 +10,7 @@ export class Asignacion extends Diapositiva {
    <div class="lectura">
     <p>
      Aparte del operador de asignación
-     (<code class="language-javascript" style="color: #0000ff;">=</code>),
+     (<code class="language-kotlin" style="color: #0000ff;">=</code>),
      hay otros operadores que permiten cambiar el valor de una variable.
     </p>
     <h2>Ejemplo</h2>

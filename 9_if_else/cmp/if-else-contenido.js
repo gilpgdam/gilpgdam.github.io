@@ -8,18 +8,18 @@ export class IfElseContenido extends Diapositiva {
    `<ol type="A">
      <li>
       <p>
-       <a href="/7_if_else/a_if_else.html">La estructura de control
+       <a href="/9_if_else/a_if_else.html">La estructura de control
         <strong>if-else</strong></a>
       </p>
      </li>
      <li>
       <p>
-       <a href="/7_if_else/b_codigo.html">Código con
+       <a href="/9_if_else/b_codigo.html">Código con
         <strong>if-else</strong></a></a>
       </p>
      </li>
      <li>
-      <p><a href="/7_if_else/c_resumen.html">Resumen</a></p>
+      <p><a href="/9_if_else/c_resumen.html">Resumen</a></p>
      </li>
     </ol>`;
  }

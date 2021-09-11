@@ -14,9 +14,9 @@ export class CCom1OMas extends Diapositiva {
        Los
        <dfn>comentarios de una o más líneas</dfn>
        empiezan con el texto
-       <code class="language-javascript" style="color: #008000;">/*</code>
+       <code class="language-kotlin" style="color: #008000;">/*</code>
        y terminan con
-       <code class="language-javascript" style="color: #008000;">*/</code>.
+       <code class="language-kotlin" style="color: #008000;">*/</code>.
       </p>
      </li>
      <li>

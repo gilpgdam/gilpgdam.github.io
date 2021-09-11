@@ -12,7 +12,7 @@ export class While extends Diapositiva {
      <li>
       <p>
        La siguiente figura representa el comportamiento de la estructura de
-       control <code class="language-javascript">while</code>:
+       control <code class="language-kotlin">while</code>:
       </p>
       <figure>
        <img src="/15_while/img/while.svg" alt="if" style="max-width: 350px;">
@@ -25,7 +25,7 @@ export class While extends Diapositiva {
       <ol>
        <li>
         <p>
-         La palabra reservada <code class="language-javascript">while</code>.
+         La palabra reservada <code class="language-kotlin">while</code>.
         </p>
        </li>
        <li>
@@ -45,10 +45,10 @@ export class While extends Diapositiva {
        <li>
         <p>
          Si la condición evalúa a
-         <code class="language-javascript">false</code>,
+         <code class="language-kotlin">false</code>,
          se termina la ejecución del ciclo y continúa con las instrucciones
          que aparecen después de la estructura; si la condición evalúa a
-         <code class="language-javascript">true</code>, continúa con el
+         <code class="language-kotlin">true</code>, continúa con el
          siguiente paso.
         </p>
        </li>
@@ -63,7 +63,7 @@ export class While extends Diapositiva {
      <li>
       <p>
        Mientras la condición evalúa a
-       <code class="language-javascript">true</code>,
+       <code class="language-kotlin">true</code>,
        la estructura de control sigue repitiendo el bloque de
        instrucciones.
       </p>
@@ -71,7 +71,7 @@ export class While extends Diapositiva {
      <li>
       <p>
        Cuando la condición evalúa a
-       <code class="language-javascript">false</code>,
+       <code class="language-kotlin">false</code>,
        se termina el ciclo.
       </p>
      </li>

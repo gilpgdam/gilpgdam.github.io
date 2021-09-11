@@ -10,25 +10,25 @@ export class Resumen extends Diapositiva {
      <p>Se revisaron los siguientes operadores sobre texto:</p>
      <ul>
        <li>
-         <p><code class="language-javascript">+</code></p>
+         <p><code class="language-kotlin">+</code></p>
        </li>
        <li>
-         <p><code class="language-javascript">+=</code></p>
+         <p><code class="language-kotlin">+=</code></p>
        </li>
        <li>
-         <p><code class="language-javascript">&grave;&dollar;{}&grave;</code></p>
+         <p><code class="language-kotlin">&grave;&dollar;{}&grave;</code></p>
        </li>
        <li>
-         <p><code class="language-javascript">&lt;</code></p>
+         <p><code class="language-kotlin">&lt;</code></p>
        </li>
        <li>
-         <p><code class="language-javascript">&gt;</code></p>
+         <p><code class="language-kotlin">&gt;</code></p>
        </li>
        <li>
-         <p><code class="language-javascript">&lt;=</code></p>
+         <p><code class="language-kotlin">&lt;=</code></p>
        </li>
        <li>
-         <p><code class="language-javascript">&gt;=</code></p>
+         <p><code class="language-kotlin">&gt;=</code></p>
        </li>
      </ul>
    </div>`;

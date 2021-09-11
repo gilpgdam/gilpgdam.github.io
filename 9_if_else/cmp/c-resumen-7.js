@@ -14,22 +14,22 @@ export class CResumen extends Diapositiva {
        una condición lógica para controlar si dos grupos de instrucciones deben
        o no ejecutarse. Un grupo de instrucciones va inmediatamente después de
        la condición y el otro grupo va después de la palabra reservada
-       <code class="language-javascript">else</code>.
+       <code class="language-kotlin">else</code>.
       </p>
      </li>
      <li>
       <p>
        Si la condición evalúa a
-       <code class="language-javascript">true</code>,
+       <code class="language-kotlin">true</code>,
        el grupo de instrucciones después de la condición se ejecuta.
       </p>
      </li>
      <li>
       <p>
        Si la condición evalúa a
-       <code class="language-javascript">false</code>,
+       <code class="language-kotlin">false</code>,
        el grupo de instrucciones después de la palabra reservada
-       <code class="language-javascript">else</code> se ejecuta.
+       <code class="language-kotlin">else</code> se ejecuta.
       </p>
      </li>
     </ul>

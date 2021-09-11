@@ -12,23 +12,23 @@ export class Orden extends Diapositiva {
      <li>
       <p>
        El operador binario
-       <code class="language-javascript">&lt;</code>
+       <code class="language-kotlin">&lt;</code>
        representa el orden natural de los datos. Si el valor a la izquierda
        va antes que el de la derecha, el resultado es
-       <code class="language-javascript">true</code>;
+       <code class="language-kotlin">true</code>;
        en otro caso es
-       <code class="language-javascript">false</code>.
+       <code class="language-kotlin">false</code>.
       </p>
      </li>
      <li>
       <p>
        El operador binario
-       <code class="language-javascript">&gt;</code>
+       <code class="language-kotlin">&gt;</code>
        representa el orden invertido de los datos. Si el valor a la izquierda
        va después que el de la derecha, el resultado es
-       <code class="language-javascript">true</code>;
+       <code class="language-kotlin">true</code>;
        en otro caso es
-       <code class="language-javascript">false</code>.
+       <code class="language-kotlin">false</code>.
       </p>
      </li>
      <li>

@@ -3,15 +3,16 @@ import "./a-boolean.js";
 import "./b-txt-igualdad.js";
 import "./c-txt-diferente.js";
 import "./d-if.js";
-import "./e-if-true.js";
-import "./f-if-false.js";
+import "./e8-codigo.js";
+// import "./e8-codigo.js";
+// import "./f-if-false.js";
 import "./h-resumen.js";
 import "./if-index.js";
-import "../g_if_programa/cmp/g-if-programa-index.js";
-import "../g_if_programa/cmp/g1-problema.js";
-import "../g_if_programa/cmp/g2-escenarios.js";
-import "../g_if_programa/cmp/g3-diseno.js";
-import "../g_if_programa/cmp/g4-codigo.js";
+// import "../g_if_programa/cmp/g-if-programa-index.js";
+// import "../g_if_programa/cmp/g1-problema.js";
+// import "../g_if_programa/cmp/g2-escenarios.js";
+// import "../g_if_programa/cmp/g3-diseno.js";
+// import "../g_if_programa/cmp/g4-codigo.js";
 
 export class IfPrint extends Diapositiva {
  /** @override */
@@ -34,9 +35,9 @@ export class IfPrint extends Diapositiva {
      <d-if></d-if>
     </section>
     <section>
-     <e-if-true></e-if-true>
+     <e8-codigo></e8-codigo>
     </section>
-    <section>
+<!--    <section>
      <f-if-false></f-if-false>
     </section>
     <section>
@@ -56,7 +57,7 @@ export class IfPrint extends Diapositiva {
      <section>
       <g4-codigo></g4-codigo>
      </section>
-    </section>
+    </section>-->
     <section>
      <h-resumen></h-resumen>
     </section>`;

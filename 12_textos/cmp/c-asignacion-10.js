@@ -14,7 +14,7 @@ export class Asignacion extends Diapositiva {
    <ul>
     <li>
      <p>Equivale a</p>
-     <pre><code class="language-javascript">a = a + x;</code></pre>
+     <pre><code class="language-kotlin">a = a + x;</code></pre>
      <p>pero se ejecuta más rápido.</p>
     </li>
     <li>

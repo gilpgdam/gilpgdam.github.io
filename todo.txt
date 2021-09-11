@@ -1,5 +1,7 @@
 1. Separar el ejemplo de variables en 2: uno para indicar como
    funciona y otro para copiar el valor de otra variable.
+2. En los resúmenes, cambiar las explicaciones textuales por diagramas de las
+   estructuras de control.
 Comando para generar el listado:
 Get-ChildItem -path . -Recurse | Select Directory,Name | Out-File archivos.txt
 

@@ -13,7 +13,7 @@ export class CResumen extends Diapositiva {
        El <dfn>switch</dfn> es una alternativa a la condicional múltiple
        que evalúa una expresión y si su resultado corresponde al valor que
        aparece después de la palabra reservada
-       <code class="language-javascript">case</code>,
+       <code class="language-kotlin">case</code>,
        empieza a ejecutar las instrucciones que sigan después.
       </p>
      </li>
@@ -21,20 +21,20 @@ export class CResumen extends Diapositiva {
       <p>
        El <dfn>switch-default</dfn> es una alternativa a la condicional
        múltiple con else, cuyo comportamiento es similar al del
-       <code class="language-javascript">switch</code>, donde
-       <code class="language-javascript">default</code>,
+       <code class="language-kotlin">switch</code>, donde
+       <code class="language-kotlin">default</code>,
        es una etiqueta más, que atrae a todos los casos que no correspondan
        a ninguno de los
-       <code class="language-javascript">case</code>.
+       <code class="language-kotlin">case</code>.
       </p>
      </li>
      <li>
       <p>
        Una vez entrado en un caso, el
-       <code class="language-javascript">switch</code>
+       <code class="language-kotlin">switch</code>
        continúa avanzando sin importar si invade otros casos, hasta
        encontrar la palabra reservada
-       <code class="language-javascript">break</code>,
+       <code class="language-kotlin">break</code>,
        que nos saca de la estructura de control.
       </p>
      </li>

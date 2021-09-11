@@ -13,7 +13,7 @@ export class Plantillas extends Diapositiva {
       <p>
        Las <dfn>plantillas de texto</dfn> son secuencias de caracteres
        delimitadas por el símbolo <dfn>acento invertido</dfn>
-       (<code class="language-javascript">&grave;</code>),
+       (<code class="language-kotlin">&grave;</code>),
        que se genera con <kbd>Alt&nbsp;Gr+}</kbd> en el teclado latinoamericano.
       </p>
      </li>
@@ -29,7 +29,7 @@ export class Plantillas extends Diapositiva {
      <li>
       <p>
        En su interior puedes poner la secuencia
-       <code class="language-javascript">&dollar;{}</code>,
+       <code class="language-kotlin">&dollar;{}</code>,
        que permite poner en el interior de las llaves una expresión,
        cuyo resultado convertido a texto sustituye a toda esta secuencia.
       </p>

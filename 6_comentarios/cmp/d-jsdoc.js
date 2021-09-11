@@ -16,7 +16,7 @@ export class DJsDoc extends Diapositiva {
        o
        <dfn>KDoc</dfn>,
        son comentarios de una o más líneas que empiezan con
-       <code class="language-javascript" style="color: #008000;">/**</code>
+       <code class="language-kotlin" style="color: #008000;">/**</code>
        y explican la definición de un elemento del código.
       </p>
      </li>

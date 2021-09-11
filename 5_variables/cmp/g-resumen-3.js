@@ -20,22 +20,22 @@ export class GResumen extends Diapositiva {
        <li>
         <p>
          Empezar con una letra
-         (<code class="language-javascript">a</code>
+         (<code class="language-kotlin">a</code>
          –
-         <code class="language-javascript">z</code>
+         <code class="language-kotlin">z</code>
          o
-         <code class="language-javascript">A</code>
+         <code class="language-kotlin">A</code>
          –
-         <code class="language-javascript">Z</code>)
+         <code class="language-kotlin">Z</code>)
          con o sin acentos (á, ñ, por ejemplo),
-         guion bajo (<code class="language-javascript">_</code>)
+         guion bajo (<code class="language-kotlin">_</code>)
         </p>
        </li>
        <li>
         <p>
          Los caracteres siguientes pueden ser cualquiera de los
-         anteriores o dígitos (<code class="language-javascript">0</code>
-         – <code class="language-javascript">9</code>).
+         anteriores o dígitos (<code class="language-kotlin">0</code>
+         – <code class="language-kotlin">9</code>).
         </p>
        </li>
       </ul>
