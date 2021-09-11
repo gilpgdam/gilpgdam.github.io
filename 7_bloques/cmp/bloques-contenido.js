@@ -8,19 +8,19 @@ export class BloquesContenido extends Diapositiva {
   this.innerHTML = /* html */
    `<ol type="A">
      <li>
-      <p><a href="/5_bloques/a_bloques.html">Bloques</a></p>
+      <p><a href="/7_bloques/a_bloques.html">Bloques</a></p>
      </li>
      <li>
-      <p><a href="/5_bloques/b_pres_bloque.html">Depura bloques</a></p>
+      <p><a href="/7_bloques/b_pres_bloque.html">Depura bloques</a></p>
      </li>
      <li>
       <p>
-       <a href="/5_bloques/c_pres_bloque_v_d.html">Depura bloques con
+       <a href="/7_bloques/c_pres_bloque_v_d.html">Depura bloques con
         variables duplicadas</a>
       </p>
      </li>
      <li>
-      <p><a href="/5_bloques/d_resumen.html">Resumen</a></p>
+      <p><a href="/7_bloques/d_resumen.html">Resumen</a></p>
      </li>
     </ol>`;
  }
