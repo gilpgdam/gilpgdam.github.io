@@ -1,11 +1,11 @@
 import { Diapositiva } from "../../lib/Diapositiva.js";
 
-export class Resumen extends Diapositiva {
+export class H12Resumen extends Diapositiva {
  /** @override */
  connectedCallback() {
   super.connectedCallback();
   this.innerHTML = /* html */
-   `<h1>G. Resumen</h1>
+   `<h1>H. Resumen</h1>
    <div class="lectura">
      <p>Se revisaron los siguientes operadores sobre texto:</p>
      <ul>
@@ -35,4 +35,4 @@ export class Resumen extends Diapositiva {
  }
 }
 
-customElements.define("g-resumen-10", Resumen);
+customElements.define("h12-resumen", H12Resumen);

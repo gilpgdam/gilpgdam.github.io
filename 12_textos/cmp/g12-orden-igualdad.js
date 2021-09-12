@@ -1,12 +1,12 @@
 import { Diapositiva } from "../../lib/Diapositiva.js";
 import "../../lib/muestra-codigo.js";
 
-export class OrdenIgualdad extends Diapositiva {
+export class G12OrdenIgualdad extends Diapositiva {
  /** @override */
  connectedCallback() {
   super.connectedCallback();
   this.innerHTML = /* html */
-   `<h1>F. Operadores Combinados de Orden e Igualdad</h1>
+   `<h1>G. Operadores Combinados de Orden e Igualdad</h1>
    <div class="lectura">
     <p>En el ejemplo que sigue, el orden natural es:</p>
     <p>"aa" &lt; "ah" &lt; "ai"</p>
@@ -57,4 +57,4 @@ export class OrdenIgualdad extends Diapositiva {
  }
 }
 
-customElements.define("f-orden-igualdad", OrdenIgualdad);
+customElements.define("g12-orden-igualdad", G12OrdenIgualdad);

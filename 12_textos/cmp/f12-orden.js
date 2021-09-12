@@ -1,12 +1,12 @@
 import { Diapositiva } from "../../lib/Diapositiva.js";
 import "../../lib/muestra-codigo.js";
 
-export class Orden extends Diapositiva {
+export class F12Orden extends Diapositiva {
  /** @override */
  connectedCallback() {
   super.connectedCallback();
   this.innerHTML = /* html */
-   `<h1>E. Operadores de Orden</h1>
+   `<h1>F. Operadores de Orden</h1>
    <div class="lectura">
    <ul>
    <li>
@@ -110,4 +110,4 @@ export class Orden extends Diapositiva {
  }
 }
 
-customElements.define("e-orden-10", Orden);
+customElements.define("f12-orden", F12Orden);

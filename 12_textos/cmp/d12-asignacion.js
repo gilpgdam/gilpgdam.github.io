@@ -1,13 +1,13 @@
 import { Diapositiva } from "../../lib/Diapositiva.js";
 import "../../lib/muestra-codigo.js";
 
-export class Asignacion extends Diapositiva {
+export class D12Asignacion extends Diapositiva {
  /** @override */
  connectedCallback() {
   super.connectedCallback();
   this.innerHTML = /* html */
    `<h1>
-   C. Operador de concatenación con asignación
+   D. Operador de concatenación con asignación
    <em>a</em> <strong>+=</strong> <em>x</em>
   </h1>
   <div class="lectura">
@@ -73,4 +73,4 @@ export class Asignacion extends Diapositiva {
  }
 }
 
-customElements.define("c-asignacion-10", Asignacion);
+customElements.define("d12-asignacion", D12Asignacion);

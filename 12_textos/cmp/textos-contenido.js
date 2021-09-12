@@ -8,39 +8,43 @@ export class TextosContenido extends Diapositiva {
    `<ol type="A">
      <li>
       <p>
-       <a href="/10_textos/a_number.html">El tipo
-        <strong>number</strong></a>
+       <a href="/12_textos/a_enteros.html">Enteros</a>
       </p>
      </li>
      <li>
       <p>
-       <a href="/10_textos/b_concatenacion.html">Operador de
+       <a href="/12_textos/b_flotantes.html">Números de punto flotante</a>
+      </p>
+     </li>
+     <li>
+      <p>
+       <a href="/12_textos/c_concatenacion.html">Operador de
         concatenación <em>a</em> <strong>+</strong> <em>b</em></a>
       </p>
      </li>
      <li>
       <p>
-       <a href="/10_textos/c_asignacion.html">Operador de
+       <a href="/12_textos/d_asignacion.html">Operador de
         concatenación con asignación
         <em>a</em> <strong>+=</strong> <em>x</em></a>
       </p>
      </li>
      <li>
       <p>
-       <a href="/10_textos/d_plantillas.html">Plantillas de texto</a>
+       <a href="/12_textos/e_plantillas.html">Plantillas de texto</a>
       </p>
      </li>
      <li>
-      <p><a href="/10_textos/e_orden.html">Operadores de orden</a></p>
+      <p><a href="/12_textos/f_orden.html">Operadores de orden</a></p>
      </li>
      <li>
       <p>
-       <a href="/10_textos/f_orden_igualdad.html">Operadores
+       <a href="/12_textos/g_orden_igualdad.html">Operadores
         combinados de orden e igualdad</a>
       </p>
      </li>
      <li>
-      <p><a href="/10_textos/g_resumen.html">Resumen</a></p>
+      <p><a href="/12_textos/h_resumen.html">Resumen</a></p>
      </li>
     </ol>`;
  }

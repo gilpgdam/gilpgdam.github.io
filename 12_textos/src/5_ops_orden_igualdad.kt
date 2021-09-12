@@ -1,5 +1,4 @@
-<script>
- debugger;
+fun main() {
  // Menor o igual que (<=)
  document.write("ah" <= "aa"); //F
  document.write("ah" <= "ah"); //T
@@ -8,4 +7,4 @@
  document.write("ah" >= "aa"); //T
  document.write("ah" >= "ah"); //T
  document.write("ah" >= "ai"); //F
-</script>
+}

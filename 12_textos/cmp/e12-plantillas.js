@@ -1,12 +1,12 @@
 import { Diapositiva } from "../../lib/Diapositiva.js";
 import "../../lib/muestra-codigo.js";
 
-export class Plantillas extends Diapositiva {
+export class E12Plantillas extends Diapositiva {
  /** @override */
  connectedCallback() {
   super.connectedCallback();
   this.innerHTML = /* html */
-   `<h1>D. Plantillas de Texto</h1>
+   `<h1>E. Plantillas de Texto</h1>
    <div class="lectura">
     <ul>
      <li>
@@ -96,4 +96,4 @@ export class Plantillas extends Diapositiva {
  }
 }
 
-customElements.define("d-plantillas", Plantillas);
+customElements.define("e12-plantillas", E12Plantillas);

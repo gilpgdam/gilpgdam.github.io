@@ -1,13 +1,13 @@
 import { Diapositiva } from "../../lib/Diapositiva.js";
 import "../../lib/muestra-codigo.js";
 
-export class Concatenacion extends Diapositiva {
+export class C12Concatenacion extends Diapositiva {
  /** @override */
  connectedCallback() {
   super.connectedCallback();
   this.innerHTML = /* html */
    `<h1>
-   B. Operador de concatenación
+   C. Operador de concatenación
    <em>a</em> <strong>+</strong> <em>b</em>
   </h1>
   <div class="lectura">
@@ -61,4 +61,4 @@ export class Concatenacion extends Diapositiva {
  }
 }
 
-customElements.define("b-concatenacion", Concatenacion);
+customElements.define("c12-concatenacion", C12Concatenacion);
