@@ -1,5 +1,5 @@
 fun main() {
- println("ab" + '$ h') //ab$ h
+ println("ab" + "& h") //ab& h
  println("gg" + 2)     //gg2
- println(true + "gg")  //truegg
+ println("gg" + true)  //ggtrue
 }

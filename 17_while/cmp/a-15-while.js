@@ -15,7 +15,7 @@ export class While extends Diapositiva {
        control <code class="language-kotlin">while</code>:
       </p>
       <figure>
-       <img src="/15_while/img/while.svg" alt="if" style="max-width: 350px;">
+       <img src="/17_while/img/while.svg" alt="if" style="max-width: 350px;">
       </figure>
      </li>
      <li>

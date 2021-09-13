@@ -11,26 +11,17 @@ export class E12Plantillas extends Diapositiva {
     <ul>
      <li>
       <p>
-       Las <dfn>plantillas de texto</dfn> son secuencias de caracteres
-       delimitadas por el símbolo <dfn>acento invertido</dfn>
-       (<code class="language-kotlin">&grave;</code>),
-       que se genera con <kbd>Alt&nbsp;Gr+}</kbd> en el teclado latinoamericano.
-      </p>
-     </li>
-     <li>
-      <p>
-       En su interior puedes poner cualquier caracter, excepto acento
-       invertido.
-      </p>
-     </li>
-     <li>
-      <p>Puede incluir saltos de línea.</p>
-     </li>
-     <li>
-      <p>
-       En su interior puedes poner la secuencia
+       En el interior de las cadenas puedes poner la secuencia
        <code class="language-kotlin">&dollar;{}</code>,
        que permite poner en el interior de las llaves una expresión,
+       cuyo resultado convertido a texto sustituye a toda esta secuencia.
+      </p>
+     </li>
+     <li>
+      <p>
+       También puedes poner
+       <code class="language-kotlin">&dollar;identificador</code>,
+       que permite poner en el interior de las llaves el nombre de una variable,
        cuyo resultado convertido a texto sustituye a toda esta secuencia.
       </p>
      </li>
@@ -40,58 +31,45 @@ export class E12Plantillas extends Diapositiva {
    <div class="horizontal">
     <div>
      <h2>Salida</h2>
-     <iframe src="/10_textos/src/3_plantillas.html"></iframe>
-     <p class="noPrint">
-      <a target="_blank" href="/10_textos/src/3_plantillas.html">Ábrelo en otra
-       pestaña.</a>
-     </p>
+     <pre><samp>Ejemplo de bb
+828
+de bb yy</samp></pre>
      <p class="noPrint">
       <a target="_blank"
-        href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20const%20TT%20%3D%20%60bb%60%3B%0A%20const%20T%20%3D%202%3B%0A%20%2F*%20Muestra%3A%20Ejemplo%0A%20de%20bb*%2F%0A%20document.write(%60%3Cpre%3EEjemplo%0Ade%20%24%7BTT%7D%3C%2Fpre%3E%60)%3B%0A%20%2F*%20Muestra%3A%20288%0A%20de%20bb%20yy*%2F%0A%20document.write(%60%3Cpre%3E%24%7BT%20%2B%20%228%22%7D8%0Ade%20%24%7BTT%7D%20yy%3C%2Fpre%3E%60)%3B%0A%3C%2Fscript%3E">
-       Revísalo en gilpgedit.
+        href="https://play.kotlinlang.org/#eyJ2ZXJzaW9uIjoiMS41LjMwIiwicGxhdGZvcm0iOiJqYXZhIiwiYXJncyI6IiIsIm5vbmVNYXJrZXJzIjp0cnVlLCJ0aGVtZSI6ImlkZWEiLCJjb2RlIjoiZnVuIG1haW4oKSB7XG4gdmFsIFRUID0gXCJiYlwiXG4gdmFyIFQgPSAyXG4gLyogTXVlc3RyYTogRWplbXBsbyBkZSBiYiAqL1xuIHByaW50bG4oXCJFamVtcGxvIGRlICRUVFwiKVxuIC8qIE11ZXN0cmE6IDgyOFxuZGUgYmIgeXkqL1xuIHByaW50bG4oXCJcIlwiJHtcIjhcIiArIFR9OFxuZGUgJHtUVH0geXlcIlwiXCIpO1xufSJ9">
+       Revísalo en Kotlin play.
       </a>
      </p>
     </div>
     <muestra-codigo>
-     <div>
-      <div><span style="color: #800000;">&lt;script&gt;</span></div>
-      <div>&nbsp;<span style="color: #0000ff;">debugger</span>;</div>
-      <div>&nbsp;<span style="color: #0000ff;">const</span>&nbsp;<span
-         style="color: #0070c1;">TT</span>&nbsp;=&nbsp;<span
-         style="color: #a31515;">&grave;bb&grave;</span>;</div>
-      <div>&nbsp;<span style="color: #0000ff;">const</span>&nbsp;<span
-         style="color: #0070c1;">T</span>&nbsp;=&nbsp;<span
-         style="color: #098658;">2</span>;</div>
-      <div>&nbsp;<span style="color: #008000;">/*&nbsp;Muestra:&nbsp;Ejemplo</span>
-      </div>
-      <div><span style="color: #008000;">&nbsp;de&nbsp;bb*/</span></div>
-      <div>&nbsp;<span style="color: #001080;">document</span>.<span
-         style="color: #795e26;">write</span>(<span
-         style="color: #a31515;">&grave;&lt;pre&gt;Ejemplo</span></div>
-      <div><span style="color: #a31515;">de&nbsp;</span><span
-         style="color: #0000ff;">&dollar;{</span><span
-         style="color: #0070c1;">TT</span><span
-         style="color: #0000ff;">}</span><span
-         style="color: #a31515;">&lt;/pre&gt;&grave;</span>);</div>
-      <div>&nbsp;<span style="color: #008000;">/*&nbsp;Muestra:&nbsp;288</span>
-      </div>
-      <div><span style="color: #008000;">&nbsp;de&nbsp;bb&nbsp;yy*/</span></div>
-      <div>&nbsp;<span style="color: #001080;">document</span>.<span
-         style="color: #795e26;">write</span>(<span
-         style="color: #a31515;">&grave;&lt;pre&gt;</span><span
-         style="color: #0000ff;">&dollar;{</span><span
-         style="color: #0070c1;">T</span>&nbsp;+&nbsp;<span
-         style="color: #a31515;">"8"</span><span
-         style="color: #0000ff;">}</span><span style="color: #a31515;">8</span>
-      </div>
-      <div><span style="color: #a31515;">de&nbsp;</span><span
-         style="color: #0000ff;">&dollar;{</span><span
-         style="color: #0070c1;">TT</span><span
-         style="color: #0000ff;">}</span><span
-         style="color: #a31515;">&nbsp;yy&lt;/pre&gt;&grave;</span>);</div>
-      <div><span style="color: #800000;">&lt;/script&gt;</span></div>
-     </div>
-    </muestra-codigo>
+    <div>
+    <div><span style="color: #0000ff;">fun</span>&nbsp;<span
+       style="color: #795e26;">main</span>()&nbsp;{</div>
+    <div>&nbsp;<span style="color: #0000ff;">val</span>&nbsp;<span
+       style="color: #267f99;">TT</span>&nbsp;=&nbsp;<span
+       style="color: #a31515;">"bb"</span></div>
+    <div>&nbsp;<span style="color: #0000ff;">var</span>&nbsp;<span
+       style="color: #267f99;">T</span>&nbsp;=&nbsp;<span
+       style="color: #098658;">2</span></div>
+    <div>&nbsp;<span
+       style="color: #008000;">/*&nbsp;Muestra:&nbsp;Ejemplo&nbsp;de&nbsp;bb&nbsp;*/</span>
+    </div>
+    <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+       style="color: #a31515;">"Ejemplo&nbsp;de&nbsp;$TT"</span>)</div>
+    <div>&nbsp;<span style="color: #008000;">/*&nbsp;Muestra:&nbsp;828</span>
+    </div>
+    <div><span style="color: #008000;">de&nbsp;bb&nbsp;yy*/</span></div>
+    <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+       style="color: #a31515;">"""&dollar;{"8"&nbsp;</span>+<span
+       style="color: #a31515;">&nbsp;</span><span
+       style="color: #267f99;">T</span><span style="color: #a31515;">}8</span>
+    </div>
+    <div><span style="color: #a31515;">de&nbsp;&dollar;{</span><span
+       style="color: #267f99;">TT</span><span
+       style="color: #a31515;">}&nbsp;yy"""</span>);</div>
+    <div>}</div>
+   </div>
+      </muestra-codigo>
    </div>`;
  }
 }

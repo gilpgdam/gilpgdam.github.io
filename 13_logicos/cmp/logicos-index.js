@@ -8,7 +8,7 @@ export class LogicosIndex extends Diapositiva {
   this.innerHTML = /* html */
    `<div class="lectura">
      <h2>Contenido</h2>
-     <textos-contenido></textos-contenido>
+     <logicos-contenido></logicos-contenido>
     </div>`;
  }
 }

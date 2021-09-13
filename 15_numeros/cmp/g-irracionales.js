@@ -18,7 +18,7 @@ export class Irracionales extends Diapositiva {
       </p>
       <figure>
        <img alt="Cálculo de área con triángulos"
-         src="/13_numeros/img/octogono-irregular-area.jpg">
+         src="/15_numeros/img/octogono-irregular-area.jpg">
        <figcaption>Cálculo de área con triángulos.</figcaption>
       </figure>
      </li>
@@ -29,7 +29,7 @@ export class Irracionales extends Diapositiva {
       </p>
       <figure>
        <img alt="Cálculo de área con rectángulos"
-         src="/13_numeros/img/figura-1.-rectc3a1ngulos-inscritos.webp">
+         src="/15_numeros/img/figura-1.-rectc3a1ngulos-inscritos.webp">
        <figcaption>Cálculo de áre con rectángulos.</figcaption>
       </figure>
      </li>
@@ -44,7 +44,7 @@ export class Irracionales extends Diapositiva {
        En el siguiente triángulo, a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>.
       </p>
       <figure>
-       <img alt="Teorema de pitágoras" src="/13_numeros/img/Pythagorean_right_angle.svg">
+       <img alt="Teorema de pitágoras" src="/15_numeros/img/Pythagorean_right_angle.svg">
        <figcaption>De <a
           href="//commons.wikimedia.org/wiki/User:Marianov"
           title="User:Marianov">Marianov</a> - <span

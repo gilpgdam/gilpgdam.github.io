@@ -16,7 +16,10 @@ export class H12Resumen extends Diapositiva {
          <p><code class="language-kotlin">+=</code></p>
        </li>
        <li>
-         <p><code class="language-kotlin">&grave;&dollar;{}&grave;</code></p>
+         <p><code class="language-kotlin">"&dollar;{}"</code></p>
+       </li>
+       <li>
+         <p><code class="language-kotlin">"&dollar;id"</code></p>
        </li>
        <li>
          <p><code class="language-kotlin">&lt;</code></p>

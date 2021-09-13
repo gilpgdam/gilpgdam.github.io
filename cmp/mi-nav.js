@@ -208,7 +208,7 @@ export class MiNav extends HTMLElement {
          <summary>
           <h4>
            <a href="/19_switch/index.html">La estructura de control
-           <strong>switch</strong></a>
+           <strong>when</strong></a>
           </h4>
          </summary>
           <switch-contenido></switch-contenido>

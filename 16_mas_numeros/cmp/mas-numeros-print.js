@@ -1,14 +1,15 @@
 import { Diapositiva } from "../../lib/Diapositiva.js";
-import "./a-recta.js";
-import "./b-ops-num.js";
-import "./c-asignacion.js";
-import "./d-incr-y-decr.js";
-import "./e-igualdad.js";
-import "./f-orden-14.js";
-import "./g-orden-igualdad.js";
-import "./h-precedencia.js";
-import "./i-expresiones.js";
-import "./j-resumen-14.js";
+import "./a16-enteros.js";
+import "./b16-recta.js";
+import "./c16-ops-num.js";
+import "./d16-asignacion.js";
+import "./e16-incr-y-decr.js";
+import "./f16-igualdad.js";
+import "./g16-orden.js";
+import "./h16-orden-igualdad.js";
+import "./i16-precedencia.js";
+import "./j16-expresiones.js";
+import "./k16-resumen.js";
 import "./mas-numeros-index.js";
 
 export class MasNumerosPrint extends Diapositiva {
@@ -20,34 +21,37 @@ export class MasNumerosPrint extends Diapositiva {
      <mas-numeros-index></mas-numeros-index>
     </section>
     <section>
-     <a-recta></a-recta>
+     <a16-enteros></a16-enteros>
     </section>
     <section>
-     <b-ops-num></b-ops-num>
+     <b16-recta></b16-recta>
     </section>
     <section>
-     <c-asignacion></c-asignacion>
+     <c16-ops-num></c16-ops-num>
     </section>
     <section>
-     <d-incr-y-decr></d-incr-y-decr>
+     <d16-asignacion></d16-asignacion>
     </section>
     <section>
-     <e-igualdad></e-igualdad>
+     <e16-incr-y-decr></e16-incr-y-decr>
     </section>
     <section>
-     <f-orden-14></f-orden-14>
+     <f16-igualdad></f16-igualdad>
     </section>
     <section>
-     <g-orden-igualdad></g-orden-igualdad>
+     <g16-orden></g16-orden>
     </section>
     <section>
-     <h-precedencia></h-precedencia>
+     <h16-orden-igualdad></h16-orden-igualdad>
     </section>
     <section>
-     <i-expresiones></i-expresiones>
+     <i16-precedencia></i16-precedencia>
     </section>
     <section>
-     <j-resumen-14></j-resumen-14>
+     <j16-expresiones></j16-expresiones>
+    </section>
+    <section>
+     <k16-resumen></k16-resumen>
     </section>`;
  }
 }

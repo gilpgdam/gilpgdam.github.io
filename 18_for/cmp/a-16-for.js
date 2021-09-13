@@ -10,15 +10,6 @@ export class For extends Diapositiva {
     <ul>
      <li>
       <p>
-       La siguiente figura representa el comportamiento de la estructura de
-       control <code class="language-kotlin">for</code>:
-      </p>
-      <figure>
-       <img src="/16_for/img/for.svg" alt="for" style="max-width: 350px;">
-      </figure>
-     </li>
-     <li>
-      <p>
        La <dfn>estructura de control for</dfn> consta de la siguiente
        estructura:
       </p>

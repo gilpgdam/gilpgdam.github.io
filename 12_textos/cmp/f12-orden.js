@@ -52,61 +52,52 @@ export class F12Orden extends Diapositiva {
     </ul>
    </div>
    <muestra-codigo>
-    <div>
-     <div><span style="color: #800000;">&lt;script&gt;</span></div>
-     <div>&nbsp;<span style="color: #0000ff;">debugger</span>;</div>
-     <div>&nbsp;<span
-        style="color: #008000;">//&nbsp;Menor&nbsp;que&nbsp;(&lt;)</span></div>
-     <div>&nbsp;<span style="color: #001080;">document</span>.<span
-        style="color: #795e26;">write</span>(<span
-        style="color: #a31515;">"0"</span>&nbsp;&lt;&nbsp;<span
-        style="color: #a31515;">"A"</span>);&nbsp;&nbsp;&nbsp;<span
-        style="color: #008000;">//T</span></div>
-     <div>&nbsp;<span style="color: #001080;">document</span>.<span
-        style="color: #795e26;">write</span>(<span
-        style="color: #a31515;">"A"</span>&nbsp;&lt;&nbsp;<span
-        style="color: #a31515;">"a"</span>);&nbsp;&nbsp;&nbsp;<span
-        style="color: #008000;">//T</span></div>
-     <div>&nbsp;<span style="color: #001080;">document</span>.<span
-        style="color: #795e26;">write</span>(<span
-        style="color: #a31515;">"a"</span>&nbsp;&lt;&nbsp;<span
-        style="color: #a31515;">"b"</span>);&nbsp;&nbsp;&nbsp;<span
-        style="color: #008000;">//T</span></div>
-     <div>&nbsp;<span style="color: #001080;">document</span>.<span
-        style="color: #795e26;">write</span>(<span
-        style="color: #a31515;">"ah"</span>&nbsp;&lt;&nbsp;<span
-        style="color: #a31515;">"aa"</span>);&nbsp;<span
-        style="color: #008000;">//F</span></div>
-     <div>&nbsp;<span style="color: #001080;">document</span>.<span
-        style="color: #795e26;">write</span>(<span
-        style="color: #a31515;">"ah"</span>&nbsp;&lt;&nbsp;<span
-        style="color: #a31515;">"ah"</span>);&nbsp;<span
-        style="color: #008000;">//F</span></div>
-     <div>&nbsp;<span style="color: #001080;">document</span>.<span
-        style="color: #795e26;">write</span>(<span
-        style="color: #a31515;">"ah"</span>&nbsp;&lt;&nbsp;<span
-        style="color: #a31515;">"ai"</span>);&nbsp;<span
-        style="color: #008000;">//T</span></div>
-     <div>&nbsp;<span
-        style="color: #008000;">//&nbsp;Mayor&nbsp;que&nbsp;(&gt;)</span></div>
-     <div>&nbsp;<span style="color: #001080;">document</span>.<span
-        style="color: #795e26;">write</span>(<span
-        style="color: #a31515;">"ah"</span>&nbsp;&gt;&nbsp;<span
-        style="color: #a31515;">"aa"</span>);&nbsp;<span
-        style="color: #008000;">//T</span></div>
-     <div>&nbsp;<span style="color: #001080;">document</span>.<span
-        style="color: #795e26;">write</span>(<span
-        style="color: #a31515;">"ah"</span>&nbsp;&gt;&nbsp;<span
-        style="color: #a31515;">"ah"</span>);&nbsp;<span
-        style="color: #008000;">//F</span></div>
-     <div>&nbsp;<span style="color: #001080;">document</span>.<span
-        style="color: #795e26;">write</span>(<span
-        style="color: #a31515;">"ah"</span>&nbsp;&gt;&nbsp;<span
-        style="color: #a31515;">"ai"</span>);&nbsp;<span
-        style="color: #008000;">//F</span></div>
-     <div><span style="color: #800000;">&lt;/script&gt;</span></div>
-    </div>
-   </muestra-codigo>`;
+   <div>
+   <div><span style="color: #0000ff;">fun</span>&nbsp;<span
+      style="color: #795e26;">main</span>()&nbsp;{</div>
+   <div>&nbsp;<span
+      style="color: #008000;">//&nbsp;Menor&nbsp;que&nbsp;(&lt;)</span></div>
+   <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+      style="color: #a31515;">"0"</span>&nbsp;&lt;&nbsp;<span
+      style="color: #a31515;">"A"</span>);&nbsp;&nbsp;&nbsp;<span
+      style="color: #008000;">//T</span></div>
+   <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+      style="color: #a31515;">"A"</span>&nbsp;&lt;&nbsp;<span
+      style="color: #a31515;">"a"</span>);&nbsp;&nbsp;&nbsp;<span
+      style="color: #008000;">//T</span></div>
+   <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+      style="color: #a31515;">"a"</span>&nbsp;&lt;&nbsp;<span
+      style="color: #a31515;">"b"</span>);&nbsp;&nbsp;&nbsp;<span
+      style="color: #008000;">//T</span></div>
+   <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+      style="color: #a31515;">"ah"</span>&nbsp;&lt;&nbsp;<span
+      style="color: #a31515;">"aa"</span>);&nbsp;<span
+      style="color: #008000;">//F</span></div>
+   <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+      style="color: #a31515;">"ah"</span>&nbsp;&lt;&nbsp;<span
+      style="color: #a31515;">"ah"</span>);&nbsp;<span
+      style="color: #008000;">//F</span></div>
+   <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+      style="color: #a31515;">"ah"</span>&nbsp;&lt;&nbsp;<span
+      style="color: #a31515;">"ai"</span>);&nbsp;<span
+      style="color: #008000;">//T</span></div>
+   <div>&nbsp;<span
+      style="color: #008000;">//&nbsp;Mayor&nbsp;que&nbsp;(&gt;)</span></div>
+   <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+      style="color: #a31515;">"ah"</span>&nbsp;&gt;&nbsp;<span
+      style="color: #a31515;">"aa"</span>);&nbsp;<span
+      style="color: #008000;">//T</span></div>
+   <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+      style="color: #a31515;">"ah"</span>&nbsp;&gt;&nbsp;<span
+      style="color: #a31515;">"ah"</span>);&nbsp;<span
+      style="color: #008000;">//F</span></div>
+   <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+      style="color: #a31515;">"ah"</span>&nbsp;&gt;&nbsp;<span
+      style="color: #a31515;">"ai"</span>);&nbsp;<span
+      style="color: #008000;">//F</span></div>
+   <div>}</div>
+  </div>
+    </muestra-codigo>`;
  }
 }
 

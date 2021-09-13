@@ -19,7 +19,11 @@ export class Resumen extends Diapositiva {
          <p><code class="language-kotlin">!</code></p>
        </li>
        <li>
-         <p><code class="language-kotlin">?:</code></p>
+        <p>
+         Condicional múltiple con
+         <code class="language-kotlin">else</code>
+         como operador lógico.
+        </p>
        </li>
      </ul>
    </div>`;

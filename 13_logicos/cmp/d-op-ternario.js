@@ -6,42 +6,37 @@ export class OpTernario extends Diapositiva {
  connectedCallback() {
   super.connectedCallback();
   this.innerHTML = /* html */
-   `<h1>D. Operador lógico ternario</h1>
+   `<h1>
+     D. Condicional múltiple con <strong>else</strong> como operador lógico
+    </h1>
    <div class="lectura">
     <p>
-     <code class="language-kotlin">x ? y : z</code></dt>
-     es el operador ternario.
-    </p>
-    <p>
-     Si
-     <code class="language-kotlin">x</code>
-     se evalúa a
-     <code class="language-kotlin">true</code>,
-     el resultado es
-     <code class="language-kotlin">y</code>;
-     de lo contrario, el resultado es
-     <code class="language-kotlin">z</code>.
+     Toma el valor de la expresión asociada a la condición que resulte verdadera
+     de acuerdo a las reglas de la condicional múltiple con
+     <code class="language-kotlin">else</code>.
     </p>
    </div>
    <muestra-codigo>
-    <div>
-     <div><span style="color: #800000;">&lt;script&gt;</span></div>
-     <div>&nbsp;<span style="color: #0000ff;">debugger</span>;</div>
-     <div>&nbsp;<span style="color: #001080;">document</span>.<span
-        style="color: #795e26;">write</span>(<span
-        style="color: #0000ff;">true</span>&nbsp;?&nbsp;<span
-        style="color: #098658;">3</span>&nbsp;:&nbsp;<span
-        style="color: #098658;">8</span>);&nbsp;<span
-        style="color: #008000;">//3</span></div>
-     <div>&nbsp;<span style="color: #001080;">document</span>.<span
-        style="color: #795e26;">write</span>(<span
-        style="color: #0000ff;">false</span>&nbsp;?&nbsp;<span
-        style="color: #098658;">3</span>&nbsp;:&nbsp;<span
-        style="color: #098658;">8</span>);<span
-        style="color: #008000;">//8</span></div>
-     <div><span style="color: #800000;">&lt;/script&gt;</span></div>
-    </div>
-   </muestra-codigo>`;
+   <div>
+   <div><span style="color: #0000ff;">fun</span>&nbsp;<span
+      style="color: #795e26;">main</span>()&nbsp;{&nbsp;</div>
+   <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+      style="color: #af00db;">if</span>&nbsp;(<span
+      style="color: #0000ff;">true</span>)&nbsp;<span
+      style="color: #098658;">3</span>&nbsp;<span
+      style="color: #af00db;">else</span>&nbsp;<span
+      style="color: #098658;">8</span>);&nbsp;<span
+      style="color: #008000;">//3</span></div>
+   <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+      style="color: #af00db;">if</span>&nbsp;(<span
+      style="color: #0000ff;">false</span>)&nbsp;<span
+      style="color: #098658;">3</span>&nbsp;<span
+      style="color: #af00db;">else</span>&nbsp;<span
+      style="color: #098658;">8</span>);<span style="color: #008000;">//8</span>
+   </div>
+   <div>}</div>
+  </div>
+    </muestra-codigo>`;
  }
 }
 

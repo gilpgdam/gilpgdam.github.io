@@ -1,11 +1,12 @@
 import { Diapositiva } from "../../lib/Diapositiva.js";
-import "./a-number.js";
-import "./b-concatenacion.js";
-import "./c-asignacion-10.js";
-import "./d-plantillas.js";
-import "./e-orden-10.js";
-import "./f-orden-igualdad.js";
-import "./g-resumen-10.js";
+import "./a12-enteros.js";
+import "./b12-flotantes.js";
+import "./c12-concatenacion.js";
+import "./d12-asignacion.js";
+import "./e12-plantillas.js";
+import "./f12-orden.js";
+import "./g12-orden-igualdad.js";
+import "./h12-resumen.js";
 import "./textos-index.js";
 
 export class TextosPrint extends Diapositiva {
@@ -17,25 +18,28 @@ export class TextosPrint extends Diapositiva {
      <textos-index></textos-index>
     </section>
     <section>
-     <a-number></a-number>
+     <a12-enteros></a12-enteros>
     </section>
     <section>
-     <b-concatenacion></b-concatenacion>
+     <b12-flotantes></b12-flotantes>
     </section>
     <section>
-     <c-asignacion-10></c-asignacion-10>
+     <c12-concatenacion></c12-concatenacion>
     </section>
     <section>
-     <d-plantillas></d-plantillas>
+     <d12-asignacion></d12-asignacion>
     </section>
     <section>
-     <e-orden-10></e-orden-10>
+     <e12-plantillas></e12-plantillas>
     </section>
     <section>
-     <f-orden-igualdad></f-orden-igualdad>
+     <f12-orden></f12-orden>
     </section>
     <section>
-     <g-resumen-10></g-resumen-10>
+     <g12-orden-igualdad></g12-orden-igualdad>
+    </section>
+    <section>
+     <h12-resumen></h12-resumen>
     </section>`;
  }
 }

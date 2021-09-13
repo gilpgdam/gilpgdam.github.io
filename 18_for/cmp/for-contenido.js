@@ -8,17 +8,10 @@ export class ForContenido extends Diapositiva {
    `<ol type="A">
     <li>
      <p>
-      <a href="/16_for/a_for.html">La estructura de control
-       <strong>for</strong></a>
-     </p>
-    </li>
-    <li>
-     <p>
-       <a href="/16_for/b_pres_for.html">Prueba de escritorio con
+       <a href="/18_for/b_pres_for.html">Prueba de escritorio con
          <strong>for</strong></a>
      </p>
     </li>
-    <li><p><a href="/16_for/c_resumen.html">Resumen</a></p></li>
    </ol>`;
  }
 }

@@ -26,32 +26,28 @@ export class OpY extends Diapositiva {
     </p>
    </div>
    <muestra-codigo>
-    <div>
-     <div><span style="color: #800000;">&lt;script&gt;</span></div>
-     <div>&nbsp;<span style="color: #0000ff;">debugger</span>;</div>
-     <div>&nbsp;<span style="color: #001080;">document</span>.</div>
-     <div>&nbsp;&nbsp;<span style="color: #795e26;">write</span>(<span
-        style="color: #0000ff;">false</span>&nbsp;&amp;&amp;&nbsp;<span
-        style="color: #0000ff;">true</span>);&nbsp;<span
-        style="color: #008000;">//F</span></div>
-     <div>&nbsp;<span style="color: #001080;">document</span>.</div>
-     <div>&nbsp;&nbsp;<span style="color: #795e26;">write</span>(<span
-        style="color: #0000ff;">false</span>&nbsp;&amp;&amp;&nbsp;<span
-        style="color: #0000ff;">false</span>);<span
-        style="color: #008000;">//F</span></div>
-     <div>&nbsp;<span style="color: #001080;">document</span>.</div>
-     <div>&nbsp;&nbsp;<span style="color: #795e26;">write</span>(<span
-        style="color: #0000ff;">true</span>&nbsp;&amp;&amp;&nbsp;<span
-        style="color: #0000ff;">true</span>);&nbsp;&nbsp;<span
-        style="color: #008000;">//T</span></div>
-     <div>&nbsp;<span style="color: #001080;">document</span>.</div>
-     <div>&nbsp;&nbsp;<span style="color: #795e26;">write</span>(<span
-        style="color: #0000ff;">true</span>&nbsp;&amp;&amp;&nbsp;<span
-        style="color: #0000ff;">false</span>);&nbsp;<span
-        style="color: #008000;">//F</span></div>
-     <div><span style="color: #800000;">&lt;/script&gt;</span></div>
-    </div>
-   </muestra-codigo>`;
+   <div>
+   <div><span style="color: #0000ff;">fun</span>&nbsp;<span
+      style="color: #795e26;">main</span>()&nbsp;{&nbsp;</div>
+   <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+      style="color: #0000ff;">false</span>&nbsp;&amp;&amp;&nbsp;<span
+      style="color: #0000ff;">true</span>);&nbsp;<span
+      style="color: #008000;">//F</span></div>
+   <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+      style="color: #0000ff;">false</span>&nbsp;&amp;&amp;&nbsp;<span
+      style="color: #0000ff;">false</span>);<span
+      style="color: #008000;">//F</span></div>
+   <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+      style="color: #0000ff;">true</span>&nbsp;&amp;&amp;&nbsp;<span
+      style="color: #0000ff;">true</span>);&nbsp;&nbsp;<span
+      style="color: #008000;">//T</span></div>
+   <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+      style="color: #0000ff;">true</span>&nbsp;&amp;&amp;&nbsp;<span
+      style="color: #0000ff;">false</span>);&nbsp;<span
+      style="color: #008000;">//F</span></div>
+   <div>}</div>
+  </div>
+    </muestra-codigo>`;
  }
 }
 

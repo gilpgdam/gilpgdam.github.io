@@ -15,7 +15,7 @@ export class Cero extends Diapositiva {
       </p>
       <figure>
        <img alt="Imagen de un ábaco"
-        src="/13_numeros/img/pexels-yan-krukov-8613095.jpg">
+        src="/15_numeros/img/pexels-yan-krukov-8613095.jpg">
        <figcaption>
         Foto de Yan Krukov en <a target="_blank" href="https://www.pexels.com">Pexels</a>
        </figcaption>
@@ -34,7 +34,7 @@ export class Cero extends Diapositiva {
       </p>
       <figure>
        <img alt="La india en un mapa"
-         src="/13_numeros/img/480px-India_(orthographic_projection).svg.png">
+         src="/15_numeros/img/480px-India_(orthographic_projection).svg.png">
        <figcaption>
         De <a target="_blank" href="//commons.wikimedia.org/wiki/User:Ssolbergj"
         title="User:Ssolbergj">Ssolbergj</a> (<a target="_blank"

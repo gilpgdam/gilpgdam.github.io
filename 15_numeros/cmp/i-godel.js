@@ -32,7 +32,7 @@ export class Godel extends Diapositiva {
       </dl>
       <figure>
        <img alt="Foto de Kurt Gödel"
-         src="/13_numeros/img/571px-Kurt-godel1.jpg">
+         src="/15_numeros/img/571px-Kurt-godel1.jpg">
        <figcaption>
         De <a target="_blank"
           href="//commons.wikimedia.org/w/index.php?title=User:Kedumuc10&amp;amp;action=edit&amp;amp;redlink=1"

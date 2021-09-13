@@ -1,10 +1,10 @@
 fun main() {
  // Menor o igual que (<=)
- document.write("ah" <= "aa"); //F
- document.write("ah" <= "ah"); //T
- document.write("ah" <= "ai"); //T
+ println("ah" <= "aa"); //F
+ println("ah" <= "ah"); //T
+ println("ah" <= "ai"); //T
  // Mayor o igual que (>=)
- document.write("ah" >= "aa"); //T
- document.write("ah" >= "ah"); //T
- document.write("ah" >= "ai"); //F
+ println("ah" >= "aa"); //T
+ println("ah" >= "ah"); //T
+ println("ah" >= "ai"); //F
 }

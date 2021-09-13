@@ -62,17 +62,17 @@ export class Naturales extends Diapositiva {
        hasta 60. Por eso su sistema numérico es de base 60.
       </p>
       <pre>I I I I
- I I I I
- I I I I  /
-         /
+I I I I
+I I I I  /
         /
-      </pre>
+       /
+     </pre>
      </li>
      <li>
       <p>Con el tiempo se prefirió el uso de ábacos.</p>
       <figure>
        <img alt="Imagen de un ábaco"
-        src="/13_numeros/img/pexels-tara-winstead-6692937.jpg">
+        src="/15_numeros/img/pexels-tara-winstead-6692937.jpg">
        <figcaption>
         Foto de Tara Winstead en <a href="https://www.pexels.com">Pexels</a>
        </figcaption>

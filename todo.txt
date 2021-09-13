@@ -2,6 +2,9 @@
    funciona y otro para copiar el valor de otra variable.
 2. En los resúmenes, cambiar las explicaciones textuales por diagramas de las
    estructuras de control.
+3. En los ejercicios de while se puede poner la salida.
+4. Hacer video de como funciona cada una de las estructuras de control y el
+   orden de ejecución.
 Comando para generar el listado:
 Get-ChildItem -path . -Recurse | Select Directory,Name | Out-File archivos.txt
 

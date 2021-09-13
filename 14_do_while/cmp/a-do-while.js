@@ -14,7 +14,7 @@ export class DoWhile extends Diapositiva {
        control <code class="language-kotlin">do-while</code>:
       </p>
       <figure>
-       <img src="/12_do_while/img/do-while.svg" alt="do-while"
+       <img src="/14_do_while/img/do-while.svg" alt="do-while"
         style="max-width: 350px;">
       </figure>
      </li>

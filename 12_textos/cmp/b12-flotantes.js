@@ -10,18 +10,17 @@ export class B12Flotantes extends Diapositiva {
     <ul>
     <li>
      <p>
-       Como la cantidad de números reales definidos por las matemáticas es
+       La cantidad de números reales definidos por las matemáticas es
        infinita en muchos sentidos y no se puede implementar en una
-       computadora. La cantidad números es infinita porque no tiene límite
-       para los números positivos y negativos, pero además entre 2 números
+       computadora. Por un lado, la cantidad números es infinita porque no tiene
+       límite para los números positivos y negativos; pero además entre 2 números
        hay una cantidad infinita de números.
      </p>
      </li>
      <li>
       <p>
        Para poder usar algo parecido a los números reales, necesitamos un
-       modelo que sea totalmente finito en cuanto a la cantidad total de
-       números y la cantidad de números entre 2 números.
+       modelo que sea totalmente finito.
      </p>
      </li>
      <li>
@@ -85,21 +84,11 @@ export class B12Flotantes extends Diapositiva {
        (la raíz cuadrada de -1.0).
      </p>
      </li>
-     <li>
-      <p>
-       Hay distintos tipos de enteros. La diferencia es cuantos números pueden representar
-       y el número de bytes que utilizan.
-     </p>
      </li>
      <li>
       <p>
-       Hay distintos tipos de números de punto flotante. La diferencia es cuantos números
+       Hay distintos tipos de números de punto flotante; la diferencia es cuántos números
        pueden representar y el número de bytes que utilizan.
-     </p>
-     </li>
-     <li>
-      <p>
-       El tipo Float es más pequeño y el tipo Double es el más grande.
      </p>
      </li>
      </ul>
