@@ -39,7 +39,7 @@ export class BSw extends Diapositiva {
       </p>
      </dd>
      <dt>
-      <a href="https://nodejs.org/" target="_blank">JavaJDK</a>
+      <a href="https://openjdk.java.net/" target="_blank">OpenJDK</a>
      </dt>
      <!-- <dd>
            <p>
