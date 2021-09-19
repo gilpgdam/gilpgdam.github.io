@@ -1,9 +1,9 @@
-<script>
- debugger;
- document.write("m1<br>");
- fn(3, -2);
- function fn(a, b) {
-  document.write(a + b, "<br>");
- }
- document.write("3<br>");
-</script>
+fun main() {
+ println("m1")
+ fn(3, -2)
+ println("3")
+}
+
+fun fn(a: Int, b: Int) {
+ println(a + b)
+}

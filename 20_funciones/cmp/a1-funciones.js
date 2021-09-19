@@ -41,86 +41,75 @@ export class A1Funciones extends Diapositiva {
       punto de invocación y se continúa con la siguiente instrucción.
      </p>
     </li>
-    <li>
-     <p>
-      En JavaScript, las variables declarades en el mismo espacio que una
-      función, se pueden usar dentro de la función.
-     </p>
-    </li>
    </ul>
    <h2>Ejemplo</h2>
   </div>
   <div class="horizontal">
-   <div>
-    <h2>Salida</h2>
-    <iframe src="/1_funciones/src/1_funciones.html"></iframe>
-    <p class="noPrint">
-     <a target="_blank" href="/1_funciones/src/1_funciones.html">Ábrelo en otra
-      pestaña.</a>
-    </p>
-    <p class="noPrint">
-     <a target="_blank"
-       href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20let%20nombre%20%3D%20%22pp%22%3B%0A%20saluda()%3B%20%2F%2F%20invoca%20a%20saluda.%0A%20%2F*%20Al%20terminar%20la%20primera%0A%20%20*%20invocaci%C3%B3n%20contin%C3%BAa%20aqu%C3%AD.%20*%2F%0A%20nombre%20%3D%20%22qk%22%3B%0A%20saluda()%3B%20%2F%2F%20invoca%20a%20saluda.%0A%20%2F*%20Al%20terminar%20la%20segunda%0A%20%20*%20invocaci%C3%B3n%20contin%C3%BAa%20aqu%C3%AD.%20*%2F%0A%20document.write(%22adios%22)%3B%0A%20%2F*%20Declaraci%C3%B3n%20de%20function%20saluda.%0A%20%20*%20Primero%20va%20la%20palabra%20function.%0A%20%20*%20Sigue%20el%20nombre.%0A%20%20*%20Siguen%20los%20par%C3%A9ntesis.%0A%20%20*%20Finalmente%2C%20entre%20llaves%20(%7B%7D)%0A%20%20*%20van%20las%20instrucciones.%20*%2F%0A%20function%20saluda()%20%7B%0A%20%20document.write(nombre%2C%20%22%3Cbr%3E%22)%3B%0A%20%7D%0A%3C%2Fscript%3E">
-      Revísalo en gilpgedit.
-     </a>
-    </p>
-   </div>
-   <muestra-codigo>
-   <div>
-   <div><span style="color: #800000;">&lt;script&gt;</span></div>
-   <div>&nbsp;<span style="color: #0000ff;">debugger</span>;</div>
-   <div>&nbsp;<span style="color: #0000ff;">let</span>&nbsp;<span
-      style="color: #001080;">nombre</span>&nbsp;=&nbsp;<span
-      style="color: #a31515;">"pp"</span>;</div>
-   <div>&nbsp;<span style="color: #795e26;">saluda</span>();&nbsp;<span
-      style="color: #008000;">//&nbsp;invoca&nbsp;a&nbsp;saluda.</span></div>
-   <div>&nbsp;<span
-      style="color: #008000;">/*&nbsp;Al&nbsp;terminar&nbsp;la&nbsp;primera</span>
-   </div>
-   <div><span
-      style="color: #008000;">&nbsp;&nbsp;*&nbsp;invocación&nbsp;continúa&nbsp;aquí.&nbsp;*/</span>
-   </div>
-   <div>&nbsp;<span style="color: #001080;">nombre</span>&nbsp;=&nbsp;<span
-      style="color: #a31515;">"qk"</span>;</div>
-   <div>&nbsp;<span style="color: #795e26;">saluda</span>();&nbsp;<span
-      style="color: #008000;">//&nbsp;invoca&nbsp;a&nbsp;saluda.</span></div>
-   <div>&nbsp;<span
-      style="color: #008000;">/*&nbsp;Al&nbsp;terminar&nbsp;la&nbsp;segunda</span>
-   </div>
-   <div><span
-      style="color: #008000;">&nbsp;&nbsp;*&nbsp;invocación&nbsp;continúa&nbsp;aquí.&nbsp;*/</span>
-   </div>
-   <div>&nbsp;<span style="color: #001080;">document</span>.<span
-      style="color: #795e26;">write</span>(<span
-      style="color: #a31515;">"adios"</span>);</div>
-   <div>&nbsp;<span
-      style="color: #008000;">/*&nbsp;Declaración&nbsp;de&nbsp;function&nbsp;saluda.</span>
-   </div>
-   <div><span
-      style="color: #008000;">&nbsp;&nbsp;*&nbsp;Primero&nbsp;va&nbsp;la&nbsp;palabra&nbsp;function.</span>
-   </div>
-   <div><span
-      style="color: #008000;">&nbsp;&nbsp;*&nbsp;Sigue&nbsp;el&nbsp;nombre.</span>
-   </div>
-   <div><span
-      style="color: #008000;">&nbsp;&nbsp;*&nbsp;Siguen&nbsp;los&nbsp;paréntesis.</span>
-   </div>
-   <div><span
-      style="color: #008000;">&nbsp;&nbsp;*&nbsp;Finalmente,&nbsp;entre&nbsp;llaves&nbsp;({})</span>
-   </div>
-   <div><span
-      style="color: #008000;">&nbsp;&nbsp;*&nbsp;van&nbsp;las&nbsp;instrucciones.&nbsp;*/</span>
-   </div>
-   <div>&nbsp;<span style="color: #0000ff;">function</span>&nbsp;<span
-      style="color: #795e26;">saluda</span>()&nbsp;{</div>
-   <div>&nbsp;&nbsp;<span style="color: #001080;">document</span>.<span
-      style="color: #795e26;">write</span>(<span
-      style="color: #001080;">nombre</span>,&nbsp;<span
-      style="color: #a31515;">"&lt;br&gt;"</span>);</div>
-   <div>&nbsp;}</div>
-   <div><span style="color: #800000;">&lt;/script&gt;</span></div>
-  </div>
-   </muestra-codigo>
+  <div>
+  <h2>Salida</h2>
+  <pre><samp>Main 1
+Hola
+Main 2
+Hola
+Adios</samp></pre>
+  <p class="noPrint">
+   <a target="_blank"
+   href="https://play.kotlinlang.org/#eyJ2ZXJzaW9uIjoiMS41LjMwIiwicGxhdGZvcm0iOiJqYXZhIiwiYXJncyI6IiIsIm5vbmVNYXJrZXJzIjp0cnVlLCJ0aGVtZSI6ImlkZWEiLCJjb2RlIjoiZnVuIG1haW4oKSB7XG4gcHJpbnRsbihcIk1haW4gMVwiKVxuIHNhbHVkYSgpIC8vIGludm9jYSBhIHNhbHVkYS5cbiAvKiBBbCB0ZXJtaW5hciBsYSBwcmltZXJhXG4gICogaW52b2NhY2nDs24gY29udGluw7phIGFxdcOtLiAqL1xuIHByaW50bG4oXCJNYWluIDJcIilcbiBzYWx1ZGEoKSAvLyBpbnZvY2EgYSBzYWx1ZGEuXG4gLyogQWwgdGVybWluYXIgbGEgc2VndW5kYVxuICAqIGludm9jYWNpw7NuIGNvbnRpbsO6YSBhcXXDrS4gKi9cbiBwcmludGxuKFwiQWRpb3NcIilcbn1cblxuLyogRGVjbGFyYWNpw7NuIGRlIGZ1bmN0aW9uIHNhbHVkYS5cbiAqIFByaW1lcm8gdmEgbGEgcGFsYWJyYSBmdW4uXG4gKiBTaWd1ZSBlbCBub21icmUgZGUgbGEgZnVuY2nDs24uXG4gKiBTaWd1ZW4gbG9zIHBhcsOpbnRlc2lzLlxuICogRmluYWxtZW50ZSwgZW50cmUgbGxhdmVzICh7fSlcbiAqIHZhbiBsYXMgaW5zdHJ1Y2Npb25lcy4gKi9cbmZ1biBzYWx1ZGEoKSB7XG4gcHJpbnRsbihcIkhvbGFcIilcbn0ifQ==">
+   Revísalo en Kotlin play.</a>
+  </p>
+ </div>
+<muestra-codigo>
+<div>
+<div><span style="color: #0000ff;">fun</span>&nbsp;<span
+   style="color: #795e26;">main</span>()&nbsp;{</div>
+<div>&nbsp;<span style="color: #795e26;">println</span>(<span
+   style="color: #a31515;">"Main&nbsp;1"</span>)</div>
+<div>&nbsp;saluda()&nbsp;<span
+   style="color: #008000;">//&nbsp;invoca&nbsp;a&nbsp;saluda.</span></div>
+<div>&nbsp;<span
+   style="color: #008000;">/*&nbsp;Al&nbsp;terminar&nbsp;la&nbsp;primera</span>
+</div>
+<div><span
+   style="color: #008000;">&nbsp;&nbsp;*&nbsp;invocación&nbsp;continúa&nbsp;aquí.&nbsp;*/</span>
+</div>
+<div>&nbsp;<span style="color: #795e26;">println</span>(<span
+   style="color: #a31515;">"Main&nbsp;2"</span>)</div>
+<div>&nbsp;saluda()&nbsp;<span
+   style="color: #008000;">//&nbsp;invoca&nbsp;a&nbsp;saluda.</span></div>
+<div>&nbsp;<span
+   style="color: #008000;">/*&nbsp;Al&nbsp;terminar&nbsp;la&nbsp;segunda</span>
+</div>
+<div><span
+   style="color: #008000;">&nbsp;&nbsp;*&nbsp;invocación&nbsp;continúa&nbsp;aquí.&nbsp;*/</span>
+</div>
+<div>&nbsp;<span style="color: #795e26;">println</span>(<span
+   style="color: #a31515;">"Adios"</span>)</div>
+<div>}</div><br>
+<div><span
+   style="color: #008000;">/*&nbsp;Declaración&nbsp;de&nbsp;function&nbsp;saluda.</span>
+</div>
+<div><span
+   style="color: #008000;">&nbsp;*&nbsp;Primero&nbsp;va&nbsp;la&nbsp;palabra&nbsp;fun.</span>
+</div>
+<div><span
+   style="color: #008000;">&nbsp;*&nbsp;Sigue&nbsp;el&nbsp;nombre&nbsp;de&nbsp;la&nbsp;función.</span>
+</div>
+<div><span
+   style="color: #008000;">&nbsp;*&nbsp;Siguen&nbsp;los&nbsp;paréntesis.</span>
+</div>
+<div><span
+   style="color: #008000;">&nbsp;*&nbsp;Finalmente,&nbsp;entre&nbsp;llaves&nbsp;({})</span>
+</div>
+<div><span
+   style="color: #008000;">&nbsp;*&nbsp;van&nbsp;las&nbsp;instrucciones.&nbsp;*/</span>
+</div>
+<div><span style="color: #0000ff;">fun</span>&nbsp;<span
+   style="color: #795e26;">saluda</span>()&nbsp;{</div>
+<div>&nbsp;<span style="color: #795e26;">println</span>(<span
+   style="color: #a31515;">"Hola"</span>)</div>
+<div>}</div>
+</div>
+ </muestra-codigo>
   </div>`;
  }
 }

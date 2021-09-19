@@ -1,16 +1,14 @@
-<script>
- debugger;
- const fx =
-  () => document.write("hola<br>")
- const fy =
-  (f) => document.write(f, "<br>")
- const fz = (a, b) => {
-  document.write(a + b, "<br>")
-  return (a * b)
+fun main() {
+ val fx = { println("hola") }
+ val fy =
+  { f: String -> println(f) }
+ val fz = { a: Int, b: Int ->
+  println(a + b)
+  a * b
  }
- const fw = g => g + 1
+ val fw = { g: Int -> g + 1 }
  fx()
- document.write(fz(4, -15), "<br>")
+ println(fz(4, -15))
  fy("mx")
- document.write(fw(3), "<br>")
-</script>
+ println(fw(3))
+}

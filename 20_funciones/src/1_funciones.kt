@@ -1,20 +1,21 @@
 fun main() {
- let nombre = "pp";
- saluda(); // invoca a saluda.
+ println("Main 1")
+ saluda() // invoca a saluda.
  /* Al terminar la primera
   * invocación continúa aquí. */
- nombre = "qk";
- saluda(); // invoca a saluda.
+ println("Main 2")
+ saluda() // invoca a saluda.
  /* Al terminar la segunda
   * invocación continúa aquí. */
- println("adios");
+ println("Adios")
 }
+
 /* Declaración de function saluda.
  * Primero va la palabra fun.
- * Sigue el nombre.
+ * Sigue el nombre de la función.
  * Siguen los paréntesis.
  * Finalmente, entre llaves ({})
  * van las instrucciones. */
 fun saluda() {
- println(nombre);
+ println("Hola")
 }

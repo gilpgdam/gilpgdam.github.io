@@ -1,9 +1,9 @@
-<script>
- debugger;
- function fn(a, b, c) {
-  document.write(a + b * c, "<br>");
- }
- const a = 3;
- fn(3 - 8, a, a * 2);
- document.write("ggg<br>");
-</script>
+fun fn(a: Int, b: Int, c: Int) {
+ println(a + b * c)
+}
+
+fun main() {
+ val a = 3
+ fn(3 - 8, a, a * 2)
+ println("ggg")
+}

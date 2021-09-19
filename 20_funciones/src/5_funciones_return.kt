@@ -1,11 +1,10 @@
-<script>
- debugger;
- const x = fna(8, 5);
- document.write(fna(4, 1), "<br>");
- document.write(x, "<br>");
- function fna(t, bc) {
-  document.
-   write(t + bc * 2, "<br>");
-  return (1 + t * 8);
- }
-</script>
+fun main() {
+ val x = fna(8, 5)
+ println(fna(4, 1))
+ println(x)
+}
+
+fun fna(t: Int, bc: Int): Int {
+ println(t + bc * 2)
+ return 1 + t * 8
+}

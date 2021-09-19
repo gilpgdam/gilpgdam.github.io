@@ -21,6 +21,7 @@ import "../16_mas_numeros/cmp/mas-numeros-contenido.js"
 import "../17_while/cmp/while-contenido.js"
 import "../18_for/cmp/for-contenido.js"
 import "../19_switch/cmp/switch-contenido.js"
+import "../20_funciones/cmp/funciones-contenido.js"
 
 export class MiNav extends HTMLElement {
  connectedCallback() {
@@ -212,6 +213,14 @@ export class MiNav extends HTMLElement {
           </h4>
          </summary>
           <switch-contenido></switch-contenido>
+        </details>
+       </li>
+       <li>
+        <details>
+         <summary>
+          <h4><a href="/20_funciones/index.html">Funciones</a></h4>
+         </summary>
+          <funciones-contenido></funciones-contenido>
         </details>
        </li>
       </ol>
