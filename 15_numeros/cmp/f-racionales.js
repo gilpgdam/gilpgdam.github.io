@@ -23,7 +23,7 @@ export class Racionales extends Diapositiva {
      </li>
      <li>
       <p>
-       Si repartimos 12 entre 3 dándole la misma cantidad a todos, cada uno le
+       Si repartimos 12 entre 3 dándole la misma cantidad a todos, a cada uno le
        tocan 4.
       </p>
      </li>
@@ -46,16 +46,16 @@ export class Racionales extends Diapositiva {
       <p>11 % 3 === 2.</p>
      </li>
      <li>
-      <p>Si a = ((b)(c)) + d, con 0 &lt; d &lt; c, a div c = b. Al resultado se
+      <p>Si a = ((b)(c)) + d, con 0 ≤ d &lt; c, a div c = b. Al resultado se
        le conoce como <dfn>división entera</dfn>.</p>
-      <p>Como 11 = ((3)(3)) + 2 y 0 &lt; 2 &lt; 3, 11 div 3 = 3.</p>
+      <p>Como 11 = ((3)(3)) + 2 y 0 ≤ 2 &lt; 3, 11 div 3 = 3.</p>
      </li>
      <li>
       <p>
-       Si a = ((b)(c)) + d, con 0 &lt; d &lt; c, a % c = d. Al resultado se le
+       Si a = ((b)(c)) + d, con 0 ≤ d &lt; c, a % c = d. Al resultado se le
        conoce como <dfn>módulo</dfn> o como <dfn>residuo</dfn>.
       </p>
-      <p>Como 11 = 3 * 3 + 2, y 0 &lt; 2 &lt; 3, 11 % 3 = 2 </p>
+      <p>Como 11 = 3 * 3 + 2, y 0 ≤ 2 &lt; 3, 11 % 3 = 2 </p>
      </li>
     </ul>
     <h2>División exacta</h2>
@@ -80,9 +80,8 @@ export class Racionales extends Diapositiva {
      </li>
      <li>
       <p>
-       2/3 se puede expresar con decimales, obteniendo 0.6666... con una cantidad
-       que nunca termina de 6, pero que siempre se repite. A la parte que se
-       repite se le llama periodo.
+       2/3 se puede expresar con decimales, obteniendo 0.6666... con el número 6
+       repitiéndose, sin parar. A la parte que se repite se le llama periodo.
       </p>
      </li>
      <li>
@@ -96,9 +95,9 @@ export class Racionales extends Diapositiva {
      </li>
      <li>
       <p>
-       Se pensaba que todos los números se podían expresar como fracciones o como
-       números periódicos. Hasta aquí todos eran felices 😁, pero hubo algo que
-       les rompió el corazón 😢.
+       Se pensaba que todos los números se podían expresar como fracciones o
+       como números periódicos. Hasta aquí todos eran felices 😁, pero hubo
+       algo que les rompió el corazón 😢.
       </p>
      </li>
     </ul>

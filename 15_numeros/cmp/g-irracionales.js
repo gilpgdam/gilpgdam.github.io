@@ -12,9 +12,9 @@ export class Irracionales extends Diapositiva {
      <li>
       <p>
        Algunos campesinos que necesitaban calcular el número de semillas que
-       necesitaban para sembrar sus campos, para simplificar su trabajo, dividian
-       el campo en triángulos, pues había fórmulas para calcular el área. A
-       partir de aquí se desarrolló la trigonometría.
+       necesitaban para sembrar sus campos. Para simplificar su trabajo,
+       dividian el campo en triángulos, pues había fórmulas para calcular el
+       área de un triángulo. A partir de aquí se desarrolló la trigonometría.
       </p>
       <figure>
        <img alt="Cálculo de área con triángulos"
@@ -35,11 +35,19 @@ export class Irracionales extends Diapositiva {
      </li>
      <li>
       <p>
-       Al estudiar los triángulos descubrieron un que en los triángulos la suma
-       de los cuadrados de cada cateto es igual al cuadrado de la hipotenusa.
-       Este resultado llega a nosotros por medio de la escuela pitagórica de hace
-       mucho, pero mucho tiempo, en lo que hoy es Grecia.
+       Al estudiar los triángulos descubrieron que en los triángulos
+       rectángulos, la suma de los cuadrados de cada cateto es igual al cuadrado
+       de la hipotenusa.
       </p>
+     </li>
+     <li>
+      <p>
+       Aunque este resultado se obtuvo en la antigua Babilonia (hoy Irak), llega
+       a nosotros por medio de la escuela pitagórica de hace mucho, pero mucho
+       tiempo, en lo que hoy es Grecia.
+      </p>
+     </li>
+     <li>
       <p>
        En el siguiente triángulo, a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>.
       </p>

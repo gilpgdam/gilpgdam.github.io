@@ -16,7 +16,7 @@ export class Naturales extends Diapositiva {
        Para saber en que grupo hay más elemento, se pueden coomparar entre sí.
        (Los matemáticos le dicen coordinar.)
       </p>
-      <p>🍓🍓🍓🍓🍓<br>🍓🍓🍓</p>
+      <p>🍓🍓🍓🍓🍓<br>👼👼👼</p>
      </li>
      <li>
       <p>También se pueden contar con los dedos</p>
@@ -108,7 +108,7 @@ I I I I  /
       <dl>
        <dt>Usando sucesores</dt>
        <dd>
-        <p>0, 0', 0'', 0'', 0''', ...</p>
+        <p>0, 0', 0'', 0''', 0'''', ...</p>
        </dd>
        <dt>Notación binaria</dt>
        <dd>
@@ -126,9 +126,8 @@ I I I I  /
      </li>
      <li>
       <p>
-       Todas las notaciones funcionan de forma parecida, pero cuando se usan de
-       forma práctica, cada una tiene características que la hacen diferente a
-       las otras.
+       Todas las notaciones funcionan de manera parecida, pero cuando se usan,
+       cada una tiene características que la hacen diferente a las otras.
       </p>
      </li>
     </ul>

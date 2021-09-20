@@ -65,7 +65,7 @@ export class Godel extends Diapositiva {
      <li>
       <p>
        Lo que se consiguió fué demostrar de muchas formas que los teoremas de
-       Gödel estaban bien; pero se pudo encontrar una salida: no usar conjuntos
+       Gödel estaban bien, pero se pudo encontrar una salida: no usar conjuntos
        infinitos como los números naturales, enteros, racionales o reales 😜.
       </p>
      </li>
@@ -80,7 +80,7 @@ export class Godel extends Diapositiva {
      </li>
      <li>
       <p>
-       Esto no quiere decir que las matemáticas no sirvan, pero les tienen unas
+       Esto no quiere decir que las matemáticas no sirvan, pero tienen unas
        sorpresitas para los que las quieran usar. Úselas bajo su riesgo.
       </p>
      </li>
