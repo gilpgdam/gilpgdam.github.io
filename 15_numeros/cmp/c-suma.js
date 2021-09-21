@@ -27,7 +27,7 @@ export class Suma extends Diapositiva {
     <h2>En matemáticas</h2>
     <ul>
      <li>
-      <p>a + 0 = a</p>
+      <p>0 + b = b</p>
      </li>
      <li>
       <p>a' + b = (a + b)'</p>

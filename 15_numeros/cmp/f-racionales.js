@@ -47,7 +47,7 @@ export class Racionales extends Diapositiva {
      </li>
      <li>
       <p>Si a = ((b)(c)) + d, con 0 ≤ d &lt; c, a div c = b. Al resultado se
-       le conoce como <dfn>división entera</dfn>.</p>
+       le conoce como <dfn>cociente</dfn> o <dfn>división entera</dfn>.</p>
       <p>Como 11 = ((3)(3)) + 2 y 0 ≤ 2 &lt; 3, 11 div 3 = 3.</p>
      </li>
      <li>

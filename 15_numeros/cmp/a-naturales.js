@@ -13,7 +13,7 @@ export class Naturales extends Diapositiva {
      </li>
      <li>
       <p>
-       Para saber en que grupo hay más elemento, se pueden coomparar entre sí.
+       Para saber en que grupo hay más elementos, se pueden comparar entre sí.
        (Los matemáticos le dicen coordinar.)
       </p>
       <p>🍓🍓🍓🍓🍓<br>👼👼👼</p>
@@ -103,7 +103,7 @@ I I I I  /
      <li>
       <p>
        Los números naturales (&naturals;) se pueden expresar en diferentes
-       sistemas de numeraación.
+       sistemas de numeración.
       </p>
       <dl>
        <dt>Usando sucesores</dt>
@@ -120,7 +120,7 @@ I I I I  /
        </dd>
        <dt>Notación hexadecimal</dt>
        <dd>
-        <p>0, 1, 2, 3, 4, ..., 9, A, B, ..., E, F, 10, 11, 1F, 20, ...</p>
+        <p>0, 1, 2, 3, 4, ..., 9, A, B, ..., E, F, 10, 11, ..., 1F, 20, ...</p>
        </dd>
       </dl>
      </li>
