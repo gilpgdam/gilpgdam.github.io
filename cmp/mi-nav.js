@@ -22,6 +22,8 @@ import "../17_while/cmp/while-contenido.js"
 import "../18_for/cmp/for-contenido.js"
 import "../19_switch/cmp/switch-contenido.js"
 import "../20_funciones/cmp/funciones-contenido.js"
+import "../21_clases/cmp/clases-contenido.js"
+import "../22_herencia/cmp/herencia-contenido.js"
 
 export class MiNav extends HTMLElement {
  connectedCallback() {
@@ -212,7 +214,7 @@ export class MiNav extends HTMLElement {
            <strong>when</strong></a>
           </h4>
          </summary>
-          <switch-contenido></switch-contenido>
+         <switch-contenido></switch-contenido>
         </details>
        </li>
        <li>
@@ -220,7 +222,23 @@ export class MiNav extends HTMLElement {
          <summary>
           <h4><a href="/20_funciones/index.html">Funciones</a></h4>
          </summary>
-          <funciones-contenido></funciones-contenido>
+         <funciones-contenido></funciones-contenido>
+        </details>
+       </li>
+       <li>
+        <details>
+         <summary>
+          <h4><a href="/21_clases/index.html">Clases</a></h4>
+         </summary>
+         <clases-contenido></clases-contenido>
+        </details>
+       </li>
+       <li>
+        <details>
+         <summary>
+          <h4><a href="/22_herencia/index.html">Herencia</a></h4>
+         </summary>
+         <herencia-contenido></herencia-contenido>
         </details>
        </li>
       </ol>
