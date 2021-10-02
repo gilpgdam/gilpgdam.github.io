@@ -7,7 +7,6 @@ export class FundamentosIndex extends Diapositiva {
   super.connectedCallback();
   this.innerHTML = /* html */
    `<div class="lectura">
-     <p>Lo más básico.</p>
      <h2>Contenido</h2>
      <fundamentos-contenido></fundamentos-contenido>
     </div>`;

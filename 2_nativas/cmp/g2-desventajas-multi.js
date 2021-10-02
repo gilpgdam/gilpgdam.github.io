@@ -6,17 +6,17 @@ export class G2DesventajasMulti extends Diapositiva {
   super.connectedCallback();
   this.innerHTML = /* html */
    `<h1>G. Desventajas de las app multiplataforma</h1>
-   <div class="marco-lectura">
+    <div class="lectura">
      <ul>
-       <li>
-         <p>Menor rendimiento.</p>
-       </li>
-       <li>
-         <p>Se integran menos con el sistem operativo.</p>
-       </li>
+      <li>
+       <p>Menor rendimiento.</p>
+      </li>
+      <li>
+       <p>Se integran menos con el sistem operativo.</p>
+      </li>
      </ul>
-   </div>`;
+    </div>`;
  }
 }
 
-customElements.define("g-2-desventajas-multi", G2DesventajasMulti);
+customElements.define("g2-desventajas-multi", G2DesventajasMulti);
