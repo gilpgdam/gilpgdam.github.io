@@ -40,8 +40,7 @@ export class MiNav extends HTMLElement {
         <details>
          <summary>
           <h4>
-           <a href="/1_arquitectura/index.html">Arquitectura de dispositivos
-            móviles</a>
+           <a href="/1_arquitectura/index.html">Arquitectura de dispositivos móviles</a>
           </h4>
          </summary>
          <arquitectura-contenido></arquitectura-contenido>
@@ -51,8 +50,7 @@ export class MiNav extends HTMLElement {
         <details>
          <summary>
           <h4>
-           <a href="/2_nativas/index.html">Aplicaciones nativas y
-            multiplataforma</a>
+           <a href="/2_nativas/index.html">Aplicaciones nativas y multiplataforma</a>
           </h4>
          </summary>
          <nativas-contenido></nativas-contenido>
@@ -104,8 +102,7 @@ export class MiNav extends HTMLElement {
         <details>
          <summary>
           <h4>
-           <a href="/8_if/index.html">La estructura de control
-            <strong>if</strong></a>
+           <a href="/8_if/index.html">La estructura de control <strong>if</strong></a>
           </h4>
          </summary>
          <if-contenido></if-contenido>
@@ -199,8 +196,7 @@ export class MiNav extends HTMLElement {
         <details>
          <summary>
           <h4>
-           <a href="/18_for/index.html">La estructura de control
-            <strong>for</strong></a>
+           <a href="/18_for/index.html">La estructura de control <strong>for</strong></a>
           </h4>
          </summary>
          <for-contenido></for-contenido>
