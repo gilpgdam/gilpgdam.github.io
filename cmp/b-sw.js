@@ -63,14 +63,22 @@ export class BSw extends Diapositiva {
        <a href="https://www.jetbrains.com/es-es/idea/download/"
          target="_blank">https://www.jetbrains.com/es-es/idea/download/</a>.
       </p>
-      <!--
       <p class="noPrint">
-       <a href="https://drive.google.com/file/d/1s_3a4dEOOhTWhhCFv8J5bEevktGSaS3n/view?usp=sharing"
+       <a href="https://drive.google.com/file/d/18Eb9ZZJ2mLJAjBn1ikUOfqPMg1_34UFi/view?usp=sharing"
          target="_blank">Video de Instalación.</a>
       </p>
-      -->
+      <p>
+       Luego de instalar y cerrar IntelliJ, ábrelo, crea y ejecuta un proyecto
+       de Kotlin para descargar actualizaciones y asegurarte que la herramienta
+       quedó bien instalada.
+      </p>
+      <p class="noPrint">
+       <a href="https://drive.google.com/file/d/1HhHNFbM23rAxNWFGl2KAQesZzUvZcTz7/view?usp=sharing"
+         target="_blank">Video sobre como crear un proyecto Kotlin y actualizar
+        software.</a>
+      </p>
      </dd>
-     <dt>
+   <dt>
       <a href="https://developer.android.com/studio" target="_blank">Android
        Studio</a>
      </dt>
