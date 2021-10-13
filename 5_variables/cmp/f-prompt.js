@@ -31,12 +31,37 @@ export class FPrompt extends Diapositiva {
    </div>
       </muestra-codigo>
     <div class="lectura noPrint">
-    <p class="noPrint">
-     <a target="_blank"
-       href="https://replit.com/@GilbertoPacheco/readlinekt?v=1">
-      Revísalo en Replit.
-     </a>
-    </p>
+     <h2>Ejecución en Replit</h2>
+     <ul>
+      <li>
+       <p>
+        <a href="https://drive.google.com/file/d/1ujeNp8TaHjqqRXl_TFT0omUGymmFWTLm/view?usp=sharing"
+          target="_blank">Usa o crea una cuenta de Google.</a>
+       </p>
+      </li>
+      <li>
+       <p>
+        <a href="https://drive.google.com/file/d/1dmifWNqm_gRmQuMEe67HqKBYzzDTwEHt/view?usp=sharing"
+          target="_blank">Crea una cuenta de Replit usando la cuenta de
+         Google.</a>
+       </p>
+      </li>
+      <li>
+       <p>
+        <a href="https://drive.google.com/file/d/1XzA_10rCfmwqD0-CUYU45rmVyGbvTgxY/view?usp=sharing"
+          target="_blank">Crea un proyecto <em>Kotlin</em> en Replit, edita los
+         archivos de este proyecto, pruébalo y crea su página de spotlight.</a>
+       </p>
+      </li>
+      <li>
+        <p>
+        <a target="_blank"
+          href="https://replit.com/@GilbertoPachec3/readline?v=1">
+         Revísalo en Replit.
+        </a>
+       </p>
+      </li>
+     </ul>
    </div>`;
  }
 }

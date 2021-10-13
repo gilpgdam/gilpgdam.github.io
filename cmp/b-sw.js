@@ -88,8 +88,58 @@ export class BSw extends Diapositiva {
        <a href="https://developer.android.com/studio"
          target="_blank">https://developer.android.com/studio</a>.
       </p>
+      <p>Debes seguir los siguientes pasos:</p>
+      <ul>
+       <li>
+        <p>
+         Descarga e instala Android Studio.
+         <a class="noPrint"
+           href="https://drive.google.com/file/d/1tnsSasU_pLtmeeFtlp7s8qu5VObJn-qQ/view?usp=sharing"
+           target="_blank" >Video de instalación.</a>
+        </p>
+       </li>
+       <li>
+        <p>
+         Luego de instalar y cerrar IntelliJ, ábrelo, crea y ejecuta un proyecto
+         de Android Studio para descargar actualizaciones y asegurarte que la
+         herramienta quedó bien instalada.
+         <a class="noPrint"
+           href="https://drive.google.com/file/d/1F0BmnjcnSNPxiFoiHMV-eNlFVMvel4Dk/view?usp=sharing"
+           target="_blank" >Video sobre como crear el proyecto.</a>
+        </p>
+       </li>
+       <li>
+        <p>
+         Crea un emulador de un teléfono o conecta un dispositivo real.
+         <a class="noPrint"
+           href="https://drive.google.com/file/d/1IuRdLgxPmCmHZyIgbL7R-jWO_Xqc4410/view?usp=sharing"
+           target="_blank" >Video sobre como crear el emulador.</a>
+        </p>
+       </li>
+       <li>
+        <p>
+         Ejecuta el proyecto sobre el emulador de teléfono o el dispositivo
+         real.
+         <a class="noPrint"
+           href="https://drive.google.com/file/d/1bczuHcSEFmlq_f4K8LpewkbzayPNbf9f/view?usp=sharing"
+           target="_blank" >Video sobre como ejecutar el proyecto.</a>
+        </p>
+       </li>
+      </ul>
       <p class="noPrint">
        <a href="https://developer.android.com/studio/install"
+         target="_blank">Video de Instalación.</a>
+      </p>
+     </dd>
+     <dt>Git</dt>
+     <dd>
+      <p>
+       Lo puedes descargar de
+       <a href="https://git-scm.com/"
+         target="_blank">https://git-scm.com/</a>.
+      </p>
+      <p class="noPrint">
+       <a href="https://drive.google.com/file/d/1smPX40xJLDcNfPneIBr6hzxfdRNIlP4T/view"
          target="_blank">Video de Instalación.</a>
       </p>
      </dd>

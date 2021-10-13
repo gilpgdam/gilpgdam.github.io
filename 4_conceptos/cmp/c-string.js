@@ -67,7 +67,7 @@ export class CString extends Diapositiva {
         Para agregar un emoji desde Windows solo tienes que presionar la tecla
         con el logotipo de Windows al mismo tiempo que el punto
         (<kbd>
-        <img style="vertical-align: middle;" src="/2_conceptos/img/winlogo.png"
+        <img style="vertical-align: middle;" src="/4_conceptos/img/winlogo.png"
           alt="Logotipo de Windows">+.
          </kbd>)
         y aparece un cuadro de diálogo que te permite seleccionar un emoji.
