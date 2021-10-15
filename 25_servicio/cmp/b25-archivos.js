@@ -1,13 +1,20 @@
 import { Diapositiva } from "../../lib/Diapositiva.js";
 import "../../lib/muestra-codigo.js";
 
-export class B24Archivos extends Diapositiva {
+export class B25Archivos extends Diapositiva {
  /** @override */
  connectedCallback() {
   super.connectedCallback();
   this.innerHTML = /* html */
    `<h1>B. Archivos</h1>
-    <div class="lectura">
+   <div class="lectura">
+    <h2>Servidor PHP</h2>
+    <ul>
+     <li>
+      <a href="/25_servicio/c_index.html">index.php</a>
+     </li>
+    </ul>
+    <h2>Proyecto Android</h2>
      <ul>
       <li>
        app
@@ -16,7 +23,7 @@ export class B24Archivos extends Diapositiva {
          manifest
          <ul>
           <li>
-           <a href="/24_formulario/f_AndroidManifest.html">
+           <a href="/25_servicio/g_AndroidManifest.html">
             AndroidManifest.xml
            </a>
           </li>
@@ -29,7 +36,7 @@ export class B24Archivos extends Diapositiva {
            io.github.gilpgdam
            <ul>
             <li>
-             <a href="/24_formulario/e_MainActivity.html">
+             <a href="/25_servicio/f_MainActivity.html">
               MainActivity.kt
              </a>
             </li>
@@ -50,7 +57,7 @@ export class B24Archivos extends Diapositiva {
            layout
            <ul>
             <li>
-             <a href="/24_formulario/d_activity_main.html">
+             <a href="/25_servicio/e_activity_main.html">
               activity_main.xml
              </a>
             </li>
@@ -68,7 +75,7 @@ export class B24Archivos extends Diapositiva {
            <ul>
             <li>colors.xml</li>
             <li>
-             <a href="/24_formulario/c_strings.html">
+             <a href="/25_servicio/d_strings.html">
               strings.xml
              </a>
             </li>
@@ -84,4 +91,4 @@ export class B24Archivos extends Diapositiva {
  }
 }
 
-customElements.define("b24-archivos", B24Archivos);
+customElements.define("b25-archivos", B25Archivos);

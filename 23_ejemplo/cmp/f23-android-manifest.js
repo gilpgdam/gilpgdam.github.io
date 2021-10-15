@@ -6,7 +6,7 @@ export class F23AndroidManifest extends Diapositiva {
  connectedCallback() {
   super.connectedCallback();
   this.innerHTML = /* html */
-   `<h1>E. app/manifest/AndroidManifest.xml</h1>
+   `<h1>F. app/manifest/AndroidManifest.xml</h1>
    <muestra-codigo>
    <div>
    <div><span style="color: #800000;">&lt;?xml</span><span

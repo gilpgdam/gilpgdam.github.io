@@ -6,7 +6,7 @@ export class D24ActivityMain extends Diapositiva {
  connectedCallback() {
   super.connectedCallback();
   this.innerHTML = /* html */
-   `<h1>C. app/res/layout/activity_main.xml</h1>
+   `<h1>D. app/res/layout/activity_main.xml</h1>
    <div class="horizontal">
    <figure>
    <img src="/24_formulario/img/dis.png" alt="Diseño de vista de Formulario">

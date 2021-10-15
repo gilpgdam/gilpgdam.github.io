@@ -1,17 +1,17 @@
 import { Diapositiva } from "../../lib/Diapositiva.js";
 import "../../lib/muestra-codigo.js";
 
-export class D23ActivityMain extends Diapositiva {
+export class E25ActivityMain extends Diapositiva {
  /** @override */
  connectedCallback() {
   super.connectedCallback();
   this.innerHTML = /* html */
-   `<h1>D. app/res/layout/activity_main.xml</h1>
+   `<h1>E. app/res/layout/activity_main.xml</h1>
    <div class="horizontal">
    <figure>
-   <img src="/23_ejemplo/img/dis.png" alt="Diseño de vista de Ejemplo">
+   <img src="/25_servicio/img/dis.png" alt="Diseño de vista de Formulario">
    <figcaption>
-    Diseño de vista de Ejemplo
+    Diseño de vista de Formulario
    </figcaption>
   </figure>
    <muestra-codigo>
@@ -40,6 +40,8 @@ export class D23ActivityMain extends Diapositiva {
       style="color: #0000ff;">".MainActivity"</span><span
       style="color: #800000;">&gt;</span></div><br>
    <div>&nbsp;<span style="color: #800000;">&lt;TextView</span></div>
+   <div>&nbsp; &nbsp;<span style="color: #ff0000;">android:id</span>=<span
+      style="color: #0000ff;">"@+id/mensaje"</span></div>
    <div>&nbsp; &nbsp;<span
       style="color: #ff0000;">android:layout_width</span>=<span
       style="color: #0000ff;">"wrap_content"</span></div>
@@ -47,7 +49,7 @@ export class D23ActivityMain extends Diapositiva {
       style="color: #ff0000;">android:layout_height</span>=<span
       style="color: #0000ff;">"wrap_content"</span></div>
    <div>&nbsp; &nbsp;<span style="color: #ff0000;">android:text</span>=<span
-      style="color: #0000ff;">"Hola mundo"</span></div>
+      style="color: #0000ff;">"@string/esperando"</span></div>
    <div>&nbsp; &nbsp;<span
       style="color: #ff0000;">app:layout_constraintBottom_toBottomOf</span>=<span
       style="color: #0000ff;">"parent"</span></div>
@@ -70,4 +72,4 @@ export class D23ActivityMain extends Diapositiva {
  }
 }
 
-customElements.define("d23-activity-main", D23ActivityMain);
+customElements.define("e25-activity-main", E25ActivityMain);

@@ -7,30 +7,29 @@ export class A24Instrucciones extends Diapositiva {
   super.connectedCallback();
   this.innerHTML = /* html */
    `<h1>A. Instrucciones</h1>
-    <div class="lectura">
+    <div class="horizontal">
      <figure>
       <img src="/24_formulario/img/vista.png" alt="Vista de Formulario">
-      <figcaption>
-       Vista de Formulario
-      </figcaption>
      </figure>
+     <figure>
+      <img src="/24_formulario/img/vista2.png" alt="Formulario con datos">
+     </figure>
+     <figure>
+      <img src="/24_formulario/img/vista3.png"
+        alt="Formulario muestra resultados">
+     </figure>
+    </div>
+    <div class="lectura">
      <ul>
       <li>
-       <p>
-        En esta lección se muestra como crear un proyecto de Android y
-        ejecutarlo.
-       </p>
+       <p>En esta lección se muestra como crear un formulario y ejecutarlo.</p>
       </li>
       <li>
        <p>
-        Son los miemos pasos que en las instrucciones para instalar Android
+        Son los mismos pasos que en las instrucciones para el ejemplo de Android
         Studio.
        </p>
       </li>
-      <li>
-       <p>
-        En el resto de la lección se muestran los archivos destacados.
-       </p>
       </li>
      </ul>
      <h2>Pasos a seguir</h2>
@@ -56,14 +55,13 @@ export class A24Instrucciones extends Diapositiva {
       </li>
       <li>
        <p>
-        Modifica el proyecto con el contenido de los archivos que se muestran en esta
-        lección.
+        Modifica el proyecto con el contenido de los archivos que se muestran en
+        esta lección.
        </p>
       </li>
       <li>
        <p>
-        Ejecuta el proyecto sobre el emulador de teléfono o el dispositivo
-        real.
+        Ejecuta el proyecto sobre el emulador de teléfono o el dispositivo real.
         <a class="noPrint"
           href="https://drive.google.com/file/d/1bczuHcSEFmlq_f4K8LpewkbzayPNbf9f/view?usp=sharing"
           target="_blank" >Video sobre como ejecutar el proyecto.</a>

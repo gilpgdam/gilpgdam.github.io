@@ -1,40 +1,40 @@
 import { Diapositiva } from "../../lib/Diapositiva.js";
 import "../../lib/muestra-codigo.js";
 
-export class A23Instrucciones extends Diapositiva {
+export class A25Instrucciones extends Diapositiva {
  /** @override */
  connectedCallback() {
   super.connectedCallback();
   this.innerHTML = /* html */
    `<h1>A. Instrucciones</h1>
-    <div class="lectura">
+    <div class="horizontal">
      <figure>
-      <img src="/23_ejemplo/img/vista.png" alt="Vista de Ejemplo">
-      <figcaption>
-       Vista de Ejemplo
-      </figcaption>
+      <img src="/25_servicio/img/vista.png" alt="Vista de Formulario">
      </figure>
+     <figure>
+      <img src="/25_servicio/img/vista2.png" alt="Formulario con datos">
+     </figure>
+    </div>
+    <div class="lectura">
      <ul>
       <li>
        <p>
-        En esta lección se muestra como crear un proyecto de Android y
-        ejecutarlo.
-       </p>
-      </li>
-      <li>
-       <p>
-        Son los mismos pasos que en las instrucciones para instalar Android
-        Studio.
-       </p>
-      </li>
-      <li>
-       <p>
-        En el resto de la lección se muestran los archivos destacados.
+        En esta lección se muestra como crear un proyecto de Android que accese
+        a un servicio en un servidor PHP y ejecutarlo.
        </p>
       </li>
      </ul>
      <h2>Pasos a seguir</h2>
      <ol>
+      <li>
+       <p>
+        Primero hay que crear un proyecto en un servidor PHP con el contenido de
+        <a href="/25_servicio/c_index.html">index.php</a>.
+        <a class="noPrint"
+          href="https://drive.google.com/file/d/1h57tbtuJL7jAmJyGQWZgODJJtxS9I463/view?usp=sharing"
+          target="_blank" >Video sobre como crear el proyecto PHP.</a>
+       </p>
+      </li>
       <li>
        <p>
         Crear un proyecto para phone & tablet de tipo Empty Activity.
@@ -56,6 +56,12 @@ export class A23Instrucciones extends Diapositiva {
       </li>
       <li>
        <p>
+        Modifica el proyecto con el contenido de los archivos que se muestran en esta
+        lección.
+       </p>
+      </li>
+      <li>
+       <p>
         Ejecuta el proyecto sobre el emulador de teléfono o el dispositivo
         real.
         <a class="noPrint"
@@ -68,4 +74,4 @@ export class A23Instrucciones extends Diapositiva {
  }
 }
 
-customElements.define("a23-instrucciones", A23Instrucciones);
+customElements.define("a25-instrucciones", A25Instrucciones);

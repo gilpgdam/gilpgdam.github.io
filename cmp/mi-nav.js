@@ -2,15 +2,6 @@
  * Atribución 4.0 Internacional License. To view a copy of this license, visit
  * http://creativecommons.org/licenses/by/4.0/. */
 
-import "../1_arquitectura/cmp/arquitectura-contenido.js"
-import "../2_nativas/cmp/nativas-contenido.js"
-import "../3_mvc/cmp/fundamentos-contenido.js"
-import "../4_conceptos/cmp/conceptos-contenido.js"
-import "../5_variables/cmp/variables-contenido.js"
-import "../6_comentarios/cmp/comentarios-contenido.js"
-import "../7_bloques/cmp/bloques-contenido.js"
-import "../8_if/cmp/if-contenido.js"
-import "../9_if_else/cmp/if-else-contenido.js"
 import "../10_multiple/cmp/multiple-contenido.js"
 import "../11_melse/cmp/multiple-else-contenido.js"
 import "../12_textos/cmp/textos-contenido.js"
@@ -21,11 +12,21 @@ import "../16_mas_numeros/cmp/mas-numeros-contenido.js"
 import "../17_while/cmp/while-contenido.js"
 import "../18_for/cmp/for-contenido.js"
 import "../19_switch/cmp/switch-contenido.js"
+import "../1_arquitectura/cmp/arquitectura-contenido.js"
 import "../20_funciones/cmp/funciones-contenido.js"
 import "../21_clases/cmp/clases-contenido.js"
 import "../22_herencia/cmp/herencia-contenido.js"
 import "../23_ejemplo/cmp/ejemplo-contenido.js"
 import "../24_formulario/cmp/formulario-contenido.js"
+import "../25_servicio/cmp/servicio-contenido.js"
+import "../2_nativas/cmp/nativas-contenido.js"
+import "../3_mvc/cmp/fundamentos-contenido.js"
+import "../4_conceptos/cmp/conceptos-contenido.js"
+import "../5_variables/cmp/variables-contenido.js"
+import "../6_comentarios/cmp/comentarios-contenido.js"
+import "../7_bloques/cmp/bloques-contenido.js"
+import "../8_if/cmp/if-contenido.js"
+import "../9_if_else/cmp/if-else-contenido.js"
 
 export class MiNav extends HTMLElement {
  connectedCallback() {
@@ -253,6 +254,14 @@ export class MiNav extends HTMLElement {
           <h4><a href="/24_formulario/index.html">Formulario</a></h4>
          </summary>
          <formulario-contenido></formulario-contenido>
+        </details>
+       </li>
+       <li>
+        <details>
+         <summary>
+          <h4><a href="/25_servicio/index.html">Servicio</a></h4>
+         </summary>
+         <servicio-contenido></servicio-contenido>
         </details>
        </li>
       </ol>

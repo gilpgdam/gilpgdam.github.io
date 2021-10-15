@@ -1,12 +1,12 @@
 import { Diapositiva } from "../../lib/Diapositiva.js";
 import "../../lib/muestra-codigo.js";
 
-export class F24AndroidManifest extends Diapositiva {
+export class G25AndroidManifest extends Diapositiva {
  /** @override */
  connectedCallback() {
   super.connectedCallback();
   this.innerHTML = /* html */
-   `<h1>F. app/manifest/AndroidManifest.xml</h1>
+   `<h1>G. app/manifest/AndroidManifest.xml</h1>
    <muestra-codigo>
    <div>
    <div><span style="color: #800000;">&lt;?xml</span><span
@@ -19,8 +19,12 @@ export class F24AndroidManifest extends Diapositiva {
       style="color: #0000ff;">"http://schemas.android.com/apk/res/android"</span>
    </div>
    <div>&nbsp; <span style="color: #ff0000;">package</span>=<span
-      style="color: #0000ff;">"io.github.gilpgdam.formulario"</span><span
+      style="color: #0000ff;">"io.github.gilpgdam.servicio"</span><span
       style="color: #800000;">&gt;</span></div><br>
+   <div>&nbsp;<span style="color: #800000;">&lt;uses-permission</span> <span
+      style="color: #ff0000;">android:name</span>=<span
+      style="color: #0000ff;">"android.permission.INTERNET"</span> <span
+      style="color: #800000;">/&gt;</span></div>
    <div>&nbsp;<span style="color: #800000;">&lt;application</span></div>
    <div>&nbsp; &nbsp;<span
       style="color: #ff0000;">android:allowBackup</span>=<span
@@ -35,7 +39,7 @@ export class F24AndroidManifest extends Diapositiva {
       style="color: #ff0000;">android:supportsRtl</span>=<span
       style="color: #0000ff;">"true"</span></div>
    <div>&nbsp; &nbsp;<span style="color: #ff0000;">android:theme</span>=<span
-      style="color: #0000ff;">"@style/Theme.Formulario"</span><span
+      style="color: #0000ff;">"@style/Theme.Servicio"</span><span
       style="color: #800000;">&gt;</span></div>
    <div>&nbsp; <span style="color: #800000;">&lt;activity</span></div>
    <div>&nbsp; &nbsp; <span style="color: #ff0000;">android:name</span>=<span
@@ -59,8 +63,8 @@ export class F24AndroidManifest extends Diapositiva {
    <div>&nbsp;<span style="color: #800000;">&lt;/application&gt;</span></div><br>
    <div><span style="color: #800000;">&lt;/manifest&gt;</span></div>
   </div>
-       </muestra-codigo>`;
+        </muestra-codigo>`;
  }
 }
 
-customElements.define("f24-android-manifest", F24AndroidManifest);
+customElements.define("g25-android-manifest", G25AndroidManifest);
