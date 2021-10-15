@@ -1,7 +1,7 @@
 import { Diapositiva } from "../../lib/Diapositiva.js";
 import "../../lib/muestra-codigo.js";
 
-export class B23Archivos extends Diapositiva {
+export class B24Archivos extends Diapositiva {
  /** @override */
  connectedCallback() {
   super.connectedCallback();
@@ -16,7 +16,7 @@ export class B23Archivos extends Diapositiva {
          manifest
          <ul>
           <li>
-           <a href="/23_ejemplo/f_AndroidManifest.html">
+           <a href="/24_formulario/f_AndroidManifest.html">
             AndroidManifest.xml
            </a>
           </li>
@@ -29,7 +29,7 @@ export class B23Archivos extends Diapositiva {
            io.github.gilpgdam
            <ul>
             <li>
-             <a href="/23_ejemplo/e_MainActivity.html">
+             <a href="/24_formulario/e_MainActivity.html">
               MainActivity.kt
              </a>
             </li>
@@ -50,7 +50,7 @@ export class B23Archivos extends Diapositiva {
            layout
            <ul>
             <li>
-             <a href="/23_ejemplo/d_activity_main.html">
+             <a href="/24_formulario/d_activity_main.html">
               activity_main.xml
              </a>
             </li>
@@ -68,7 +68,7 @@ export class B23Archivos extends Diapositiva {
            <ul>
             <li>colors.xml</li>
             <li>
-             <a href="/23_ejemplo/c_strings.html">
+             <a href="/24_formulario/c_strings.html">
               strings.xml
              </a>
             </li>
@@ -84,4 +84,4 @@ export class B23Archivos extends Diapositiva {
  }
 }
 
-customElements.define("b23-archivos", B23Archivos);
+customElements.define("b24-archivos", B24Archivos);

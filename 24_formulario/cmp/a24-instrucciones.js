@@ -1,7 +1,7 @@
 import { Diapositiva } from "../../lib/Diapositiva.js";
 import "../../lib/muestra-codigo.js";
 
-export class A23Instrucciones extends Diapositiva {
+export class A24Instrucciones extends Diapositiva {
  /** @override */
  connectedCallback() {
   super.connectedCallback();
@@ -9,9 +9,9 @@ export class A23Instrucciones extends Diapositiva {
    `<h1>A. Instrucciones</h1>
     <div class="lectura">
      <figure>
-      <img src="/23_ejemplo/img/vista.png" alt="Vista de Ejemplo">
+      <img src="/24_formulario/img/vista.png" alt="Vista de Formulario">
       <figcaption>
-       Vista de Ejemplo
+       Vista de Formulario
       </figcaption>
      </figure>
      <ul>
@@ -56,6 +56,12 @@ export class A23Instrucciones extends Diapositiva {
       </li>
       <li>
        <p>
+        Modifica el proyecto con el contenido de los archivos que se muestran en esta
+        lección.
+       </p>
+      </li>
+      <li>
+       <p>
         Ejecuta el proyecto sobre el emulador de teléfono o el dispositivo
         real.
         <a class="noPrint"
@@ -68,4 +74,4 @@ export class A23Instrucciones extends Diapositiva {
  }
 }
 
-customElements.define("a23-instrucciones", A23Instrucciones);
+customElements.define("a24-instrucciones", A24Instrucciones);

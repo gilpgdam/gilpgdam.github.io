@@ -12,6 +12,8 @@ import "../1_arquitectura/cmp/arquitectura-print.js";
 import "../20_funciones/cmp/funciones-print.js";
 import "../21_clases/cmp/clases-print.js";
 import "../22_herencia/cmp/herencia-print.js";
+import "../23_ejemplo/cmp/ejemplo-print.js";
+import "../24_formulario/cmp/formulario-print.js";
 import "../2_nativas/cmp/nativas-print.js";
 import "../3_mvc/cmp/fundamentos-print.js";
 import "../4_conceptos/cmp/conceptos-print.js";
@@ -156,6 +158,16 @@ export class GilPGAMPrint extends Diapositiva {
     <section>
      <h1 class="presentación">22. Herencia</h1>
      <herencia-print></herencia-print>
+     <mi-footer></mi-footer>
+    </section>
+    <section>
+     <h1 class="presentación">23. Ejemplo de app Android</h1>
+     <ejemplo-print></ejemplo-print>
+     <mi-footer></mi-footer>
+    </section>
+    <section>
+     <h1 class="presentación">22. Formulario</h1>
+     <formulario-print></formulario-print>
      <mi-footer></mi-footer>
     </section>`;
  }

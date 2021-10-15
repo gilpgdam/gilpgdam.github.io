@@ -1,12 +1,19 @@
 import { Diapositiva } from "../../lib/Diapositiva.js";
 import "../../lib/muestra-codigo.js";
 
-export class C23ActivityMain extends Diapositiva {
+export class D23ActivityMain extends Diapositiva {
  /** @override */
  connectedCallback() {
   super.connectedCallback();
   this.innerHTML = /* html */
    `<h1>C. app/res/layout/activity_main.xml</h1>
+   <div class="horizontal">
+   <figure>
+   <img src="/23_ejemplo/img/dis.png" alt="Diseño de vista de Ejemplo">
+   <figcaption>
+    Diseño de vista de Ejemplo
+   </figcaption>
+  </figure>
    <muestra-codigo>
    <div>
    <div><span style="color: #800000;">&lt;?xml</span><span
@@ -58,8 +65,9 @@ export class C23ActivityMain extends Diapositiva {
       style="color: #800000;">&lt;/androidx.constraintlayout.widget.ConstraintLayout&gt;</span>
    </div>
   </div>
-     </muestra-codigo>`;
+     </muestra-codigo>
+     </div>`;
  }
 }
 
-customElements.define("c23-activity-main", C23ActivityMain);
+customElements.define("d23-activity-main", D23ActivityMain);

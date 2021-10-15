@@ -18,16 +18,22 @@ export class EjemploContenido extends Diapositiva {
     </li>
     <li>
      <p>
-      <a href="/23_ejemplo/c_activity_main.html">app/res/layout/activity_main.xml</a>
-     </p>
-    <li>
-     <p>
-      <a href="/23_ejemplo/d_MainActivity.html">app/java/io.github.gilpgdm/MainActivity.kt</a>
+      <a href="/23_ejemplo/c_strings.html">app/res/layout/strings.xml</a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/23_ejemplo/e_AndroidManifest.html">app/manifest/AndroidManifest.xml</a>
+      <a href="/23_ejemplo/d_activity_main.html">app/res/layout/activity_main.xml</a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/23_ejemplo/e_MainActivity.html">app/java/io.github.gilpgdm/MainActivity.kt</a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/23_ejemplo/f_AndroidManifest.html">app/manifest/AndroidManifest.xml</a>
      </p>
     </li>
    </ol>`;
