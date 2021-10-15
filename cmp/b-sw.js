@@ -89,7 +89,7 @@ export class BSw extends Diapositiva {
          target="_blank">https://developer.android.com/studio</a>.
       </p>
       <p>Debes seguir los siguientes pasos:</p>
-      <ul>
+      <ol>
        <li>
         <p>
          Descarga e instala Android Studio.
@@ -125,7 +125,7 @@ export class BSw extends Diapositiva {
            target="_blank" >Video sobre como ejecutar el proyecto.</a>
         </p>
        </li>
-      </ul>
+      </ol>
       <p class="noPrint">
        <a href="https://developer.android.com/studio/install"
          target="_blank">Video de Instalación.</a>

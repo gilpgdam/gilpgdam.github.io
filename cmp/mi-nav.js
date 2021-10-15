@@ -24,6 +24,7 @@ import "../19_switch/cmp/switch-contenido.js"
 import "../20_funciones/cmp/funciones-contenido.js"
 import "../21_clases/cmp/clases-contenido.js"
 import "../22_herencia/cmp/herencia-contenido.js"
+import "../23_ejemplo/cmp/ejemplo-contenido.js"
 
 export class MiNav extends HTMLElement {
  connectedCallback() {
@@ -235,6 +236,14 @@ export class MiNav extends HTMLElement {
           <h4><a href="/22_herencia/index.html">Herencia</a></h4>
          </summary>
          <herencia-contenido></herencia-contenido>
+        </details>
+       </li>
+       <li>
+        <details>
+         <summary>
+          <h4><a href="/23_ejemplo/index.html">23. Ejemplo de app Android</a></h4>
+         </summary>
+         <ejemplo-contenido></ejemplo-contenido>
         </details>
        </li>
       </ol>
