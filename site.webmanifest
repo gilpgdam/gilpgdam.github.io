@@ -1,6 +1,6 @@
 {
-    "short_name": "ijs",
-    "name": "Introducción a JavaScript",
+    "short_name": "dam",
+    "name": "Desarrollo de Aplicaciones Móviles",
     "start_url": "/index.html",
     "display": "standalone",
     "theme_color": "#ffffff",
