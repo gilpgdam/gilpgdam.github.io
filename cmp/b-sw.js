@@ -100,9 +100,9 @@ export class BSw extends Diapositiva {
        </li>
        <li>
         <p>
-         Luego de instalar y cerrar IntelliJ, ábrelo, crea y ejecuta un proyecto
-         de Android Studio para descargar actualizaciones y asegurarte que la
-         herramienta quedó bien instalada.
+         Luego de instalar y cerrar  Android Studio, ábrelo, crea y ejecuta un proyecto
+         para descargar actualizaciones y asegurarte que la herramienta quedó bien
+         instalada.
          <a class="noPrint"
            href="https://drive.google.com/file/d/1F0BmnjcnSNPxiFoiHMV-eNlFVMvel4Dk/view?usp=sharing"
            target="_blank" >Video sobre como crear el proyecto.</a>
@@ -128,7 +128,7 @@ export class BSw extends Diapositiva {
       </ol>
       <p class="noPrint">
        <a href="https://developer.android.com/studio/install"
-         target="_blank">Video de Instalación.</a>
+         target="_blank">Video de Instalación en el sitio de Android Studio.</a>
       </p>
      </dd>
      <dt>Git</dt>
