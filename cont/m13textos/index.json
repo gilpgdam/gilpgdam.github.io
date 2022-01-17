@@ -1,0 +1,46 @@
+{
+ "type": "A",
+ "title": "Más textos",
+ "description": "Contenido de la lección «13. Más textos»",
+ "printDescription": "Página para imprimir de la lección «13. Más textos».",
+ "listado": [
+  {
+   "name": "mAenteros.html",
+   "title": "Enteros",
+   "h1": "<dfn>Enteros</dfn>",
+   "description": "Definición de enteros."
+  },
+  {
+   "name": "mBflotantes.html",
+   "title": "Números de punto flotante",
+   "description": "Definición de números de punto flotante."
+  },
+  {
+   "name": "mCconcatenacion.html",
+   "title": "Operador de concatenación a + b",
+   "h1": "Operador de concatenación <code class='language-kotlin'>a + b</code>",
+   "description": "Operador de concatenación a + b."
+  },
+  {
+   "name": "mDasignacion.html",
+   "title": "Operador de concatenación con asignación a += x",
+   "h1": "Operador de concatenación con asignación <code class='language-kotlin'>a += x</code>",
+   "description": "Operador de concatenación con asignación a += x."
+  },
+  {
+   "name": "mEplantillas.html",
+   "title": "Plantillas de texto",
+   "description": "Plantillas de texto."
+  },
+  {
+   "name": "mForden.html",
+   "title": "Operadores de orden",
+   "description": "Operadores de orden."
+  },
+  {
+   "name": "mGordenIgualdad.html",
+   "title": "Operadores combinados de orden e igualdad",
+   "description": "Operadores combinados de orden e igualdad."
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "type": "A",
+ "title": "Números",
+ "description": "Contenido de la lección «16. Números",
+ "printDescription": "Página para imprimir de la lección «16. Números.",
+ "listado": [
+  {
+   "name": "mAenteros.html",
+   "title": "Tipos enteros",
+   "description": "Definición de los tipos enteros."
+  },
+  {
+   "name": "mBrecta.html",
+   "title": "Tipos de punto flotante",
+   "description": "Definición de los tipos de punto flotante."
+  },
+  {
+   "name": "mCopsNum.html",
+   "title": "Operadores numéricos",
+   "description": "Definición de lod operadores numéricos."
+  },
+  {
+   "name": "mDasignacion.html",
+   "title": "Operadores con asignación",
+   "description": "Definición de los operadores con asignación."
+  },
+  {
+   "name": "mEincrYDecr.html",
+   "title": "Incremento y decremento<",
+   "description": "Definición de los operadores de incremento y decremento<."
+  },
+  {
+   "name": "mFigualdad.html",
+   "title": "Operadores de igualdad",
+   "description": "Definición del operadores de igualdad."
+  },
+  {
+   "name": "mGorden.html",
+   "title": "Operadores de orden",
+   "description": "Definición de los operadores de orden."
+  },
+  {
+   "name": "mHordenIgualdad.html",
+   "title": "Operadores combinados de orden e Igualdad",
+   "description": "Definición de los operadores combinados de orden e Igualdad."
+  },
+  {
+   "name": "mIprecedencia.html",
+   "title": "Precedencia de Operadores",
+   "description": "Definición de la precedencia de Operadores."
+  },
+  {
+   "name": "mJexpresiones.html",
+   "title": "Expresiones",
+   "description": "Elaboración de expresiones."
+  }
+ ]
+}

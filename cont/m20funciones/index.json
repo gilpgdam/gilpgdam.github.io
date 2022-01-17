@@ -1,0 +1,43 @@
+{
+ "type": "A",
+ "title": "Funciones",
+ "description": "Contenido de la lección «20. Funciones»",
+ "printDescription": "Página para imprimir de la lección «20. Funciones».",
+ "listado": [
+  {
+   "name": "mAfunciones.html",
+   "title": "Funciones",
+   "description": "Definición de funciones."
+  },
+  {
+   "name": "mBfuncionesFunciones.html",
+   "title": "Funciones que invocan funciones",
+   "description": "Funciones que invocan funciones."
+  },
+  {
+   "name": "mCfuncionesParametros.html",
+   "title": "Recursividad",
+   "description": "Recursividad."
+  },
+  {
+   "name": "mDfuncionesParametrosExpresiones.html",
+   "title": "Funciones con expresiones en los parámetros",
+   "description": "Funciones con expresiones en los parámetros."
+  },
+  {
+   "name": "mEfuncionesReturn.html",
+   "title": "Funciones con valor de regreso",
+   "description": "Funciones con valor de regreso."
+  },
+  {
+   "name": "mFflecha.html",
+   "title": "Lambdas",
+   "description": "Lambdas."
+  },
+  {
+   "name": "mGrecursividad.html",
+   "title": "Recursividad",
+   "description": "Recursividad."
+  }
+ ]
+}

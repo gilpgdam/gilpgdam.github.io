@@ -1,0 +1,21 @@
+{
+ "type": "A",
+ "title": "La estructura de control when",
+ "h1": "La estructura de control <code class='language-kotlin'>when</code>",
+ "description": "Contenido de la lección «18. La estructura de control when»",
+ "printDescription": "Página para imprimir de la lección «18. La estructura de control when».",
+ "listado": [
+  {
+   "name": "mAcodigoSwitch.html",
+   "title": "Código con when",
+   "h1": "Código con <code class='language-kotlin'>when</code>",
+   "description": "Código con when."
+  },
+  {
+   "name": "mBcodigoSwitchDefault.html",
+   "title": "Código con when y else",
+   "h1": "Código con <code class='language-kotlin'>when</code> y <code class='language-kotlin'>else</code>",
+   "description": "Código con when y else."
+  }
+ ]
+}

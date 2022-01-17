@@ -1,0 +1,38 @@
+{
+ "type": "A",
+ "title": "Ejemplo de app Android",
+ "description": "Contenido de la lección «23. Ejemplo de app Android»",
+ "printDescription": "Página para imprimir de la lección «23. Ejemplo de app Android».",
+ "listado": [
+  {
+   "name": "mAinstrucciones.html",
+   "title": "Instrucciones",
+   "description": "Instrucciones."
+  },
+  {
+   "name": "mBarchivos.html",
+   "title": "Archivos",
+   "description": "Archivos."
+  },
+  {
+   "name": "mCstrings.html",
+   "title": "app/res/values/strings.xml",
+   "description": "Código de app/res/values/strings.xml."
+  },
+  {
+   "name": "mDactivityMain.html",
+   "title": "app/res/layout/activity_main.xml",
+   "description": "Código de app/res/layout/activity_main.xml."
+  },
+  {
+   "name": "mEmainActivity.html",
+   "title": "app/java/io.github.gilpgdm/MainActivity.kt",
+   "description": "Código de app/java/io.github.gilpgdm/MainActivity.kt."
+  },
+  {
+   "name": "mFandroidManifest.html",
+   "title": "app/manifest/AndroidManifest.xml",
+   "description": "Código de app/manifest/AndroidManifest.xml."
+  }
+ ]
+}

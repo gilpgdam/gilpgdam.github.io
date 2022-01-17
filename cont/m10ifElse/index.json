@@ -1,0 +1,20 @@
+{
+ "type": "A",
+ "title": "La estructura de control if-else",
+ "h1": "La estructura de control <code class='language-html'>if-else</code>",
+ "description": "Contenido de la lección «10. La estructura de control if-else»",
+ "printDescription": "Página para imprimir de la lección «10. La estructura de control if-else».",
+ "listado": [
+  {
+   "name": "mAifElse.html",
+   "title": "La estructura de control if-else",
+   "h1": "La estructura de control <code class='language-html'>if-else</code>",
+     "description": "Definición de la estructura de control if-else."
+  },
+  {
+   "name": "mBcodigo.html",
+   "title": "Código",
+   "description": "Código con if-else."
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "type": "A",
+ "title": "Herencia",
+ "description": "Contenido de la lección «22. Herencia»",
+ "printDescription": "Página para imprimir de la lección «22. Herencia».",
+ "listado": [
+  {
+   "name": "mAconstructores.html",
+   "title": "Constructores",
+   "description": "Constructores."
+  },
+  {
+   "name": "mBsobreescritura.html",
+   "title": "Sobrescritura de métodos",
+   "description": "Sobrescritura de métodos."
+  }
+ ]
+}

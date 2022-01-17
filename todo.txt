@@ -1,3 +1,4 @@
+* Ok hasta m15doWhile
 1. Separar el ejemplo de variables en 2: uno para indicar como
    funciona y otro para copiar el valor de otra variable.
 2. En los resúmenes, cambiar las explicaciones textuales por diagramas de las
@@ -35,5 +36,5 @@ Reemplaza todo
 Cambia las "/ por "
 Ctrl+H -> quita selección del botón ".*"
 Find:"/
-Replace:"
+¡Replace:"
 Reemplaza todo

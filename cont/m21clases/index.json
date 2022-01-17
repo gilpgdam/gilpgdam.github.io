@@ -1,0 +1,18 @@
+{
+ "type": "A",
+ "title": "Clases",
+ "description": "Contenido de la lección «21. Clases»",
+ "printDescription": "Página para imprimir de la lección «21. Clases».",
+ "listado": [
+  {
+   "name": "mAclases.html",
+   "title": "Clases",
+   "description": "Definición de clases."
+  },
+  {
+   "name": "mBsetters.html",
+   "title": "Setters y getters",
+   "description": "Setters y getters."
+  }
+ ]
+}

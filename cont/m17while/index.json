@@ -1,0 +1,57 @@
+{
+ "type": "A",
+ "title": "La estructura de control while",
+ "h1": "La estructura de control <code class='language-kotlin'>while</code>",
+ "description": "Contenido de la lección «17. La estructura de control while»",
+ "printDescription": "Página para imprimir de la lección «17. La estructura de control while».",
+ "listado": [
+  {
+   "name": "mAwhile.html",
+   "title": "La estructura de control while",
+   "h1": "La estructura de control <code class='language-kotlin'>while</code>",
+   "description": "La estructura de control while."
+  },
+  {
+   "name": "mBpresWhileAsc.html",
+   "title": "Prueba de escritorio con while ascendente",
+   "h1": "Prueba de escritorio con <code class='language-kotlin'>while</code> ascendente",
+   "description": "Prueba de escritorio con while ascendente."
+  },
+  {
+   "name": "mCpresWhileAsc2.html",
+   "title": "Prueba de escritorio con while ascendente de 2 en 2",
+   "h1": "Prueba de escritorio con <code class='language-kotlin'>while</code> ascendente de 2 en 2",
+   "description": "Prueba de escritorio con while ascendente de 2 en 2."
+  },
+  {
+   "name": "mDpresWhileDesc.html",
+   "title": "Prueba de escritorio con while descendente",
+   "h1": "Prueba de escritorio con <code class='language-kotlin'>while</code>",
+   "description": "Prueba de escritorio con while descendente."
+  },
+  {
+   "name": "mEpresWhileDesc2.html",
+   "title": "Prueba de escritorio con while descendente de 2 en 2",
+   "h1": "Prueba de escritorio con <code class='language-kotlin'>while</code> descendente de 2 en 2",
+   "description": "Prueba de escritorio con while descendente de 2 en 2."
+  },
+  {
+   "name": "mFpresWhileNoEjec.html",
+   "title": "Prueba de escritorio con while que no se ejecuta",
+   "h1": "Prueba de escritorio con <code class='language-kotlin'>while</code> que no se ejecuta",
+   "description": "Prueba de escritorio con while que no se ejecuta."
+  },
+  {
+   "name": "mGpresWhileDescMal.html",
+   "title": "Prueba de escritorio con while descendente mal diseñado",
+   "h1": "Prueba de escritorio con <code class='language-kotlin'>while</code> descendente mal diseñado",
+   "description": "Prueba de escritorio con while descendente mal diseñado."
+  },
+  {
+   "name": "mHpresWhileAscMal.html",
+   "title": "Prueba de escritorio con while ascendente mal diseñado",
+   "h1": "Prueba de escritorio con <code class='language-kotlin'>while</code> ascendente mal diseñado",
+   "description": "Prueba de escritorio con while ascendente mal diseñado."
+  }
+ ]
+}

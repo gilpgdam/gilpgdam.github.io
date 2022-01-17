@@ -1,0 +1,85 @@
+{
+ "type": "1",
+ "title": "Desarrollo de aplicaciones móviles",
+ "description": "Página de inicio de GilPG DAM, que introduce conceptos de aplicaciones móviles.",
+ "printDescription": "Página para imprimir todo el contenido de GilPG DAM, que introduce conceptos de aplicaciones móviles.",
+ "listado": [
+  {
+   "name": "m01software.html",
+   "title": "Software a instalar",
+   "description": "Descripción del software a instalar."
+  },
+  {
+   "name": "m02arquitectura"
+  },
+  {
+   "name": "m03nativas"
+  },
+  {
+   "name": "m04mvc"
+  },
+  {
+   "name": "m05conceptos"
+  },
+  {
+   "name": "m06variables"
+  },
+  {
+   "name": "m07comentarios"
+  },
+  {
+   "name": "m08bloques"
+  },
+  {
+   "name": "m09if"
+  },
+  {
+   "name": "m10ifElse"
+  },
+  {
+   "name": "m11multiple"
+  },
+  {
+   "name": "m12melse"
+  },
+  {
+   "name": "m13textos"
+  },
+  {
+   "name": "m14logicos"
+  },
+  {
+   "name": "m15doWhile"
+  },
+  {
+   "name": "m16numeros"
+  },
+  {
+   "name": "m17while"
+  },
+  {
+   "name": "m18for"
+  },
+  {
+   "name": "m19switch"
+  },
+  {
+   "name": "m20funciones"
+  },
+  {
+   "name": "m21clases"
+  },
+  {
+   "name": "m22herencia"
+  },
+  {
+   "name": "m23ejemplo"
+  },
+  {
+   "name": "m24formulario"
+  },
+  {
+   "name": "m25servicio"
+  }
+ ]
+}

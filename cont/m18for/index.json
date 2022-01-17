@@ -1,0 +1,21 @@
+{
+ "type": "A",
+ "title": "La estructura de control for",
+ "h1": "La estructura de control <code class='language-kotlin'>for</code>",
+ "description": "Contenido de la lección «18. La estructura de control for»",
+ "printDescription": "Página para imprimir de la lección «18. La estructura de control for».",
+ "listado": [
+  {
+   "name": "mAfor.html",
+   "title": "La estructura de control for",
+   "h1": "La estructura de control <code class='language-kotlin'>for</code>",
+   "description": "La estructura de control for."
+  },
+  {
+   "name": "mBcodigo.html",
+   "title": "Código con for",
+   "h1": "Código con <code class='language-kotlin'>for</code>",
+   "description": "Código con for."
+  }
+ ]
+}

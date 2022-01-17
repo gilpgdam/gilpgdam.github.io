@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" sizes="32x32" href="/favicon.ico">
+<meta name="theme-color" content="#039623">
+<link rel="manifest" href="/site.webmanifest">
+<script src="/js/muestra-codigo.js"></script>
+ <title>Conceptos básicos - GilPG DAM</title>
+ <meta name="description" content="Página para imprimir de la lección «5. Conceptos básicos».">
+ <style>
+ :root {
+  --introDuracion: 2s;
+  --introFuncion: ease-out;
+  --padCont: 0.5rem;
+  --padNav: 0.75rem 0.5rem;
+  --anchoNav: 300px;
+  --anchoLectura: 900px;
+  --colLetra: black;
+  --colFondo: white;
+  --colTituloLetra: #00811c;
+  --colTituloShadow: 3px 1px 2px #bdbdbd;
+  --colTituloStrong: #684601;
+  --colTituloStrongSel: #ffdc97;
+  --colTarget: #cef4ff;
+  --colSombra: #49494980;
+  --navSombra: 0.5rem 0 0.5rem var(--colSombra);
+  --padCtrl: 0.2rem 0.3rem;
+  --borderCtrl: solid thin;
+  --colFondoNav: #f2f2f2;
+  --colNavResaltada: #7a2c99;
+  --colSecundario: #ffff82;
+  --colStack1: black;
+  --colStack2: #224ba5;
+  --colStack3: #92731f;
+  --colScrollbar: #CFD8DC;
+  --colThumb: #90a4ae;
+  --colThumbActivo: #3f3f3f;
+  --anchoThumb: 7px;
+  --borderRadiusThumb: 3.5px;
+  --gap: 0.5rem;
+  --fontMono: monospace;
+  --fontSans: sans-serif;
+  --fontSerif: serif;
+  font-family: var(--fontSerif);
+  color: var(--colLetra);
+  background-color: var(--colFondo);
+  scrollbar-width: thin;
+  scrollbar-color: var(--colThumb) var(--colScrollbar);
+ }
+
+ body::-webkit-scrollbar {
+  width: var(--anchoThumb);
+  height: var(--anchoThumb);
+ }
+
+ body::-webkit-scrollbar-track {
+  background: var(--colScrollbar);
+ }
+
+ body::-webkit-scrollbar-thumb {
+  background-color: var(--colThumb);
+  border-radius: var(--borderRadiusThumb);
+ }
+
+ body::-webkit-scrollbar-thumb:active {
+  background-color: var(--colThumbActivo);
+ }
+
+ .anterior,
+ .siguiente {
+  display: inline-block;
+  text-decoration: none;
+  padding: var(--padCtrl);
+  border: var(--borderCtrl);
+  cursor: pointer;
+ }
+
+ .anterior.bye,
+ .siguiente.bye {
+  display: none;
+ }
+
+ a[data-logo] {
+  display: block;
+  height: 54px;
+  line-height: 54px;
+  padding-left: 54px;
+  margin-top: 1rem;
+  background-image: url("/img/icono/maskable_icon_x48.png");
+  background-position: 3px center;
+  background-repeat: no-repeat;
+ }
+
+ a strong,
+ a code,
+ h1 strong,
+ h1 code {
+  color: var(--colTituloStrong);
+ }
+
+ nav a {
+  font-family: var(--fontSans);
+ }
+
+ pre {
+  font-family: var(--fontMono);
+ }
+
+ code {
+  color: var(--colTituloStrong);
+  font-family: var(--fontMono);
+ }
+
+ h1:not(.default) {
+  font-family: var(--fontSans);
+  color: var(--colTituloLetra);
+ }
+
+ .autor {
+  font-family: var(--fontSans);
+  font-size: 1.5rem;
+  color: var(--colTituloLetra);
+ }
+
+ figure {
+  text-align: center;
+ }
+
+ figure img {
+  max-width: 100%;
+  max-height: 65vh;
+ }
+
+ figure img.med {
+  max-height: 55vh;
+ }
+
+ figcaption {
+  font-family: var(--fontMono);
+ }
+
+ .print .noPrint {
+  display: none;
+ }
+
+ @media print {
+  .noPrint {
+   display: none;
+  }
+
+  .pruebaDeEscritorio {
+   page-break-before: always;
+  }
+ }
+
+ iframe {
+  box-sizing: border-box;
+  width: 100%;
+ }
+
+ .lectura {
+  max-width: var(--anchoLectura);
+  margin: 1rem auto;
+ }
+
+ .lectura p,
+ .lectura blockquote {
+  text-align: justify;
+ }
+
+ /* No funciona bien con display:flex en pantallas pequeñas. */
+ .horizontal {
+  text-align: center;
+ }
+
+ .horizontal>* {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+ }
+
+ .horizontal>*:not(:first-child) {
+  margin-left: 1rem;
+ }
+
+ .columnas4 {
+  columns: 4 180px;
+  column-gap: 1rem;
+ }
+
+ .columnas2 {
+  columns: 2 360px;
+  column-gap: 1rem;
+ }
+
+ .resaltado {
+  background-color: rgb(255, 255, 89);
+ }
+
+ .resaltado2 {
+  background-color: rgb(255, 214, 139);
+ }
+
+ table.borde {
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ table.borde,
+ table.borde td {
+  border: thin solid;
+  border-collapse: collapse;
+ }
+
+ table.borde th,
+ table.borde td {
+  padding: 0.4rem;
+ }
+
+ muestra-codigo>div>div {
+  white-space: nowrap;
+ }
+
+ footer {
+  margin-top: 1rem;
+  display: block;
+  text-align: center;
+  font-family: var(--fontSans);
+  font-size: small;
+ }
+</style>
+ <style>
+ .pruebaDeEscritorio section {
+  display: inline-block;
+  vertical-align: top;
+  margin: 1em;
+ }
+
+ .pruebaDeEscritorio section pre {
+  margin: 0;
+ }
+
+ .pruebaDeEscritorio samp {
+  font-weight: bold;
+ }
+
+ .pruebaDeEscritorio .activo {
+  display: inline-block;
+  margin: 0 0.2rem 0 0;
+  vertical-align: top;
+  background-color: var(--colSecundario);
+  border: 1px solid var(--colSecundario);
+ }
+
+ .pruebaDeEscritorio :target,
+ .pruebaDeEscritorio :target caption {
+  background-color: var(--colTarget);
+ }
+
+ .pruebaDeEscritorio .numero1 {
+  display: inline-block;
+  margin: 0 0.2rem 0 0;
+  color: var(--colStack1);
+  border: 1px solid var(--colStack1);
+ }
+
+ .pruebaDeEscritorio .numero2 {
+  display: inline-block;
+  color: var(--colStack2);
+  border: 1px solid var(--colStack2);
+ }
+
+ .pruebaDeEscritorio .numero3 {
+  display: inline-block;
+  color: var(--colStack3);
+  border: 1px solid var(--colStack3);
+ }
+
+ .pruebaDeEscritorio a.parametro1,
+ .pruebaDeEscritorio .parametro1 {
+  color: var(--colPar1);
+ }
+
+ .pruebaDeEscritorio a.parametro2,
+ .pruebaDeEscritorio .parametro2 {
+  color: var(--colPar2);
+ }
+
+ .pruebaDeEscritorio .descongela {
+  color: var(--colDescongela);
+ }
+
+ .pruebaDeEscritorio table.tabla1,
+ .pruebaDeEscritorio table.tabla1 th,
+ .pruebaDeEscritorio table.tabla1 td {
+  border: 1px solid var(--colStack1);
+ }
+
+ .pruebaDeEscritorio table.tabla2,
+ .pruebaDeEscritorio table.tabla2 th,
+ .pruebaDeEscritorio table.tabla2 td {
+  border: 1px solid var(--colStack2);
+ }
+
+ .pruebaDeEscritorio table.tabla3,
+ .pruebaDeEscritorio table.tabla3 th,
+ .pruebaDeEscritorio table.tabla3 td {
+  border: 1px solid var(--colStack3);
+ }
+
+ .pruebaDeEscritorio .frame {
+  font-family: var(--fontMono);
+  border-collapse: collapse;
+ }
+
+ .pruebaDeEscritorio .frame,
+ .pruebaDeEscritorio .frame th,
+ .pruebaDeEscritorio .frame td {
+  border: thin solid;
+ }
+
+ .pruebaDeEscritorio .frame caption {
+  font-style: italic;
+ }
+
+ .pruebaDeEscritorio .objeto caption {
+  text-decoration: underline;
+  font-style: italic;
+ }
+
+ .pruebaDeEscritorio .creación {
+  display: flex;
+ }
+</style>
+</head>
+<body class="print">
+   <h1 class="leccion">5. Conceptos básicos</h1>
+   <div class="lectura"> 
+    <p class="noPrint">
+     <a href="print.html" target="_blank" rel="noopener">Versión para
+      imprimir.</a>
+    </p>
+   </div>
+<div class="lectura">
+ <nav>
+  <h1>Contenido</h1>
+  
+   <ol type="A">
+    <li>
+     <p>
+      <a href="/m05conceptos/mAkotlin.html"><dfn>Kotlin</dfn></a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m05conceptos/mBtextos.html"><dfn>Textos</dfn></a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m05conceptos/mCstring.html">El tipo <code class='language-kotlin'>String</code></a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m05conceptos/mDprint.html">Las instrucciones <code class='language-html'>print</code> y <code class='language-html'>println</code></a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m05conceptos/mEorden.html">Orden de ejecución</a>
+     </p>
+    </li>
+   </ol>
+ </nav>
+</div>
+     <section >
+         <h1 >A. <dfn>Kotlin</dfn></h1><div class="lectura">
+ <ul>
+  <li>
+   <p>
+    Lenguaje de programación moderno que hace a los desarrolladores
+    más felices.
+   </p>
+  </li>
+  <li>
+   <p>
+    Desarrollado por la empresa JetBrains y contribuciones de código
+    abierto.
+   </p>
+  </li>
+  <li>
+   <p>
+    Está diseñado para interactuar con código de Java, por lo cual sus tipos
+    de datos son compatibles.
+   </p>
+  </li>
+  <li>
+   <p>
+    El sitio oficial del lenguaje es
+    <a target="_blank" rel="nooper"
+      href="https://kotlinlang.org/">https://kotlinlang.org/</a>.
+   </p>
+  </li>
+  <li>
+   <p>
+    Puedes probar ejemplos sencillos en
+    <a target="_blank" rel="nooper"
+      href="https://play.kotlinlang.org/">https://play.kotlinlang.org/</a>.
+   </p>
+  </li>
+ </ul>
+</div>
+      </section>
+     <section >
+         <h1 >B. <dfn>Textos</dfn></h1><div class="lectura">
+ <ul>
+  <li>
+   <p>
+    Los
+    <dfn>caracteres</dfn>
+    son los diferentes símbolos de comunicación escrita; por ejemplo:
+    letras (como a, b o C), dígitos (como 1, 2 o 5) o signos de puntuación
+    (como %, $ o !). En computación a cada uno de ellos se les considera un
+    <dfn>eslabón</dfn>.
+   </p>
+   <figure>
+    <img alt="Imagen de un eslabón" src="/img/m05conceptos/Eslabon.svg"
+      height="50">
+    <figcaption>Un eslabón.</figcaption>
+   </figure>
+  </li>
+  <li>
+   <p>
+    Para formar un texto juntamos caracteres. Si consideramos a un caracter
+    como un eslabón, al juntarlos obtenemos una
+    <dfn>cadena de texto</dfn>.
+   </p>
+   <figure>
+    <img alt="Imagen de una cadena" src="/img/m05conceptos/Cadena.svg"
+      height="50">
+    <figcaption>Una cadena de eslabones.</figcaption>
+   </figure>
+  </li>
+ </ul>
+</div>
+      </section>
+     <section >
+         <h1 >C. El tipo <code class='language-kotlin'>String</code></h1><div class="lectura">
+ <ul>
+  <li>
+   <p>
+    Al tipo de datos que representa texto se le llama
+    <dfn>String</dfn>,
+    que es la traducción al inglés del término
+    <q>cadena</q>.
+   </p>
+  </li>
+  <li>
+   <p>
+    En Kotlin los textos se representan con secuencias de caracteres
+    delimitadas por los siguientes símbolos:
+   </p>
+   <dl>
+    <dt><code class="language-kotlin">" "</code></dt>
+    <dd>
+     <p>
+      El delimitador es el símbolo
+      <dfn>comillas</dfn>
+      (<code class="language-kotlin">"</code>).
+     </p>
+     <p>
+      En su interior puedes poner cualquier caracter, excepto comillas y
+      salto de línea.
+     </p>
+    <dt><code class="language-kotlin">""" """</code></dt>
+    <dd>
+     <p>
+      El delimitador son 3 comillas.
+     </p>
+     <p>
+      En su interior puedes poner cualquier caracter, excepto 3 comillas.
+      Puede llevar saltos de línea.
+     </p>
+    </dd>
+   </dl>
+  </li>
+  <li>
+   <p>
+    La
+    <dfn>codificación</dfn>
+    de un texto es asignar a cada caracter del texto una combinación
+    de varios 1 y 0. La combinación se puede expresar como un número.
+   </p>
+  </li>
+  <li>
+   <p>
+    kotlin usa la codificación UTF-16 de
+    <a href="https://unicode.org" target="_blank" rel="nooper">Unicode</a>.
+   </p>
+  </li>
+  <li>
+   <p>
+    Para agregar un emoji desde Windows solo tienes que presionar la tecla
+    con el logotipo de Windows al mismo tiempo que el punto
+    (<kbd>
+     <img style="vertical-align: middle;" src="/img/m05conceptos/winlogo.png"
+       alt="Logotipo de Windows">+.
+    </kbd>)
+    y aparece un cuadro de diálogo que te permite seleccionar un emoji.
+   </p>
+  </li>
+ </ul>
+ <h2>Ejemplos</h2>
+ <ul>
+  <li>
+   <p><code class="language-kotlin">"Hola pp"</code></p>
+  </li>
+  <li>
+   <p>
+    <code
+      class="language-kotlin">"😁¡¡¡¡A sus órdenes jefecita!!!!"</code>
+   </p>
+  </li>
+  <li>
+   <pre><code
+         class="language-kotlin">"""
+Esta cadena
+está
+muy larga
+"""</code></pre>
+  </li>
+ </ul>
+ <h2>Cadena Vacía</h2>
+ <p>
+  Hay una cadena sin caracteres:
+  <code class="language-kotlin">""</code>
+  conocida como
+  <dfn>cadena vacía</dfn>.
+ </p>
+</div>
+      </section>
+     <section >
+         <h1 >D. Las instrucciones <code class='language-html'>print</code> y <code class='language-html'>println</code></h1><div class="lectura">
+ <ul>
+  <li>
+   <p>
+    La instrucción
+    <dfn>
+     <code class="language-kotlin">print</code>
+    </dfn>
+    muestra un texto en la salida.
+   </p>
+  </li>
+  <li>
+   <p>
+    La instrucción
+    <dfn>
+     <code class="language-kotlin">println</code>
+    </dfn>
+    muestra un texto en la salida y posteriormente hace un salto de línea.
+   </p>
+  </li>
+  <li>
+   <p>Los textos se muestran sin los símbolos que los delimitan.</p>
+  </li>
+ </ul>
+ <h2>Ejemplos</h2>
+ <table class="borde">
+  <thead>
+   <tr>
+    <th>Instrucción</th>
+    <th>Salida</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>
+     <pre><code></code><span
+           style="color: #795e26;">println</span>(<span
+           style="color: #a31515;">"7!😁"</span>);</code></pre>
+    </td>
+    <td>
+     <pre><samp>7!😁</samp></pre>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <pre><code class="language-kotlin"><span
+           style="color: #795e26;">print</span>(<span
+           style="color: #a31515;">"Hola pp"</span>);</code></pre>
+    </td>
+    <td>
+     <pre><samp>Hola pp</samp></pre>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+      </section>
+     <section >
+         <h1 >E. Orden de ejecución</h1><div class="lectura">
+ <ul>
+  <li>
+   <p>
+    Primero se ejecuta el contenido de
+    <code class="language-kotlin"><span
+         style="color: #0000ff;">fun</span>&nbsp;<span
+         style="color: #795e26;">main</span>()</code>.
+   </p>
+  </li>
+  <li>
+   <p>Los renglones de instrucciones se ejecutan de arriba para abajo.</p>
+  </li>
+  <li>
+   <p>
+    En cada renglón, las instrucciones se ejecutan de izquierda a derecha.
+   </p>
+  </li>
+  <li>
+   <p>
+    Cada instrucción
+    <code
+      class="language-kotlin"><span
+         style="color: #001080;">println</span></code>
+    es un renglón.
+   </p>
+  <li>
+   <p>
+    Una <dfn>prueba de escritorio</dfn> es la ejecución detallada y
+    paso a paso de un programa.
+   </p>
+  </li>
+  <li>
+   <p>
+    <dfn>Depurar</dfn> es controlar la realización de una prueba de
+    escritorio usando una herramienta de desarrollo.
+   </p>
+  </li>
+  <li>
+   <p>
+    Usaremos la herramienta
+    <a href="https://www.jetbrains.com/es-es/idea/" rel="nooper"
+      target="_blank">IntelliJ IDEA Community</a>
+    para depurar los programas.
+   </p>
+  </li>
+ </ul>
+ <h2>Ejemplo</h2>
+</div>
+<div class="horizontal">
+ <div>
+  <h2>Salida.</h2>
+  <pre><samp>p
+au</samp></pre>
+  <p class="noPrint">
+   <a target="_blank" rel="nooper"
+     href="https://play.kotlinlang.org/#eyJ2ZXJzaW9uIjoiMS41LjMwIiwicGxhdGZvcm0iOiJqYXZhIiwiYXJncyI6IiIsIm5vbmVNYXJrZXJzIjp0cnVlLCJ0aGVtZSI6ImlkZWEiLCJjb2RlIjoiZnVuIG1haW4oKSB7XG4gcHJpbnRsbihcInBcIik7IHByaW50KFwiYVwiKVxuIHByaW50KFwidVwiKVxufSJ9">
+    Revísalo en Kotlin play.
+   </a>
+  </p>
+ </div>
+ <muestra-codigo>
+  <div>
+   <div><span style="color: #0000ff;">fun</span>&nbsp;<span
+      style="color: #795e26;">main</span>()&nbsp;{</div>
+   <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+      style="color: #a31515;">"p"</span>);&nbsp;<span
+      style="color: #795e26;">print</span>(<span
+      style="color: #a31515;">"a"</span>)</div>
+   <div>&nbsp;<span style="color: #795e26;">print</span>(<span
+      style="color: #a31515;">"u"</span>)</div>
+   <div>}</div>
+  </div>
+ </muestra-codigo>
+</div>
+      </section>
+</body>
+</html>

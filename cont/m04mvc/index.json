@@ -1,0 +1,38 @@
+{
+ "type": "A",
+ "title": "MVC",
+ "description": "Contenido de la lección «4. MVC",
+ "printDescription": "Página para imprimir de la lección «4. MVC.",
+ "listado": [
+  {
+   "name": "mAalgoritmo.html",
+   "title": "Algoritmo",
+   "h1": "<dfn>Algoritmo</dfn>",
+   "description": "Definición de algoritmo."
+  },
+  {
+   "name": "mBproceso.html",
+   "title": "Proceso de información",
+   "h1": "<dfn>Proceso de información</dfn>",
+   "description": "Definición de proceso de información."
+  },
+  {
+   "name": "mClenguaje.html",
+   "title": "Lenguaje de programación",
+   "h1": "<dfn>Proceso de información</dfn>",
+   "description": "Definición de lenguaje de programación."
+  },
+  {
+   "name": "mDpseudocodigo.html",
+   "title": "Pseudocódigo",
+   "h1": "<dfn>Pseudocódigo</dfn>",
+   "description": "Definición de pseudocódigo."
+  },
+  {
+   "name": "mEdiagrama.html",
+   "title": "Diagrama de flujo",
+   "h1": "<dfn>Diagrama de flujo</dfn>",
+   "description": "Definición de diagrama de flujo."
+  }
+ ]
+}

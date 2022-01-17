@@ -1,0 +1,42 @@
+{
+ "type": "A",
+ "title": "Variables",
+ "description": "Contenido de la lección «6. Variables»",
+ "printDescription": "Página para imprimir de la lección «6. Variables».",
+ "listado": [
+  {
+   "name": "mAidentificadores.html",
+   "title": "Identificador",
+   "h1": "<dfn>Identificador</dfn>",
+   "description": "Definición de identificador."
+  },
+  {
+   "name": "mBvariables.html",
+   "title": "Variable",
+   "h1": "<dfn>Variable</dfn>",
+   "description": "Definición de variable."
+  },
+  {
+   "name": "mCconstantes.html",
+   "title": "Constante",
+   "h1": "<dfn>Constante</dfn>",
+   "description": "Definición de constante."
+  },
+  {
+   "name": "mDduplicadas.html",
+   "title": "Variables duplicadas",
+   "description": "Variables duplicadas."
+  },
+  {
+   "name": "mEnoEncontradas.html",
+   "title": "Variables no encontradas",
+   "description": "Variables no encontradas."
+  },
+  {
+   "name": "mFreadLine.html",
+   "title": "La función readLine",
+   "h1": "La función <code class='language-html'>readLine</code>",
+   "description": "La función readLine."
+  }
+ ]
+}

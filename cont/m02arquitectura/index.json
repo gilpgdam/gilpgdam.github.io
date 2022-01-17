@@ -1,0 +1,23 @@
+{
+ "type": "A",
+ "title": "Arquitectura de dispositivos móviles",
+ "description": "Contenido de la lección «2. Arquitectura de dispositivos móviles",
+ "printDescription": "Página para imprimir de la lección «2. Arquitectura de dispositivos móviles.",
+ "listado": [
+  {
+   "name": "mAcaracteristicas.html",
+   "title": "Características de los sistemas operativos de dispositivos móviles",
+   "description": "Características de los sistemas operativos de dispositivos móviles."
+  },
+  {
+   "name": "mBuso.html",
+   "title": "Uso de los sistemas operativos móviles",
+   "description": "Uso de los sistemas operativos móviles."
+  },
+  {
+   "name": "mCcomponentes.html",
+   "title": "Componentes de hardware de dispositivos móviles",
+   "description": "Componentes de hardware de dispositivos móviles."
+  }
+ ]
+}

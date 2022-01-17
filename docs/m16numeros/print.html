@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" sizes="32x32" href="/favicon.ico">
+<meta name="theme-color" content="#039623">
+<link rel="manifest" href="/site.webmanifest">
+<script src="/js/muestra-codigo.js"></script>
+ <title>Números - GilPG DAM</title>
+ <meta name="description" content="Página para imprimir de la lección «16. Números.">
+ <style>
+ :root {
+  --introDuracion: 2s;
+  --introFuncion: ease-out;
+  --padCont: 0.5rem;
+  --padNav: 0.75rem 0.5rem;
+  --anchoNav: 300px;
+  --anchoLectura: 900px;
+  --colLetra: black;
+  --colFondo: white;
+  --colTituloLetra: #00811c;
+  --colTituloShadow: 3px 1px 2px #bdbdbd;
+  --colTituloStrong: #684601;
+  --colTituloStrongSel: #ffdc97;
+  --colTarget: #cef4ff;
+  --colSombra: #49494980;
+  --navSombra: 0.5rem 0 0.5rem var(--colSombra);
+  --padCtrl: 0.2rem 0.3rem;
+  --borderCtrl: solid thin;
+  --colFondoNav: #f2f2f2;
+  --colNavResaltada: #7a2c99;
+  --colSecundario: #ffff82;
+  --colStack1: black;
+  --colStack2: #224ba5;
+  --colStack3: #92731f;
+  --colScrollbar: #CFD8DC;
+  --colThumb: #90a4ae;
+  --colThumbActivo: #3f3f3f;
+  --anchoThumb: 7px;
+  --borderRadiusThumb: 3.5px;
+  --gap: 0.5rem;
+  --fontMono: monospace;
+  --fontSans: sans-serif;
+  --fontSerif: serif;
+  font-family: var(--fontSerif);
+  color: var(--colLetra);
+  background-color: var(--colFondo);
+  scrollbar-width: thin;
+  scrollbar-color: var(--colThumb) var(--colScrollbar);
+ }
+
+ body::-webkit-scrollbar {
+  width: var(--anchoThumb);
+  height: var(--anchoThumb);
+ }
+
+ body::-webkit-scrollbar-track {
+  background: var(--colScrollbar);
+ }
+
+ body::-webkit-scrollbar-thumb {
+  background-color: var(--colThumb);
+  border-radius: var(--borderRadiusThumb);
+ }
+
+ body::-webkit-scrollbar-thumb:active {
+  background-color: var(--colThumbActivo);
+ }
+
+ .anterior,
+ .siguiente {
+  display: inline-block;
+  text-decoration: none;
+  padding: var(--padCtrl);
+  border: var(--borderCtrl);
+  cursor: pointer;
+ }
+
+ .anterior.bye,
+ .siguiente.bye {
+  display: none;
+ }
+
+ a[data-logo] {
+  display: block;
+  height: 54px;
+  line-height: 54px;
+  padding-left: 54px;
+  margin-top: 1rem;
+  background-image: url("/img/icono/maskable_icon_x48.png");
+  background-position: 3px center;
+  background-repeat: no-repeat;
+ }
+
+ a strong,
+ a code,
+ h1 strong,
+ h1 code {
+  color: var(--colTituloStrong);
+ }
+
+ nav a {
+  font-family: var(--fontSans);
+ }
+
+ pre {
+  font-family: var(--fontMono);
+ }
+
+ code {
+  color: var(--colTituloStrong);
+  font-family: var(--fontMono);
+ }
+
+ h1:not(.default) {
+  font-family: var(--fontSans);
+  color: var(--colTituloLetra);
+ }
+
+ .autor {
+  font-family: var(--fontSans);
+  font-size: 1.5rem;
+  color: var(--colTituloLetra);
+ }
+
+ figure {
+  text-align: center;
+ }
+
+ figure img {
+  max-width: 100%;
+  max-height: 65vh;
+ }
+
+ figure img.med {
+  max-height: 55vh;
+ }
+
+ figcaption {
+  font-family: var(--fontMono);
+ }
+
+ .print .noPrint {
+  display: none;
+ }
+
+ @media print {
+  .noPrint {
+   display: none;
+  }
+
+  .pruebaDeEscritorio {
+   page-break-before: always;
+  }
+ }
+
+ iframe {
+  box-sizing: border-box;
+  width: 100%;
+ }
+
+ .lectura {
+  max-width: var(--anchoLectura);
+  margin: 1rem auto;
+ }
+
+ .lectura p,
+ .lectura blockquote {
+  text-align: justify;
+ }
+
+ /* No funciona bien con display:flex en pantallas pequeñas. */
+ .horizontal {
+  text-align: center;
+ }
+
+ .horizontal>* {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+ }
+
+ .horizontal>*:not(:first-child) {
+  margin-left: 1rem;
+ }
+
+ .columnas4 {
+  columns: 4 180px;
+  column-gap: 1rem;
+ }
+
+ .columnas2 {
+  columns: 2 360px;
+  column-gap: 1rem;
+ }
+
+ .resaltado {
+  background-color: rgb(255, 255, 89);
+ }
+
+ .resaltado2 {
+  background-color: rgb(255, 214, 139);
+ }
+
+ table.borde {
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ table.borde,
+ table.borde td {
+  border: thin solid;
+  border-collapse: collapse;
+ }
+
+ table.borde th,
+ table.borde td {
+  padding: 0.4rem;
+ }
+
+ muestra-codigo>div>div {
+  white-space: nowrap;
+ }
+
+ footer {
+  margin-top: 1rem;
+  display: block;
+  text-align: center;
+  font-family: var(--fontSans);
+  font-size: small;
+ }
+</style>
+ <style>
+ .pruebaDeEscritorio section {
+  display: inline-block;
+  vertical-align: top;
+  margin: 1em;
+ }
+
+ .pruebaDeEscritorio section pre {
+  margin: 0;
+ }
+
+ .pruebaDeEscritorio samp {
+  font-weight: bold;
+ }
+
+ .pruebaDeEscritorio .activo {
+  display: inline-block;
+  margin: 0 0.2rem 0 0;
+  vertical-align: top;
+  background-color: var(--colSecundario);
+  border: 1px solid var(--colSecundario);
+ }
+
+ .pruebaDeEscritorio :target,
+ .pruebaDeEscritorio :target caption {
+  background-color: var(--colTarget);
+ }
+
+ .pruebaDeEscritorio .numero1 {
+  display: inline-block;
+  margin: 0 0.2rem 0 0;
+  color: var(--colStack1);
+  border: 1px solid var(--colStack1);
+ }
+
+ .pruebaDeEscritorio .numero2 {
+  display: inline-block;
+  color: var(--colStack2);
+  border: 1px solid var(--colStack2);
+ }
+
+ .pruebaDeEscritorio .numero3 {
+  display: inline-block;
+  color: var(--colStack3);
+  border: 1px solid var(--colStack3);
+ }
+
+ .pruebaDeEscritorio a.parametro1,
+ .pruebaDeEscritorio .parametro1 {
+  color: var(--colPar1);
+ }
+
+ .pruebaDeEscritorio a.parametro2,
+ .pruebaDeEscritorio .parametro2 {
+  color: var(--colPar2);
+ }
+
+ .pruebaDeEscritorio .descongela {
+  color: var(--colDescongela);
+ }
+
+ .pruebaDeEscritorio table.tabla1,
+ .pruebaDeEscritorio table.tabla1 th,
+ .pruebaDeEscritorio table.tabla1 td {
+  border: 1px solid var(--colStack1);
+ }
+
+ .pruebaDeEscritorio table.tabla2,
+ .pruebaDeEscritorio table.tabla2 th,
+ .pruebaDeEscritorio table.tabla2 td {
+  border: 1px solid var(--colStack2);
+ }
+
+ .pruebaDeEscritorio table.tabla3,
+ .pruebaDeEscritorio table.tabla3 th,
+ .pruebaDeEscritorio table.tabla3 td {
+  border: 1px solid var(--colStack3);
+ }
+
+ .pruebaDeEscritorio .frame {
+  font-family: var(--fontMono);
+  border-collapse: collapse;
+ }
+
+ .pruebaDeEscritorio .frame,
+ .pruebaDeEscritorio .frame th,
+ .pruebaDeEscritorio .frame td {
+  border: thin solid;
+ }
+
+ .pruebaDeEscritorio .frame caption {
+  font-style: italic;
+ }
+
+ .pruebaDeEscritorio .objeto caption {
+  text-decoration: underline;
+  font-style: italic;
+ }
+
+ .pruebaDeEscritorio .creación {
+  display: flex;
+ }
+</style>
+</head>
+<body class="print">
+   <h1 class="leccion">16. Números</h1>
+   <div class="lectura"> 
+    <p class="noPrint">
+     <a href="print.html" target="_blank" rel="noopener">Versión para
+      imprimir.</a>
+    </p>
+   </div>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <script type="module" src="/js/config.js"></script>
+ <link rel="icon" sizes="32x32" href="/favicon.ico">
+ <meta name="theme-color" content="#ffffff">
+ <link rel="manifest" href="/site.webmanifest">
+ <link rel="stylesheet" href="/css/estilos.css">
+ <script type="module" src="cmp/mas-numeros-index.js"></script>
+</head>
+<body>
+ <layout-cajon>
+  <mi-nav slot="nav"></mi-nav>
+  <h1 class="presentación">16. Más números</h1>
+  <p><a href="print.html" target="_blank">Versión para Imprimir.</a></p>
+  <mas-numeros-index></mas-numeros-index>
+  <mi-footer></mi-footer>
+ </layout-cajon>
+</body>
+</html>
+     <section >
+         <h1 >A. Tipos enteros</h1><div class="lectura">
+ <ul>
+  <li>
+   <p>
+    Hay distintos tipos de enteros. La diferencia es cuantos números pueden
+    representar
+    y el número de bytes que utilizan.
+   </p>
+  </li>
+  <li>
+   <p>
+    Una diferencia con las matemáticas es que son circulares. Si al número más
+    positivo
+    le sumas 1, obtienes el más negativo y si al más negativo le restas 1,
+    obtienes el
+    más positivo.
+   </p>
+  </li>
+ </ul>
+ <table class="borde">
+  <tr>
+   <th>Tipo</th>
+   <th>Tamaño (bits)</th>
+   <th>valor mínimo</th>
+   <th>Valor máximo</th>
+  </tr>
+  <tr>
+   <th>Byte</th>
+   <td>8</td>
+   <td>-128</td>
+   <td>127</td>
+  </tr>
+  <tr>
+   <th>Short</th>
+   <td>16</td>
+   <td>-32768</td>
+   <td>32767</td>
+  </tr>
+  <tr>
+   <th>Int</th>
+   <td>32</td>
+   <td>-2,147,483,648</td>
+   <td>2,147,483,647</td>
+  </tr>
+  <tr>
+   <th>Long</th>
+   <td>64</td>
+   <td>-9,223,372,036,854,775,808</td>
+   <td>9,223,372,036,854,775,807</td>
+  </tr>
+ </table>
+ <h2>Números naturales</h2>
+ <dl>
+  <dt>UByte</dt>
+  <dd>
+   <p>Enteros sin signo de 8 bits, de 0 a 255.</p>
+  </dd>
+  <dt>UShort</dt>
+  <dd>
+   <p>Enteros sin signo de 16 bits, de 0 a 65535.</p>
+  </dd>
+  <dt>UInt</dt>
+  <dd>
+   <p>Enteros sin signo de 32 bits, de 0 a 2<sup>32</sup> - 1.</p>
+  </dd>
+  <dt>ULong</dt>
+  <dd>
+   <p>Enteros sin signo de 64-bits, de 0 a 2<sup>64</sup> - 1.</p>
+  </dd>
+ </dl>
+</div>
+      </section>
+     <section >
+         <h1 >B. Tipos de punto flotante</h1><figure>
+ <img alt="Imagen de la recta numérica" src="/img/m16numeros/recta.svg">
+</figure>
+<div class="lectura">
+ <p>
+  El tipo Float es más pequeño y el tipo Double es el más grande.
+ </p>
+ <p>Los números a la izquierda son menores que los de la derecha.</p>
+ <dl>
+  <dt><dfn><code class="language-kotlin">0.0</code></dfn></dt>
+  <dd>
+   <p>Es el centro de la recta.</p>
+  </dd>
+  <dt><dfn><code class="language-kotlin">MIN_VALUE</code></dfn>
+  </dt>
+  <dd>
+   <p>Es el valor positivo más cercano a 0.</p>
+  </dd>
+  <dt><dfn><code
+      class="language-kotlin">-MIN_VALUE</code></dfn></dt>
+  <dd>
+   <p>Es el valor negativo más cercano a 0.</p>
+  </dd>
+  <dt><dfn><code class="language-kotlin">MAX_VALUE</code></dfn>
+  </dt>
+  <dd>
+   <p>Es el valor numérico finito más positivo.</p>
+  </dd>
+  <dt><dfn><code
+      class="language-kotlin">-MAX_VALUE</code></dfn></dt>
+  <dd>
+   <p>Es el valor numérico finito más negativo.</p>
+  </dd>
+  <dt><dfn><code
+      class="language-kotlin">POSITIVE_INFINITY</code></dfn>
+  </dt>
+  <dd>
+   <p>
+    Representa a todos los valores mayores que
+    <code class="language-kotlin">MAX_VALUE</code>.
+   </p>
+  </dd>
+  <dt><dfn><code
+      class="language-kotlin">NEGATIVE_INFINITY</code></dfn>
+  </dt>
+  <dd>
+   <p>
+    Representa a todos los valores menores que
+    <code class="language-kotlin">-MAX_VALUE</code>.
+   </p>
+  </dd>
+ </dl>
+</div>
+      </section>
+     <section >
+         <h1 >C. Operadores numéricos</h1><muestra-codigo>
+ <div>
+  <div><span style="color: #0000ff;">fun</span>&nbsp;<span
+     style="color: #795e26;">main</span>()&nbsp;{</div>
+  <div>&nbsp;<span style="color: #008000;">//&nbsp;Suma</span></div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+     style="color: #098658;">5</span>&nbsp;+&nbsp;<span
+     style="color: #098658;">2</span>);&nbsp;&nbsp;<span
+     style="color: #008000;">//&nbsp;7</span></div>
+  <div>&nbsp;<span style="color: #008000;">//&nbsp;Resta</span></div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+     style="color: #098658;">5</span>&nbsp;-&nbsp;<span
+     style="color: #098658;">2</span>);&nbsp;&nbsp;<span
+     style="color: #008000;">//&nbsp;3</span></div>
+  <div>&nbsp;<span
+     style="color: #008000;">//&nbsp;Multiplicación</span></div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+     style="color: #098658;">5</span>&nbsp;*&nbsp;<span
+     style="color: #098658;">2</span>);&nbsp;&nbsp;<span
+     style="color: #008000;">//10</span></div>
+  <div>&nbsp;<span
+     style="color: #008000;">//&nbsp;División&nbsp;entera</span></div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+     style="color: #098658;">5</span>&nbsp;/&nbsp;<span
+     style="color: #098658;">2</span>);&nbsp;&nbsp;<span
+     style="color: #008000;">//&nbsp;2</span></div>
+  <div>&nbsp;<span
+     style="color: #008000;">//&nbsp;División&nbsp;entera</span></div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+     style="color: #098658;">5</span>&nbsp;/&nbsp;<span
+     style="color: #098658;">2.0</span>);&nbsp;&nbsp;<span
+     style="color: #008000;">//&nbsp;2.5</span></div>
+  <div>&nbsp;<span
+     style="color: #008000;">//&nbsp;Módulo&nbsp;o&nbsp;residuo</span></div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+     style="color: #098658;">5</span>&nbsp;%&nbsp;<span
+     style="color: #098658;">2</span>);&nbsp;<span
+     style="color: #008000;">//&nbsp;&nbsp;1</span></div>
+  <div>}</div>
+ </div>
+</muestra-codigo>
+      </section>
+     <section >
+         <h1 >D. Operadores con asignación</h1><div class="lectura">
+ <ul>
+  <li>
+   <p>
+    Aparte del operador de asignación
+    (<code class="language-kotlin" style="color: #0000ff;">=</code>),
+    hay otros operadores que permiten cambiar el valor de una variable.
+   </p>
+  </li>
+  <li>
+   <p>Al declarar una variable, puedes declarar su tipo.</p>
+  </li>
+ </ul>
+ <h2>Ejemplo</h2>
+</div>
+<muestra-codigo>
+ <div>
+  <div><span style="color: #0000ff;">fun</span>&nbsp;<span
+     style="color: #795e26;">main</span>()&nbsp;{</div>
+  <div>&nbsp;<span style="color: #0000ff;">var</span>&nbsp;b:&nbsp;<span
+     style="color: #267f99;">Int</span>&nbsp;=&nbsp;<span
+     style="color: #098658;">4</span>;</div>
+  <div>&nbsp;<span
+     style="color: #0000ff;">val</span>&nbsp;d&nbsp;=&nbsp;<span
+     style="color: #098658;">5</span>;</div>
+  <div>&nbsp;b&nbsp;=&nbsp;d&nbsp;*&nbsp;<span
+     style="color: #098658;">2</span>;&nbsp;<span
+     style="color: #008000;">//&nbsp;b&nbsp;===&nbsp;10</span></div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(b);</div>
+  <div>&nbsp;b&nbsp;+=&nbsp;d;&nbsp;<span
+     style="color: #008000;">//&nbsp;b&nbsp;=&nbsp;b&nbsp;+&nbsp;d;&nbsp;b&nbsp;===&nbsp;15</span>
+  </div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(b);</div>
+  <div>&nbsp;b&nbsp;-=&nbsp;<span
+     style="color: #098658;">2</span>;&nbsp;<span
+     style="color: #008000;">//&nbsp;b&nbsp;=&nbsp;b&nbsp;-&nbsp;2;&nbsp;b&nbsp;===&nbsp;13</span>
+  </div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(b);</div>
+  <div>&nbsp;b&nbsp;*=&nbsp;<span
+     style="color: #098658;">3</span>;&nbsp;<span
+     style="color: #008000;">//&nbsp;b&nbsp;=&nbsp;b&nbsp;*&nbsp;3;&nbsp;b&nbsp;===&nbsp;39</span>
+  </div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(b);</div>
+  <div>&nbsp;b&nbsp;/=&nbsp;<span
+     style="color: #098658;">3</span>;&nbsp;<span
+     style="color: #008000;">//&nbsp;b&nbsp;=&nbsp;b&nbsp;/&nbsp;3;&nbsp;b&nbsp;===&nbsp;13</span>
+  </div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(b);</div>
+  <div>&nbsp;b&nbsp;%=&nbsp;<span
+     style="color: #098658;">5</span>;&nbsp;<span
+     style="color: #008000;">//&nbsp;b&nbsp;=&nbsp;b&nbsp;%&nbsp;5;&nbsp;b&nbsp;===&nbsp;3</span>
+  </div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(b);</div>
+  <div>}</div>
+ </div>
+</muestra-codigo>
+      </section>
+     <section >
+         <h1 >E. Incremento y decremento<</h1><div class="lectura">
+ <p>
+  También hay operadores de incremento y decremento en 1, pero son algo
+  truculentos; es mejor usarlos solos, sin combinarlos con otros
+  operadores.
+ </p>
+ <h2>Ejemplo</h2>
+</div>
+<muestra-codigo>
+ <div>
+  <div><span style="color: #0000ff;">fun</span>&nbsp;<span
+     style="color: #795e26;">main</span>()&nbsp;{</div>
+  <div>&nbsp;<span style="color: #0000ff;">var</span>&nbsp;z&nbsp;=&nbsp;<span
+     style="color: #098658;">0</span>;</div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(z);&nbsp;<span
+     style="color: #008000;">//&nbsp;0</span></div>
+  <div>&nbsp;<span
+     style="color: #008000;">//&nbsp;Incremento.&nbsp;Aumenta&nbsp;z&nbsp;en&nbsp;1.</span>
+  </div>
+  <div>&nbsp;z++;</div>
+  <div>&nbsp;<span style="color: #008000;">//&nbsp;z&nbsp;===&nbsp;1</span>
+  </div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(z);&nbsp;<span
+     style="color: #008000;">//&nbsp;1</span></div>
+  <div>&nbsp;<span
+     style="color: #008000;">//&nbsp;Decremento.&nbsp;Disminuye&nbsp;z&nbsp;en&nbsp;1.</span>
+  </div>
+  <div>&nbsp;z--;</div>
+  <div>&nbsp;<span
+    style="color: #008000;">//&nbsp;z&nbsp;===&nbsp;0</span></div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(z);&nbsp;<span
+     style="color: #008000;">//&nbsp;0</span></div>
+  <div>}</div>
+ </div>
+</muestra-codigo>
+      </section>
+     <section >
+         <h1 >F. Operadores de igualdad</h1><muestra-codigo>
+ <div>
+  <div><span style="color: #0000ff;">fun</span>&nbsp;<span
+     style="color: #795e26;">main</span>()&nbsp;{</div>
+  <div>&nbsp;<span
+     style="color: #008000;">//&nbsp;Igual&nbsp;que&nbsp;(==)</span></div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+     style="color: #098658;">3</span>&nbsp;==&nbsp;<span
+     style="color: #098658;">3</span>);&nbsp;&nbsp;<span
+     style="color: #008000;">//true</span></div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+     style="color: #098658;">3</span>&nbsp;==&nbsp;-<span
+     style="color: #098658;">3</span>);&nbsp;<span
+     style="color: #008000;">//false</span></div>
+  <div>&nbsp;<span
+     style="color: #008000;">//&nbsp;Diferente&nbsp;de&nbsp;(!==)</span></div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+     style="color: #098658;">3</span>&nbsp;!=&nbsp;<span
+     style="color: #098658;">3</span>);&nbsp;<span
+     style="color: #008000;">//&nbsp;false</span></div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+     style="color: #098658;">3</span>&nbsp;!=&nbsp;<span
+     style="color: #098658;">8</span>);&nbsp;<span
+     style="color: #008000;">//&nbsp;true</span></div>
+  <div>}</div>
+ </div>
+</muestra-codigo>
+      </section>
+     <section >
+         <h1 >G. Operadores de orden</h1><div class="lectura">
+ <ul>
+  <li>
+   <p>
+    El operador binario
+    <code class="language-kotlin">&lt;</code>
+    representa el orden natural de los datos. Si el valor a la izquierda
+    va antes que el de la derecha, el resultado es
+    <code class="language-kotlin">true</code>;
+    en otro caso es
+    <code class="language-kotlin">false</code>.
+   </p>
+  </li>
+  <li>
+   <p>
+    El operador binario
+    <code class="language-kotlin">&gt;</code>
+    representa el orden invertido de los datos. Si el valor a la izquierda
+    va después que el de la derecha, el resultado es
+    <code class="language-kotlin">true</code>;
+    en otro caso es
+    <code class="language-kotlin">false</code>.
+   </p>
+  </li>
+  <li>
+   <p>En el ejemplo que sigue, el orden natural es:</p>
+   <p>0 &lt; 3 &lt; 8</p>
+  </li>
+ </ul>
+</div>
+<muestra-codigo>
+ <div>
+  <div><span style="color: #0000ff;">fun</span>&nbsp;<span
+     style="color: #795e26;">main</span>()&nbsp;{</div>
+  <div>&nbsp;<span
+     style="color: #008000;">//&nbsp;Menor&nbsp;que&nbsp;(&lt;)</span></div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+     style="color: #098658;">3</span>&nbsp;&lt;&nbsp;<span
+     style="color: #098658;">0</span>);&nbsp;<span
+     style="color: #008000;">//&nbsp;false</span></div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+     style="color: #098658;">3</span>&nbsp;&lt;&nbsp;<span
+     style="color: #098658;">3</span>);&nbsp;<span
+     style="color: #008000;">//&nbsp;false</span></div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+     style="color: #098658;">3</span>&nbsp;&lt;&nbsp;<span
+     style="color: #098658;">8</span>);&nbsp;<span
+     style="color: #008000;">//&nbsp;true</span></div>
+  <div>&nbsp;<span
+     style="color: #008000;">//&nbsp;Mayor&nbsp;que&nbsp;(&gt;)</span></div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+     style="color: #098658;">3</span>&nbsp;&gt;&nbsp;<span
+     style="color: #098658;">0</span>);&nbsp;<span
+     style="color: #008000;">//&nbsp;true</span></div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+     style="color: #098658;">3</span>&nbsp;&gt;&nbsp;<span
+     style="color: #098658;">3</span>);&nbsp;<span
+     style="color: #008000;">//&nbsp;false</span></div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+     style="color: #098658;">3</span>&nbsp;&gt;&nbsp;<span
+     style="color: #098658;">8</span>);&nbsp;<span
+     style="color: #008000;">//&nbsp;false</span></div>
+  <div>}</div>
+ </div>
+</muestra-codigo>
+      </section>
+     <section >
+         <h1 >H. Operadores combinados de orden e Igualdad</h1><div class="lectura">
+ <p>En el ejemplo que sigue, el orden natural es:</p>
+ <p>0 &lt; 3 &lt; 8</p>
+</div>
+<muestra-codigo>
+ <div>
+  <div><span style="color: #0000ff;">fun</span>&nbsp;<span
+     style="color: #795e26;">main</span>()&nbsp;{</div>
+  <div>&nbsp;<span
+     style="color: #008000;">//&nbsp;Menor&nbsp;o&nbsp;igual&nbsp;que&nbsp;(&lt;=)</span>
+  </div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+     style="color: #098658;">3</span>&nbsp;&lt;=&nbsp;<span
+     style="color: #098658;">0</span>);&nbsp;<span
+     style="color: #008000;">//&nbsp;false</span></div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+     style="color: #098658;">3</span>&nbsp;&lt;=&nbsp;<span
+     style="color: #098658;">3</span>);&nbsp;<span
+     style="color: #008000;">//&nbsp;true</span></div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+     style="color: #098658;">3</span>&nbsp;&lt;=&nbsp;<span
+     style="color: #098658;">8</span>);&nbsp;<span
+     style="color: #008000;">//&nbsp;true</span></div>
+  <div>&nbsp;<span
+     style="color: #008000;">//&nbsp;Mayor&nbsp;o&nbsp;igual&nbsp;que&nbsp;(&gt;=)</span>
+  </div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+     style="color: #098658;">3</span>&nbsp;&gt;=&nbsp;<span
+     style="color: #098658;">0</span>);&nbsp;<span
+     style="color: #008000;">//&nbsp;true</span></div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+     style="color: #098658;">3</span>&nbsp;&gt;=&nbsp;<span
+     style="color: #098658;">3</span>);&nbsp;<span
+     style="color: #008000;">//&nbsp;true</span></div>
+  <div>&nbsp;<span style="color: #795e26;">println</span>(<span
+     style="color: #098658;">3</span>&nbsp;&gt;=&nbsp;<span
+     style="color: #098658;">8</span>);&nbsp;<span
+     style="color: #008000;">//&nbsp;false</span></div>
+  <div>}</div>
+ </div>
+</muestra-codigo>
+      </section>
+     <section >
+         <h1 >I. Precedencia de Operadores</h1><div class="lectura">
+ <p>
+  Aquí se muestra el orden en que se ejecutan los operadores de JavaScript
+  cuando se combinan en una expresión. Los que aparecen primero son los que
+  se ejecutan primero. Una tabla similar para Kotlin está en desarrollo.
+ </p>
+</div>
+<table class="borde">
+ <tr>
+  <th>Orden</th>
+  <th>Descripción</th>
+  <th>Asociatividad</th>
+  <th>Operador</th>
+  <th>ejempo</th>
+ </tr>
+ <tr>
+  <td>1</td>
+  <td>agrupamiento</td>
+  <td>n/a</td>
+  <td><code
+     class="language-kotlin"><strong>(</strong>…<strong>)</strong></code>
+  </td>
+  <td><code
+     class="language-kotlin"><strong>(</strong>2 + 3<strong>)</strong></code>
+  </td>
+ </tr>
+ <tr>
+  <td rowspan="4">2</td>
+  <td rowspan="2">miembro</td>
+  <td rowspan="2">izquierda a derecha</td>
+  <td><code class="language-kotlin">…<strong>.</strong>…</code></td>
+  <td><code class="language-kotlin">a<strong>.</strong>b</code></td>
+ </tr>
+ <tr>
+  <td><code
+     class="language-kotlin">…<strong>[</strong>…<strong>]</strong></code>
+  </td>
+  <td><code
+     class="language-kotlin">a<strong>[</strong>0<strong>]</strong></code>
+  </td>
+ </tr>
+ <tr>
+  <td>new</td>
+  <td>n/a</td>
+  <td><code
+     class="language-kotlin"><strong>new</strong> …<strong>(</strong>…<strong>)</strong></code>
+  </td>
+  <td><code
+     class="language-kotlin"><strong>new</strong> Clase<strong>(</strong>0<strong>)</strong></code>
+  </td>
+ </tr>
+ <tr>
+  <td>invocación a función</td>
+  <td>izquierda a derecha</td>
+  <td><code
+     class="language-kotlin">…<strong>(</strong>…<strong>)</strong></code>
+  </td>
+  <td><code
+     class="language-kotlin">fn<strong>(</strong>x<strong>)</strong></code>
+  </td>
+ </tr>
+ <tr>
+  <td rowspan="2">3</td>
+  <td>incremento sufijo</td>
+  <td>n/a</td>
+  <td><code class="language-kotlin">…<strong>++</strong></code></td>
+  <td><code class="language-kotlin">a<strong>++</strong></code></td>
+ </tr>
+ <tr>
+  <td>decremento sufijo</td>
+  <td>n/a</td>
+  <td><code class="language-kotlin">…<strong>--</strong></code></td>
+  <td><code class="language-kotlin">a<strong>--</strong></code></td>
+ </tr>
+ <tr>
+  <td rowspan="9">4</td>
+  <td>incremento prefijo</td>
+  <td>n/a</td>
+  <td><code class="language-kotlin"><strong>++</strong>…</code></td>
+  <td><code class="language-kotlin"><strong>++</strong>a</code></td>
+ </tr>
+ <tr>
+  <td>decremento prefijo</td>
+  <td>n/a</td>
+  <td><code class="language-kotlin"><strong>--</strong>…</code></td>
+  <td><code class="language-kotlin"><strong>--</strong>a</code></td>
+ </tr>
+ <tr>
+  <td>not lógico</td>
+  <td>derecha a izquierda</td>
+  <td><code class="language-kotlin"><strong>!</strong>…</code></td>
+  <td><code class="language-kotlin"><strong>!</strong>a</code></td>
+ </tr>
+ <tr>
+  <td>not a nivel de bits</td>
+  <td>derecha a izquierda</td>
+  <td><code class="language-kotlin"><strong>~</strong>…</code></td>
+  <td><code class="language-kotlin"><strong>~</strong>a</code></td>
+ </tr>
+ <tr>
+  <td>+ unario</a></td>
+  <td>derecha a izquierda</td>
+  <td><code class="language-kotlin"><strong>+</strong>…</code></td>
+  <td><code class="language-kotlin"><strong>+</strong>a</code></td>
+ </tr>
+ <tr>
+  <td>negación unaria</a></td>
+  <td>derecha a izquierda</td>
+  <td><code class="language-kotlin"><strong>-</strong>…</code></td>
+  <td><code class="language-kotlin"><strong>-</strong>a</code></td>
+ </tr>
+ <tr>
+  <td>typeof</td>
+  <td>derecha a izquierda</td>
+  <td><code class="language-kotlin"><strong>typeof</strong> …</code>
+  </td>
+  <td><code class="language-kotlin"><strong>typeof</strong> a</code>
+  </td>
+ </tr>
+ <tr>
+  <td>void</a></td>
+  <td>derecha a izquierda</td>
+  <td><code class="language-kotlin"><strong>void</strong> …</code>
+  </td>
+  <td><code class="language-kotlin"><strong>void</strong> a</code>
+  </td>
+ </tr>
+ <tr>
+  <td>delete</td>
+  <td>derecha a izquierda</td>
+  <td><code class="language-kotlin"><strong>delete</strong> …</code>
+  </td>
+  <td><code
+     class="language-kotlin"><strong>delete</strong> a.nombre</code>
+  </td>
+ </tr>
+ <tr>
+  <td>5</td>
+  <td>exponenciación</td>
+  <td>n/a</td>
+  <td><code class="language-kotlin">… <strong>**</strong> …</code>
+  </td>
+  <td><code class="language-kotlin">a <strong>**</strong> b</code>
+  </td>
+ </tr>
+ <tr>
+  <td rowspan="3">6</td>
+  <td>multiplicación</a></td>
+  <td>izquierda a derecha</td>
+  <td><code class="language-kotlin">… <strong>*</strong> …</code></td>
+  <td><code class="language-kotlin">a <strong>*</strong> b</code></td>
+ </tr>
+ <tr>
+  <td>división</a></td>
+  <td>izquierda a derecha</td>
+  <td><code class="language-kotlin">… <strong>/</strong> …</code></td>
+  <td><code class="language-kotlin">a <strong>/</strong> b</code></td>
+ </tr>
+ <tr>
+  <td>residuo</a></td>
+  <td>izquierda a derecha</td>
+  <td><code class="language-kotlin">… <strong>%</strong> …</code></td>
+  <td><code class="language-kotlin">a <strong>%</strong> b</code></td>
+ </tr>
+ <tr>
+  <td rowspan="2">7</td>
+  <td>suma</a></td>
+  <td>izquierda a derecha</td>
+  <td><code class="language-kotlin">… <strong>+</strong> …</code></td>
+  <td><code class="language-kotlin">a <strong>+</strong> b</code></td>
+ </tr>
+ <tr>
+  <td>resta</a></td>
+  <td>izquierda a derecha</td>
+  <td><code class="language-kotlin">… <strong>-</strong> …</code></td>
+  <td><code class="language-kotlin">a <strong>-</strong> b</code></td>
+ </tr>
+ <tr>
+  <td rowspan="3">8</td>
+  <td rowspan="3">corrimiento de bits</a></td>
+  <td rowspan="3">izquierda a derecha</td>
+  <td><code
+     class="language-kotlin">… <strong>&lt;&lt;</strong> …</code>
+  </td>
+  <td><code
+     class="language-kotlin">a <strong>&lt;&lt;</strong> b</code>
+  </td>
+ </tr>
+ <tr>
+  <td><code class="language-kotlin">… <strong>>></strong> …</code>
+  </td>
+  <td><code class="language-kotlin">a <strong>>></strong> b</code>
+  </td>
+ </tr>
+ <tr>
+  <td><code class="language-kotlin">… <strong>>>></strong> …</code>
+  </td>
+  <td><code class="language-kotlin">a <strong>>>></strong> b</code>
+  </td>
+ </tr>
+ <tr>
+  <td rowspan="6">9</td>
+  <td rowspan="4">relacional</td>
+  <td rowspan="4">izquierda a derecha</td>
+  <td><code class="language-kotlin">… <strong>&lt;</strong> …</code>
+  </td>
+  <td><code class="language-kotlin">a <strong>&lt;</strong> b</code>
+  </td>
+ </tr>
+ <tr>
+  <td><code class="language-kotlin">… <strong>&lt;=</strong> …</code>
+  </td>
+  <td><code class="language-kotlin">a <strong>&lt;=</strong> b</code>
+  </td>
+ </tr>
+ <tr>
+  <td><code class="language-kotlin">… <strong>></strong> …</code></td>
+  <td><code class="language-kotlin">a <strong>></strong> b</code></td>
+ </tr>
+ <tr>
+  <td><code class="language-kotlin">… <strong>>=</strong> …</code>
+  </td>
+  <td><code class="language-kotlin">a <strong>>=</strong> b</code>
+  </td>
+ </tr>
+ <tr>
+  <td>in</td>
+  <td>izquierda a derecha</td>
+  <td><code class="language-kotlin">… <strong>in</strong> …</code>
+  </td>
+  <td><code
+     class="language-kotlin">"nombre" <strong>in</strong> a</code>
+  </td>
+ </tr>
+ <tr>
+  <td>instanceof</td>
+  <td>izquierda a derecha</td>
+  <td><code
+     class="language-kotlin">… <strong>instanceof</strong> …</code>
+  </td>
+  <td><code
+     class="language-kotlin">a <strong>instanceof</strong> Array</code>
+  </td>
+ </tr>
+ <tr>
+  <td rowspan="4">10</td>
+  <td rowspan="4">igualdad</td>
+  <td rowspan="4">izquierda a derecha</td>
+  <td><code class="language-kotlin">… <strong>==</strong> …</code>
+  </td>
+  <td><code class="language-kotlin">a <strong>==</strong> b</code>
+  </td>
+ </tr>
+ <tr>
+  <td><code class="language-kotlin">… <strong>!=</strong> …</code>
+  </td>
+  <td><code class="language-kotlin">a <strong>!=</strong> b</code>
+  </td>
+ </tr>
+ <tr>
+  <td><code class="language-kotlin">… <strong>===</strong> …</code>
+  </td>
+  <td><code class="language-kotlin">a <strong>===</strong> b</code>
+  </td>
+ </tr>
+ <tr>
+  <td><code class="language-kotlin">… <strong>!==</strong> …</code>
+  </td>
+  <td><code class="language-kotlin">a <strong>!==</strong> b</code>
+  </td>
+ </tr>
+ <tr>
+  <td>11</td>
+  <td>and de bits</td>
+  <td>izquierda a derecha</td>
+  <td><code class="language-kotlin">… <strong>&amp;</strong> …</code>
+  </td>
+  <td><code class="language-kotlin">a <strong>&amp;</strong> b</code>
+  </td>
+ </tr>
+ <tr>
+  <td>12</td>
+  <td>xor de bits</td>
+  <td>izquierda a derecha</td>
+  <td><code class="language-kotlin">… <strong>^</strong> …</code></td>
+  <td><code class="language-kotlin">a <strong>^</strong> b</code></td>
+ </tr>
+ <tr>
+  <td>13</td>
+  <td>or de bits</td>
+  <td>izquierda a derecha</td>
+  <td><code class="language-kotlin">… <strong>|</strong> …</code></td>
+  <td><code class="language-kotlin">a <strong>|</strong> b</code></td>
+ </tr>
+ <tr>
+  <td>14</td>
+  <td>and lógico</td>
+  <td>izquierda a derecha</td>
+  <td><code
+     class="language-kotlin">… <strong>&amp;&amp;</strong> …</code>
+  </td>
+  <td><code
+     class="language-kotlin">a <strong>&amp;&amp;</strong> b</code>
+  </td>
+ </tr>
+ <tr>
+  <td>15</td>
+  <td>or lógico</td>
+  <td>izquierda a derecha</td>
+  <td><code class="language-kotlin">… <strong>||</strong> …</code>
+  </td>
+  <td><code class="language-kotlin">a <strong>||</strong> b</code>
+  </td>
+ </tr>
+ <tr>
+  <td>16</td>
+  <td>condicional</td>
+  <td>derecha a izquierda</td>
+  <td><code
+     class="language-kotlin">… <strong>?</strong> … <strong>:</strong> …</code>
+  </td>
+  <td><code
+     class="language-kotlin">a <strong>?</strong> b <strong>:</strong> c</code>
+  </td>
+ </tr>
+ <tr>
+  <td rowspan="12">17</td>
+  <td rowspan="12">asignación</td>
+  <td rowspan="12">derecha a izquierda</td>
+  <td><code class="language-kotlin">… <strong>=</strong> …</code></td>
+  <td><code class="language-kotlin">a <strong>=</strong> b</code></td>
+ </tr>
+ <tr>
+  <td><code class="language-kotlin">… <strong>+=</strong> …</code>
+  </td>
+  <td><code class="language-kotlin">a <strong>+=</strong> b</code>
+  </td>
+ </tr>
+ <tr>
+  <td><code class="language-kotlin">… <strong>-=</strong> …</code>
+  </td>
+  <td><code class="language-kotlin">a <strong>-=</strong> b</code>
+  </td>
+ </tr>
+ <tr>
+  <td><code class="language-kotlin">… <strong>*=</strong> …</code>
+  </td>
+  <td><code class="language-kotlin">a <strong>*=</strong> b</code>
+  </td>
+ </tr>
+ <tr>
+  <td><code class="language-kotlin">… <strong>/=</strong> …</code>
+  </td>
+  <td><code class="language-kotlin">a <strong>/=</strong> b</code>
+  </td>
+ </tr>
+ <tr>
+  <td><code class="language-kotlin">… <strong>%=</strong> …</code>
+  </td>
+  <td><code class="language-kotlin">a <strong>%=</strong> b</code>
+  </td>
+ </tr>
+ <tr>
+  <td><code
+     class="language-kotlin">… <strong>&lt;&lt;=</strong> …</code>
+  </td>
+  <td><code
+     class="language-kotlin">a <strong>&lt;&lt;=</strong> b</code>
+  </td>
+ </tr>
+ <tr>
+  <td><code class="language-kotlin">… <strong>>>=</strong> …</code>
+  </td>
+  <td><code class="language-kotlin">a <strong>>>=</strong> b</code>
+  </td>
+ </tr>
+ <tr>
+  <td><code class="language-kotlin">… <strong>>>>=</strong> …</code>
+  </td>
+  <td><code class="language-kotlin">a <strong>>>>=</strong> b</code>
+  </td>
+ </tr>
+ <tr>
+  <td><code class="language-kotlin">… <strong>&amp;=</strong> …</code>
+  </td>
+  <td><code class="language-kotlin">a <strong>&amp;=</strong> b</code>
+  </td>
+ </tr>
+ <tr>
+  <td><code class="language-kotlin">… <strong>^=</strong> …</code>
+  </td>
+  <td><code class="language-kotlin">a <strong>^=</strong> b</code>
+  </td>
+ </tr>
+ <tr>
+  <td><code class="language-kotlin">… <strong>|=</strong> …</code>
+  </td>
+  <td><code class="language-kotlin">a <strong>|=</strong> b</code>
+  </td>
+ </tr>
+ <tr>
+  <td>18</td>
+  <td>yield</td>
+  <td>derecha a izquierda</td>
+  <td><code class="language-kotlin"><strong>yield</strong> …</code>
+  </td>
+  <td><code class="language-kotlin"><strong>yield</strong> a</code>
+  </td>
+ </tr>
+ <tr>
+  <td>19</td>
+  <td>coma</td>
+  <td>izquierda a derecha</td>
+  <td><code class="language-kotlin">… <strong>,</strong> …</code></td>
+  <td><code class="language-kotlin">a <strong>,</strong> b</code></td>
+ </tr>
+</table>
+<div class="lectura">
+ <p><small>Fuentes:</small></p>
+ <ul>
+  <li>
+   <p>
+    <small>
+     <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/Operator_Precedence"
+       rel="nooper"
+       target="_blank">https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/Operator_Precedence</a>
+    </small>
+   </p>
+  </li>
+  <li>
+   <p>
+    <small>
+     <a href="https://www.w3schools.com/js/js_arithmetic.asp"
+       rel="nooper"
+       target="_blank">https://www.w3schools.com/js/js_arithmetic.asp</a>
+    </small>
+   </p>
+  </li>
+ </ul>
+</div>
+      </section>
+     <section >
+         <h1 >J. Expresiones</h1><div class="lectura">
+ <p>
+  Hay que aprender a estructurar las expresiones matemáticas en el
+  lenguaje de programación.
+ </p>
+ <h2>Ejemplos de expresiones aritméticas expresadas en Kotlin</h2>
+ <dl>
+  <dt>
+   <img src="/img/m16numeros/cuadratica.png"
+     alt="x = (-b + Math.sqrt(b**2 - 4*a*c)) / (2*a)">
+  </dt>
+  <dd>
+   <p>
+    <code
+      class="language-kotlin">x = (-b + Math.sqrt(b**2 - 4*a*c)) / (2*a)</code>
+   </p>
+  </dd>
+  <dt>
+   <img src="/img/m16numeros/recta.png"
+     alt="y = ((y2 - y1) / (x2 - x1)) * (x - x1) + y1">
+  </dt>
+  <dd>
+   <p>
+    <code
+      class="language-kotlin">y = ((y2 - y1) / (x2 - x1)) * (x - x1) + y1</code>
+   </p>
+  </dd>
+ </dl>
+ <h2>Temas por Investigar</h2>
+ <ul>
+  <li>
+   <p>
+    La clase
+    <code class="language-kotlin">Math</code>.
+   </p>
+  </li>
+ </ul>
+</div>
+      </section>
+</body>
+</html>

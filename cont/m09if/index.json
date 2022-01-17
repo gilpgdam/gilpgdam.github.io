@@ -1,0 +1,35 @@
+{
+ "type": "A",
+ "title": "if",
+ "description": "Contenido de la lección «9. if»",
+ "printDescription": "Página para imprimir de la lección «9. if».",
+ "listado": [
+  {
+   "name": "mAboolean.html",
+   "title": "El tipo boolean",
+   "h1": "<dfn>El tipo <code class='language-html'>boolean</code></dfn>",
+   "description": "Definición del tipo boolean."
+  },
+  {
+   "name": "mBtxtIgualdad.html",
+   "title": "Operador de igualdad de textos",
+   "description": "Operador de igualdad de textos."
+  },
+  {
+   "name": "mCtxtDiferente.html",
+   "title": "Operador diferente de para textoss",
+   "description": "Operador diferente de para textos."
+  },
+  {
+   "name": "mDif.html",
+   "title": "La estructura de control if",
+   "h1": "La estructura de control <code class='language-html'>if</code>",
+   "description": "La estructura de control if."
+  },
+  {
+   "name": "mECodigo.html",
+   "title": "Código",
+   "description": "Código con if."
+  }
+ ]
+}

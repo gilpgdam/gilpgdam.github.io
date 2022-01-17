@@ -1,0 +1,37 @@
+{
+ "type": "A",
+ "title": "Conceptos básicos",
+ "description": "Contenido de la lección «5. Conceptos básicos»",
+ "printDescription": "Página para imprimir de la lección «5. Conceptos básicos».",
+ "listado": [
+  {
+   "name": "mAkotlin.html",
+   "title": "Kotlin",
+   "h1": "<dfn>Kotlin</dfn>",
+   "description": "Definición de Kotlin."
+  },
+  {
+   "name": "mBtextos.html",
+   "title": "Textos",
+   "h1": "<dfn>Textos</dfn>",
+   "description": "Textos en Kotlin."
+  },
+  {
+   "name": "mCstring.html",
+   "title": "El tipo String",
+   "h1": "El tipo <code class='language-kotlin'>String</code>",
+   "description": "Definición del tipo String."
+  },
+  {
+   "name": "mDprint.html",
+   "title": "Las instrucciones print y println",
+   "h1": "Las instrucciones <code class='language-html'>print</code> y <code class='language-html'>println</code>",
+   "description": "Las instrucciones print y println."
+  },
+  {
+   "name": "mEorden.html",
+   "title": "Orden de ejecución",
+   "description": "Definición del orden de ejecución."
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "type": "A",
+ "title": "La estructura de control do-while",
+ "h1": "La estructura de control <code class='language-html'>do-while</code>",
+ "description": "Contenido de la lección «15. La estructura de control do-while»",
+ "printDescription": "Página para imprimir de la lección «15. La estructura de control do-while».",
+ "listado": [
+  {
+   "name": "mAdoWhile.html",
+   "title": "Operador lógico Y",
+   "description": "Definición del operador lógico Y."
+  },
+  {
+   "name": "mBcodigo.html",
+   "title": "Operador lógico O",
+   "description": "Definición del operador lógico O."
+  }
+ ]
+}

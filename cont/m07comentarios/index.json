@@ -1,0 +1,32 @@
+{
+ "type": "A",
+ "title": "Comentarios",
+ "description": "Contenido de la lección «7. Comentarios»",
+ "printDescription": "Página para imprimir de la lección «7. Comentarios».",
+ "listado": [
+  {
+   "name": "mAcomentarios.html",
+   "title": "Comentario",
+   "h1": "<dfn>Comentario</dfn>",
+   "description": "Definición de comentario."
+  },
+  {
+   "name": "mBcom.html",
+   "title": "Comentario de una línea",
+   "h1": "<dfn>Comentario de una línea</dfn>",
+   "description": "Definición de una línea en Comentario."
+  },
+  {
+   "name": "mCcom1OMas.html",
+   "title": "Comentario de una o más líneas",
+   "h1": "<dfn>Comentario de una o más líneas</dfn>",
+   "description": "Definición de comentario de una o más línea."
+  },
+  {
+   "name": "mDKDoc.html",
+   "title": "KDoc",
+   "h1": "<dfn>KDoc</dfn>",
+   "description": "KDoc."
+  }
+ ]
+}

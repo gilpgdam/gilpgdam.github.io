@@ -1,0 +1,24 @@
+{
+ "type": "A",
+ "title": "Bloques",
+ "description": "Contenido de la lección «8. Bloques»",
+ "printDescription": "Página para imprimir de la lección «8. Bloques».",
+ "listado": [
+  {
+   "name": "mAbloque.html",
+   "title": "Bloque",
+   "h1": "<dfn>Bloque</dfn>",
+   "description": "Definición de bloque."
+  },
+  {
+   "name": "mBpresBloque.html",
+   "title": "Depura bloques",
+   "description": "Depuración de bloques."
+  },
+  {
+   "name": "mCpresBloqueVD.html",
+   "title": "Depura bloques con variables duplicadas",
+   "description": "Depura bloques con variables duplicadas."
+  }
+ ]
+}

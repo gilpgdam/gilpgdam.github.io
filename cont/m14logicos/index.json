@@ -1,0 +1,29 @@
+{
+ "type": "A",
+ "title": "Operadores lógicos",
+ "description": "Contenido de la lección «14. Operadores lógicos»",
+ "printDescription": "Página para imprimir de la lección «14. Operadores lógicos».",
+ "listado": [
+  {
+   "name": "mAopY.html",
+   "title": "Operador lógico Y",
+   "description": "Definición del operador lógico Y."
+  },
+  {
+   "name": "mBopO.html",
+   "title": "Operador lógico O",
+   "description": "Definición del operador lógico O."
+  },
+  {
+   "name": "mCopNo.html",
+   "title": "Operador lógico NO",
+   "description": "Definición del operador lógico NO."
+  },
+  {
+   "name": "mDopTernario.html",
+   "title": "Condicional múltiple con else como operador lógico",
+   "h1": "Condicional múltiple con <code class='language-kotlin'>else</code> como operador lógico",
+   "description": "Condicional múltiple con else como operador lógico."
+  }
+ ]
+}

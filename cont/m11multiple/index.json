@@ -1,0 +1,18 @@
+{
+ "type": "A",
+ "title": "Condicional múltiple",
+ "description": "Contenido de la lección «11. Condicional múltiple»",
+ "printDescription": "Página para imprimir de la lección «11. Condicional múltiple».",
+ "listado": [
+  {
+   "name": "mAmultiple.html",
+   "title": "Condicional múltiple",
+   "description": "Definición de condicional múltiple."
+  },
+  {
+   "name": "mBcodigo.html",
+   "title": "Código",
+   "description": "Código con condicional múltiple."
+  }
+ ]
+}

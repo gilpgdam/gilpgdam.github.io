@@ -1,0 +1,21 @@
+{
+ "type": "A",
+ "title": "Condicional múltiple con else",
+ "h1": "Condicional múltiple con <code class='language-kotlin'>else</code>",
+ "description": "Contenido de la lección «12. Condicional múltiple con else»",
+ "printDescription": "Página para imprimir de la lección «12. Condicional múltiple con else».",
+ "listado": [
+  {
+   "name": "mAmultipleElse.html",
+   "title": "Condicional múltiple con else",
+   "h1": "Condicional múltiple con <code class='language-kotlin'>else</code>",
+   "description": "Definición de condicional múltiple con else."
+  },
+  {
+   "name": "mBcodigo.html",
+   "title": "Código con condicional múltiple con else",
+   "h1": "Código con condicional múltiple con <code class='language-kotlin'>else</code>",
+   "description": "Código con condicional múltiple con else."
+  }
+ ]
+}
