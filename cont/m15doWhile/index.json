@@ -7,13 +7,15 @@
  "listado": [
   {
    "name": "mAdoWhile.html",
-   "title": "Operador lógico Y",
-   "description": "Definición del operador lógico Y."
+   "title": "La estructura de control do-while",
+   "h1": "La estructura de control <dfn><code class=\"language-kotlin\">do-while</code></dfn>",
+   "description": "Definición de la estructura de control do-while."
   },
   {
    "name": "mBcodigo.html",
-   "title": "Operador lógico O",
-   "description": "Definición del operador lógico O."
+   "title": "Ejemplo de do-while",
+   "h1": "Ejemplo de <code class=\"language-kotlin\">do-while</code>",
+   "description": "Ejemplo de do-while."
   }
  ]
 }

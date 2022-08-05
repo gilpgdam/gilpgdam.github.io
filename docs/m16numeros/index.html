@@ -7,11 +7,12 @@
 <meta name="theme-color" content="#039623">
 <link rel="manifest" href="/site.webmanifest">
 <script src="/js/muestra-codigo.js"></script>
- <title>16. Números - GilPG DAM</title>
+ <title>15. Números - GilPG DAM</title>
  <meta name="description" content="Contenido de la lección «16. Números">
  <meta name="og:image" content="https://gilpgdam.github.io/img/icono/icono2048.png">
  <style>
  :root {
+  --padTop: 2rem;
   --introDuracion: 2s;
   --introFuncion: ease-out;
   --padCont: 0.5rem;
@@ -233,8 +234,8 @@
  }
 </style>
  <style>
- #principal {
-  transition: margin-left 0.7s ease-in-out;
+ body {
+  scroll-padding-top: var(--padTop);
  }
 
  body:not(.sinTransicion) #principal {
@@ -254,13 +255,30 @@
   }
  }
 
- #principal>.controles {
-  display: flex;
-  gap: var(--gap);
+ #principal {
+  padding-top: var(--padTop);
+  box-sizing: border-box;
+  transition: margin-left 0.7s ease-in-out;
  }
 
- #principal>.controles>.siguiente {
-  margin-left: auto
+ #principal>#abre {
+  position: fixed;
+  top: var(--gap);
+  left: var(--gap);
+ }
+
+ #principal>.anterior {
+  position: fixed;
+  top: var(--gap);
+  background-color: var(--colFondo);
+  transition: left 0.7s ease-in-out;
+ }
+
+ #principal>.siguiente {
+  position: fixed;
+  top: var(--gap);
+  right: var(--gap);
+  background-color: var(--colFondo);
  }
 
  #principal h1:not(.default) {
@@ -333,6 +351,10 @@
  }
 
  @media screen and (max-width: 999px) {
+  #principal {
+   max-width: 100vw;
+  }
+
   #cierra {
    position: fixed;
    top: 0;
@@ -357,6 +379,10 @@
   .menu>#nav {
    transform: translateX(0);
   }
+
+  #principal>.anterior {
+   left: calc(2 * var(--gap) + 2rem);
+  }
  }
 
  @media screen and (min-width: 1000px) {
@@ -376,15 +402,22 @@
    margin-left: var(--anchoNav)
   }
 
-  .xmenu #abre {
-   display: none
+  .menu>#principal>.anterior {
+   left: calc(2 * var(--gap) + 2rem);
+  }
+
+  .xmenu>#principal>.anterior {
+   top: var(--gap);
+   left: calc(var(--anchoNav) + var(--gap));
   }
  }
 
  @media print {
 
   #nav,
-  #principal>.controles {
+  #principal>#abre,
+  #principal>.anterior,
+  #principal>.siguiente {
    display: none;
   }
  }
@@ -393,42 +426,76 @@
 </head>
 <body class="xmenu">
  <div id="principal">
- <div class="controles">
-  <button id="abre" type="button" title="Menú" class="cambiaMenu">
-   &#x2630;
-  </button>
-  <a class="anterior" href="/m15doWhile/mBcodigo.html" title="B. Operador lógico O">◀</a>
-  <a class="siguiente" href="/m16numeros/mAenteros.html" title="A. Tipos enteros">▶</a>
- </div>
-   <h1 class="leccion">16. Números</h1>
+ <button id="abre" type="button" title="Menú" class="cambiaMenu">
+  &#x2630;
+ </button>
+ <a class="anterior" href="/m15doWhile/mBcodigo.html" title="B. Ejemplo de do-while">◀</a>
+ <a class="siguiente" href="/m16numeros/mAenteros.html" title="A. Tipos enteros">▶</a>
+   <h1 class="leccion">15. Números</h1>
    <div class="lectura"> 
     <p class="noPrint">
      <a href="print.html" target="_blank" rel="noopener">Versión para
       imprimir.</a>
     </p>
    </div>
-<!DOCTYPE html>
-<html lang="es">
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <script type="module" src="/js/config.js"></script>
- <link rel="icon" sizes="32x32" href="/favicon.ico">
- <meta name="theme-color" content="#ffffff">
- <link rel="manifest" href="/site.webmanifest">
- <link rel="stylesheet" href="/css/estilos.css">
- <script type="module" src="cmp/mas-numeros-index.js"></script>
-</head>
-<body>
- <layout-cajon>
-  <mi-nav slot="nav"></mi-nav>
-  <h1 class="presentación">16. Más números</h1>
-  <p><a href="print.html" target="_blank">Versión para Imprimir.</a></p>
-  <mas-numeros-index></mas-numeros-index>
-  <mi-footer></mi-footer>
- </layout-cajon>
-</body>
-</html>
+<div class="lectura">
+ <nav>
+  <h1>Contenido</h1>
+  
+   <ol type="A">
+    <li>
+     <p>
+      <a href="/m16numeros/mAenteros.html">Tipos enteros</a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m16numeros/mBrecta.html">Tipos de punto flotante</a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m16numeros/mCopsNum.html">Operadores numéricos</a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m16numeros/mDasignacion.html">Operadores con asignación</a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m16numeros/mEincrYDecr.html">Incremento y decremento</a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m16numeros/mFigualdad.html">Operadores de igualdad</a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m16numeros/mGorden.html">Operadores de orden</a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m16numeros/mHordenIgualdad.html">Operadores combinados de orden e Igualdad</a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m16numeros/mIprecedencia.html">Precedencia de Operadores</a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m16numeros/mJexpresiones.html">Expresiones</a>
+     </p>
+    </li>
+   </ol>
+ </nav>
+</div>
  <footer>
  <p>
   <a rel="license"
@@ -460,9 +527,9 @@
       data-logo="true">GilPG DAM</a>
    </p><p>
     <a class="paginaAnterior" href="/m15doWhile/mBcodigo.html"
-      title="B. Operador lógico O">▲</a>
+      title="B. Ejemplo de do-while">▲</a>
    </p>
-     <h1><a href="/m16numeros/index.html" class="actual">16. Números</a></h1>
+     <h1><a href="/m16numeros/index.html" class="actual">15. Números</a></h1>
    <ol type="A">
     <li>
      <p>
@@ -486,7 +553,7 @@
     </li>
     <li>
      <p>
-      <a href="/m16numeros/mEincrYDecr.html">Incremento y decremento<</a>
+      <a href="/m16numeros/mEincrYDecr.html">Incremento y decremento</a>
      </p>
     </li>
     <li>
@@ -516,7 +583,7 @@
     </li>
    </ol><p>
     <a class="paginaSiguiente" href="/m17while/index.html"
-      title="17. La estructura de control while">▼</a>
+      title="16. La estructura de control while">▼</a>
    </p>
 </nav>
  <script>

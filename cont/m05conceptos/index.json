@@ -11,12 +11,6 @@
    "description": "Definición de Kotlin."
   },
   {
-   "name": "mBtextos.html",
-   "title": "Textos",
-   "h1": "<dfn>Textos</dfn>",
-   "description": "Textos en Kotlin."
-  },
-  {
    "name": "mCstring.html",
    "title": "El tipo String",
    "h1": "El tipo <code class='language-kotlin'>String</code>",
