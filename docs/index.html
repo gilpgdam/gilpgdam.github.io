@@ -265,13 +265,14 @@
   position: fixed;
   top: var(--gap);
   left: var(--gap);
+  transition: 0.7s ease-in-out;
  }
 
  #principal>.anterior {
   position: fixed;
   top: var(--gap);
   background-color: var(--colFondo);
-  transition: left 0.7s ease-in-out;
+  transition: 0.7s ease-in-out;
  }
 
  #principal>.siguiente {
@@ -279,6 +280,13 @@
   top: var(--gap);
   right: var(--gap);
   background-color: var(--colFondo);
+  transition: 0.7s ease-in-out;
+ }
+
+ .scroll #principal>#abre,
+ .scroll #principal>.anterior,
+ .scroll #principal>.siguiente {
+  top: -10rem;
  }
 
  #principal h1:not(.default) {
@@ -458,8 +466,20 @@
    </div>
 <div class="lectura">
  <p class="autor">por Gilberto Pacheco Gallegos</p>
- <p>Contenido introductorio sobre Aplicaciones Móviles con Android</p>
- <section class="noPrint">
+ <ul>
+  <li>
+   <p>Contenido introductorio sobre Aplicaciones Móviles con Android</p>
+  </li>
+  <li>
+   <p>
+    Puedes ver el listado de mis sitios educativos en
+    <a href="https://gilpgcl.github.io" target="_blank"
+      rel="noopener">https://gilpgcl.github.io</a>.
+   </p>
+  </li>
+ </ul>
+</div>
+<section class="noPrint">
  <h1>Instrucciones de navegación</h1>
  <ul>
   <li>
@@ -508,9 +528,9 @@
   </li>
  </ul>
 </section>
- <nav>
-  <h1>Lecciones</h1>
-  
+<nav>
+ <h1>Lecciones</h1>
+ 
    <ol type="1">
     <li>
      <p>
@@ -633,7 +653,7 @@
      </p>
     </li>
    </ol>
- </nav>
+</nav>
 </div>
  <footer>
  <p>
@@ -794,6 +814,7 @@
  const LOCAL_STORAGE_MENU = "menu"
  const MENU = "menu"
  const XMENU = "xmenu"
+ const SCROLL = "scroll"
  const nav = document.querySelector("#nav")
  const abre = document.querySelector("#abre")
 
@@ -805,10 +826,17 @@
  let iniciaX = null
  /**@type {number|null} */
  let iniciaY = null
+ /** @type {number} */
+ let posY = 0
+ /** @type {number} */
+ let dy = 0
+ /** @type {boolean} */
+  let scrolling = false
 
  document.addEventListener("keydown", teclas)
  document.addEventListener("touchstart", iniciaTouch)
  document.addEventListener("touchmove", desplazaTouch)
+ addEventListener("scroll", onScroll)
  if (abre) {
   abre.addEventListener("click", cambiaMenu)
  }
@@ -899,6 +927,24 @@
     }
    }
   }
+ }
+ function onScroll() {
+  dy = scrollY - posY
+  posY = scrollY
+  if (!scrolling) {
+   requestAnimationFrame(avanzaScroll)
+  }
+  scrolling = true
+ }
+ function avanzaScroll() {
+  if (posY === 0) {
+   document.body.classList.remove(SCROLL)
+  } else if (dy < 0){
+   document.body.classList.remove(SCROLL)
+  } else if (dy > 0){
+   document.body.classList.add(SCROLL)
+  }
+  scrolling = false
  }
 </script>
 </body>
